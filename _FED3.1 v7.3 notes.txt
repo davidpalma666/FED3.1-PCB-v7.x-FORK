@@ -1,0 +1,330 @@
+
+
+
+
+
+
+
+*************************************************
+*	@16 Maio 2025
+*
+- U2 - MPN errado
+	. na component list:
+		MPN OK
+		SPN		NOK
+	. o utilizado agora:
+		OEPS080052	LDO 3.3V 300mA	SOT-23-5	SMD	MIC5504-3.3YM5-TR
+		
+- USB: D+ & D- trocados ficha
+
+
+
+*************************************************
+*	@14 Maio 2025
+*
+
+>> revisão da programação do u SAMD21
+	
+	- o u é		ATSAMD21G18A		ATSAMD21G18A	 ARM Cortex M0
+		. no kit	Adafruit Feather M0 Adalogger
+			. ATSAMD21G18A - U - sem refª no pdf actual
+			. ATSAMD21G18A-MU: TQFP48
+			. OEPS100040 - OEPSPN do kit, não do u
+	
+		. na v.7.3 da PCB o u é:
+			.  ATSAMD21G18A-MU	QFN48
+			. OEPS080131
+	
+	
+	
+	- pinout fichas de Atmel-ICE programmer para  Feather M0 Adalogger 
+	
+		. tem de ser flat cable c\ condutores separados !!
+		. a ficha 3x2 não tem IOs necessários. Pinout:
+				=>	#fio do flat q estão ligados na ficha 3x2	
+				=>	o	o	o			#4	#9	#2				(top view)
+						o	o	o			#3	#1	#6		
+							||
+				=>	FICHA NÃO UTILÁVEL EM NENHUMA DAS CONFIGURAÇÕES !!!
+
+		. pinout para condutores separados:	
+				. AVR port
+						#1 	SWCLCK		TCK	(verde)
+						#2 	GND			GND
+													#3 	n.c.				SWO = Serial Wire Output (optional- not implemented on all devices)
+						#4 	3V3				VTG
+						#5 	SWDIO		Serial Wire Debug Data Input/Output		(azul)
+						#6 	RST				nRESET
+					
+				. SAM port
+						#1 	3V3				VTG
+						#2 	SWDIO		Serial Wire Debug Data Input/Output		(azul)
+						#3 	GND			GND
+						#4 	SWCLCK		TCK	(verde)
+													#6	n.c.				SWO = Serial Wire Output (optional- not implemented on all devices)
+						#10 	RST				nRESET
+
+
+
+		- os ficheiros:
+			. no UI Adafruit:
+				1º bootloader setup:
+					Tools -> Board -> SAMD21 boards -> Adafruit Feather M0
+				2º bootloader upload:
+						-> Tools -> Programmer: ATMEL-ICE
+						-> Tools -> Burn bootloader
+						
+			. fw:	
+				Tools -> Port -> COMx
+					open 	\Documents\Arduino\libraries\FED3:	vários exemplos
+					
+
+
+
+
+
+*************************************************
+*@15 Abril 2025
+
+. RTC em versões anteriores:
+	PCF8523T/1,118			SOIC8_150MIL	https://www.digikey.pt/en/products/detail/nxp-usa-inc/pcf8523t-1-118/2530422?_gl=1*1v111xc*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwh_i_BhCzARIsANimeoF85MKSsHUIu-xAzcWzRONInTeCgAU_DlaM4lCOGwzzdOYJntC76HQaAldpEALw_wcB&gclsrc=aw.ds
+	
+	package:	SO8 = SOIC8_150MIL = OEPS080167
+
+	
+. RTC para versão 7.3:
+	PCF8523T K/1,118		
+	package	HVSON8_4X4	??
+		não - manteve-se a pesma package => mesmo PN
+		
+
+
+*************************************************
+*@14 Abril 2025
+
+. old v.7.2
+	M74VHC1GT50DTT1G no .scmh
+		IC3	1	IC BUFF CMOS LVL/SFTR N-I 5TSOP	SMD	M74VHC1GT125DT1G	Digi-Key	M74VHC1GT125DT1GOSCT-ND	
+			
+		
+			
+. new v.7.3
+	SN74LV1T125DBVR
+	- na v.7.2 valores no Scmh. e na BOM são diferentes
+	- na BOM o valor é SN74LV1T125DBVR
+	- é o q faz sentido com o desenho no Schm.
+	
+	
+
+*************************************************
+*@5 Fevereiro 2025
+	https://developerhelp.microchip.com/xwiki/bin/view/products/mcu-mpu/8-bit-avr/structure/fuses/
+	
+
+*************************************************
+*@28 Janeiro 2025
+
+https://forum.arduino.cc/t/solved-programming-a-samd21-with-the-atmel-ice-from-the-ide/434482
+	
+	>> to get rid of it and use the ATMEL-ICE and program the boards via SWD (Atmel-Ice não para pinos SWD??)
+		- para quê o SWD??
+		
+	- The way that I do it right now is 
+	1. I burn a sketch on a dev board via USB, 
+	2. then read the flash with Atmel Studio, 
+	3. and use that image to flash the other boards 
+	...This is a bit a pain in the ass, as I changed the footprint of my programming socket in the board, and I have to fiddle with wires everytime I switch boards.
+
+	Has somebody been successful using the IDE and the ATMEL-ICE to flash SAMD21 chips??
+	
+	Hi, you need to compile your code using a different linker script:
+	
+
+
+	
+	
+
+
+
+*************************************************
+*@27 Janeiro 2025
+
+>>meta para conseguir programar o micro:
+
+	1. programar o bootloader no micro ainda virgem e 
+	
+		- para programar micro ainda virgem será necessário header SwClck & SwDIO & \Reset	>>	OK
+		
+		- micro pode ser programado pela porta SAMD21 ou IDE do programador : 
+			. pinout do flat cable diferente; ver pic no caderno		>>	OK
+		
+		- é realmente necessário colocar bootloader ?? ... 
+			. sim, para a seguir o micro ficar programável por USB		>>	OK
+		
+		- tem de ser todo o código do kit Adafruitxxx da placas já com bootloader & IO-setup etc, ou
+			ou,
+			haverá código q é apenas o bootloader & COMM setup - sem mais nada & mais simples?
+			
+	
+	
+	2. colocar depois o nosso código 
+		- via USB & o nosso programa OEPS-programming	>>OK ????
+		
+		- pq não continuar a usar o AdaProgrammer via SwClck & SwDIO & \Reset??
+	
+
+	3. o micro
+	Adafruit Feather M0 Adalogger
+	ATSAMD21G18AU
+	ATSAM D21 G 18A -U
+		OEPS080131	ATSAM D21 G 18A- MU		
+		IC MCU 32BIT 256KB FLASH 48QFN	48-VFQFN Exposed Pad	SMD	ATSAMD21G18A-MU
+
+	https://pt.farnell.com/microchip/atsamd21g18a-mf/mcu-32bit-cortex-m0-48mhz-qfn/dp/2460544
+	
+	:: de SAM D21 family .pdf
+	- Note that a pull-up resistor on the SWCLK pin is critical for reliable operations. Refer to related link for more information.
+	
+	
+	
+	
+	
+*************************************************
+*@24 Janeiro 2025
+- novo switch a mudar/implementar no desenho - mais pequeno
+	filtro:
+	https://www.digikey.pt/en/products/filter/tactile-switches/197?s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIALAAxwDMdIAuoQA4AuUIAymwE4CWAOwDmIAL6EArDADsiECkgYcBYmRAAmKjIAcFCiEJgZsyQkL6KMDZMPgZJh3cvW5Firut3jcD1W8yvjIQRoEeGnZaFLQabiDBMFQ6EYRRtDGRVNHpmRQ6ern5tqlUkpIyBiVlTlXl5pqlkjr%2BJTC0ki3xTWY6znA6MGDF8VQ0cHEytNEavVJZksaZuhQpXc1JTKwckNx8QqISIAC0EdAKUHwArqokkOS2jGKHtmcsUGCsb5Bgo4cw8vwACacI4-EIgdicOxsACeLFwnHQ2BQTyAA
+	
+	modelo
+	https://www.digikey.pt/en/products/detail/e-switch/TL3305BF260QG/5816185
+	E-Switch
+	4.5 X 4.5 mm
+	0.25@1		0.16@100
+	MPN: TL3305BF260QG
+	Digikey: EG5354CT-ND
+
+*************************************************
+*@23 Janeiro 2025
+
+
+>> escolha reset switch dentro do q já temos
+OTHER:   SWITCH TACTILE SPST-NO 0.05A 24V   [B3F-1002] [TH]	OEPS100011	TH	B3F-1002		https://www.digikey.pt/en/products/detail/omron-electronics-inc-emc-div/b3f-1002/11881
+	side-switch 	NOK
+
+
+OTHER:   SWITCH TACTILE SPST-NO 0.05A 24V   [B3F-4000] [TH]	OEPS100020	TH	B3F-4000	1	DigiKey	SW411-ND
+https://www.digikey.pt/en/products/detail/omron-electronics-inc-emc-div/b3f-4000/63961
+	12mm x 12mm;	4.3mm height		flat type OK		
+	há mais peq q 12x12	- NOK- grande	
+
+OTHER:   SWITCH TACTILE SPST-NO 0.05A 50V   [CT11027.0F160] [TH]	OEPS100056	TH	CT11027.0F160	1	Digikey	2449-CT11027.0F160-ND
+https://www.digikey.pt/en/products/detail/cit-relay-and-switch/ct11027-0f160/12502785
+	CT1102	standard
+		7.0	actuator height
+		F160	actuator force
+		XxY = 6mm x 6mm
+			OK?? 	maior......
+	
+
+
+
+
+*************************************************
+*@21 Janeiro 2025
+
+
+
+
+- Board redesenhada: integração de Atmel 'as-is' na nossa board
+
+>> substituir componentes da board Atmel, por componentes nossos & similares:
+	- D2		
+			Schottky	MBR120	
+				Case													SOD-123
+				Voltage - DC Reverse (Vr) (Max)		20 V
+				Current - Average Rectified (Io)		1A
+				Voltage - Forward (Vf) (Max) @ If	450 mV @ 1 A
+				Speed												Fast Recovery =< 500ns, > 200mA (Io)
+			
+			SM5817PL-TP			OEPS030030
+				Case 		SOD-123FL			<<<<<<<<<<<<<<<<!!!!!!!!! OK ???
+				Voltage - DC Reverse (Vr) (Max)		20 V
+				Current - Average Rectified (Io)		1A
+				Voltage - Forward (Vf) (Max) @ If	450 mV @ 1 A
+				Speed									Fast Recovery =< 500ns, > 200mA (Io)
+				
+
+	
+	- RGB LEDs
+			- spec apenas leva até case & protocolo comm..			https://www.digikey.pt/en/products/filter/led-addressable-specialty/126?s=N4IgjCBcoEwAwHYqgMZQGYEMA2BnApgDQgD2UA2iAMxUCcALFTCALrEAOALlCAMqcAnAJYA7AOYgAvsQC0zaCDSRBAVyKkKIAKytJ0kPMq8A0gDYAHGGYtJQA
+	
+	
+		L0	Red
+			OEPS030006	LED 0603 Red 635nm 20mA	0603	SMD	5975004407F	10	DigiKey	350-2950-6-ND
+			>> OK
+		
+	 - Green LEDs
+	OEPS030005= DigiKey: 160-1446-6-ND
+	>>> OK
+
+	- SW2	Reset switch	Push-Butt SMD	
+		a escolher dos nossos
+	
+	- 10uF		Cs com case 0402 muito mais caros q case 0603? E disponibilidade??
+		a escolher dos nossos
+	
+	
+	
+	
+	
+
+>>lista re-enviada ao Filipe @ 23 Janeiro 
+
+
+	- USB micro plug	.Actual one:	. OEPS070062USB 2.0 MICRO B R/ASMD/THZX62D-B-5P8(30)1DigiKey H125272DKR-ND	> obsolete - last production by November 2025	> 0.30€ expensive than new one		> new one below fully compatible electrically & mechanically 	
+
+	. NEW micro plug	https://www.digikey.pt/en/products/detail/hirose-electric-co-ltd/ZX62D-B-5PA8-30/5994877?s=N4IgTCBcDaIBIEYwFYDsCAcBhAKgWgDkAREAXQF8g	USB 2.0 MICRO B R/A	SMD/TH	MPN: ZX62D-B-5PA8(30)	DigiKey: H125718CT-ND	OEPSPN: OEPS07????
+	
+	- SW1main switchmanter o mesmo(?) pq (re-)integração mecânica mais fácil	https://www.digikey.pt/en/products/detail/alps-alpine/ssss811101/19529062	Slide Switch SPDT Surface Mount, Right Angle 0.3A 5V	MPN: SSSS811101	Digikey: 4809-SSSS811101CT-ND	OEPSPN: OEPS10????
+
+
+	Micro SDCard conn	https://www.digikey.pt/en/products/detail/w%C3%BCrth-elektronik/693071010811/3124583	CONN MICRO SD CARD PUSH-PUSH R/A		SMD	MPN	693071010811	Digikey	732-3819-1-ND	OEPS07????					
+	
+	IC BUF NON-INVERT 1CH 5.5V 	https://www.digikey.pt/en/products/detail/texas-instruments/SN74LV1T125DBVR/4555571	SOT23-5	MPN	SN74LV1T125DBVR	Digikey	296-37172-1-ND	OEPSPN	OEPS08????					
+	
+	IC BATT CNTL LI-ION 1CEL 	https://www.digikey.pt/en/products/detail/microchip-technology/mcp73831t-2aci-ot/964301	SOT23-5	MPN	MCP73831T-2ACI/OT	Digikey	MCP73831T-2ACI/OTCT-ND	OEPSPN	OEPS08????						
+	
+	IC MOTOR DRIVER 2.7V-5.5V 	https://www.digikey.pt/en/products/detail/toshiba-semiconductor-and-storage/tb6612fng-c-8-el/1730070	24SSOP	MPN	TB6612FNG,C,8,EL	Digikey	TB6612FNGC8ELCT-ND	OEPSPN	OEPS08????					
+	
+	IC RTC CLOCK/CALENDAR I2C 	https://www.digikey.pt/en/products/detail/nxp-usa-inc/pcf8523t-1-118/2530422	8SO	MPN	PCF8523T/1,118	Digikey	568-5306-1-ND	OEPSPN	OEPS0?????					
+	
+	XTAL 32.7680KHZ ±10ppm 12.pPF SMD	https://www.digikey.pt/en/products/detail/ecs-inc/ECS-327-12-5-17X-C-TR/2781917?s=N4IgTCBcDaIBoGECMBOJYEBUC0A5AIiALoC%2BQA	SMD	MPN	ECS-.327-12.5-17X-C-TR	Digikey	XC1912CT-ND	OEPSPN	OEPS03????					
+	
+	Battery Retainer Coin, 12.0mm 1 Cell	https://www.digikey.pt/en/products/detail/keystone-electronics/3000/227440	SMD	MPN	3000	Digikey	36-3000-ND	OEPSPN	OEPS0?????
+	
+	Optical Sensor Through-Beam 10mm PCB Mount	https://www.digikey.pt/en/products/detail/sharp-socle-technology/gp1a57hrj00f/718287	MPN	GP1A57HRJ00F	Digikey	1855-1043-ND	OEPSPN	OEPS??????					
+	
+	GRAPHIC DISPLAY LCD BLACK (GRAY)	https://www.digikey.pt/en/products/detail/adafruit-industries-llc/3502/7386264?s=N4IgTCBcDaIIwFYwA4C0YDMYBsqByAIiALoC%2BQA	MPN	3502	Digikey	1528-2326-ND	OEPSPN	OEPS??????							
+
+
+
+*************************************************
+*@2 Janeiro 2025
+
+. 	O FED3 base PCB está nesta pasta do Google Drive
+\production files\FED3\OEPS-7504 - FED3.1 PCB\pcb\v7.2\oeps files\
+
+. A BOM na pasta
+\production files\FED3\OEPS-7504 - FED3.1 PCB\pcb\v7.2\production files\
+
+
+. Este é o módulo Adafruit 	Adafruit Feather M0 Adalogger
+	https://www.adafruit.com/product/2796
+	
+	 Feather M0's heart is an ATSAMD21G18 ARM Cortex M0 processor
+	
+. Os ficheiros do módulo Adalogger
+	https://github.com/adafruit/Adafruit-Feather-M0-Adalogger-PCB
+	
+
+	
