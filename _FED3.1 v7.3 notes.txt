@@ -1,7 +1,45 @@
 
+*************************************************
+*	@28 Maio 2025
+*
 
 
 
+	
+*************************************************
+*	@28 Maio 2025
+*	
+
+- headers ou sockets 2x3 para programação? 
+	- o q é mais barato para utilizar na programação?
+	- headeers sempre mais baratos q sockets
+		- headers ~0.06€ / un @100n
+			https://www.digikey.com/en/products/detail/metz-connect-usa-inc/PR20203VBDN/12342894
+		- sockets ~0.25€ / un @100un
+			https://www.digikey.com/en/products/detail/adam-tech/RS2-06-G/9832064
+			
+		>> UTILIZAR HEADERS;
+		
+- modificado pinout no header de programação para q GND & 3V3 não fiquem próximos
+		OK
+	
+
+	
+	
+*************************************************
+*	@27 Maio 2025
+*
+
+- v. corrigida na board para v.7.4 		OK
+
+- USB: D+ & D- trocados ficha	- corrigido OK
+
+- observação do Sérgio:
+	. case de X2 não corresponde à do componente; difícil soldar
+		- case corrigida	OK
+
+- U2 MPN & OEPS corrigido
+		OEPS080052	LDO 3.3V 300mA	SOT-23-5	SMD	MIC5504-3.3YM5-TR
 
 
 
@@ -9,11 +47,23 @@
 *	@16 Maio 2025
 *
 - U2 - MPN errado
-	. na component list:
-		MPN OK
-		SPN		NOK
-	. o utilizado agora:
+	. o q tá na component list:
+		OEPS080165 
+			MPN= SPX3819-3.3	NOK 
+			SPN= MOUSER 701-SPX3819M5-L/TR	NOK
+			Decription = LDO 3.3V 400mA 	NOK => Imax =500mA
+		
+		devia ser:
+		SPX3819M5-L-3-3/TR	
+			IC REG LINEAR 3.3V 500MA SOT23-5
+		MPN = SPX3819M5-L-3-3/TR
+		SPN =	1016-1873-6-ND		Digikey
+					701-SPX3819M5-L-33TR 	Mouser
+				
+	. o utilizado agora para substituir:
 		OEPS080052	LDO 3.3V 300mA	SOT-23-5	SMD	MIC5504-3.3YM5-TR
+	>> FICOU ESTE O LDO A SER UTILIZADO
+		
 		
 - USB: D+ & D- trocados ficha
 
