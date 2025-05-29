@@ -700,7 +700,7 @@
 			(net 70 "~{RESET}")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "2accf0e5-d738-4337-b64f-6eca405e660f")
+			(uuid "205dbb90-827a-470b-853e-0c48b86e6e4a")
 		)
 		(pad "2" smd rect
 			(at -3.6 1.5 270)
@@ -718,7 +718,7 @@
 			(net 1 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "759fe75c-b951-478b-a262-0992deb9fa46")
+			(uuid "1207f0c7-521a-42c7-9781-642e97ff2e0a")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS647Sx38.step"

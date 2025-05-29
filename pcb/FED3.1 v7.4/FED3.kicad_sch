@@ -10469,7 +10469,7 @@
 		)
 	)
 	(sheet
-		(at 69.85 139.7)
+		(at 71.374 140.208)
 		(size 40.64 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10486,7 +10486,7 @@
 		)
 		(uuid "91f92fff-cc86-4ce2-a671-c31760f8020c")
 		(property "Sheetname" "IOs Interface"
-			(at 69.85 138.5996 0)
+			(at 71.374 139.1076 0)
 			(effects
 				(font
 					(size 2 2)
@@ -10497,7 +10497,7 @@
 			)
 		)
 		(property "Sheetfile" "IOs Interface.kicad_sch"
-			(at 69.85 184.7584 0)
+			(at 71.374 185.2664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
