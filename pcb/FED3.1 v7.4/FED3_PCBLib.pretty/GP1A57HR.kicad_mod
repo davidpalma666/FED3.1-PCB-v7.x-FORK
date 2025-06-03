@@ -177,4 +177,15 @@
 		(uuid "6feec3d8-af7e-44fc-8ba4-53b6315ddacb")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/GP1A57HR.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
