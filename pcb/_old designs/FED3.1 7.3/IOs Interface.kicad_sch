@@ -5,113 +5,6 @@
 	(uuid "3d27fb3a-a05b-44d4-a515-cc391a53007d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Buzzer"
 			(pin_names
 				(offset 0.0254)
@@ -586,7 +479,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:GP1A57HR"
+		(symbol "FED3_v7.3 SymLib:GP1A57HR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1912,7 +1805,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:MOSFET_P-CH"
+		(symbol "FED3_v7.3 SymLib:MOSFET_P-CH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2219,7 +2112,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:SN74LVC1G125"
+		(symbol "FED3_v7.3 SymLib:SN74LVC1G125"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2549,7 +2442,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:STEREO_JACK"
+		(symbol "FED3_v7.3 SymLib:STEREO_JACK"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2760,132 +2653,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:VUSB"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VUSB"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VUSB\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VUSB_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VUSB_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "FED3 SymbLib:WS2812B5050"
+		(symbol "FED3_v7.3 SymLib:WS2812B5050"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3816,6 +3584,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 142.24 52.07)
@@ -3953,7 +3846,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "02f08391-2dd3-490a-893b-1a2eaa6b6c0d")
 	)
@@ -4013,7 +3906,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "0c820bb7-47e4-41bd-914b-202deaeae873")
 	)
@@ -4093,7 +3986,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "1bd463fa-5746-4e4d-9201-1f91db0ea137")
 	)
@@ -4116,6 +4009,16 @@
 			(type solid)
 		)
 		(uuid "294f3536-9231-434d-89e5-e9c3664fceed")
+	)
+	(wire
+		(pts
+			(xy 115.57 27.94) (xy 130.81 27.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "31f7ccc8-e4bd-43c2-915c-bd5443940756")
 	)
 	(wire
 		(pts
@@ -4153,7 +4056,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "3b70841c-6d1d-4663-804b-6bd4b8d71a8d")
 	)
@@ -4183,7 +4086,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "40bda520-d05b-42ee-9c07-e2578d453abf")
 	)
@@ -4323,7 +4226,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "6e2ac637-1b7e-4bce-be2d-296a5b224fe0")
 	)
@@ -4363,7 +4266,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "76d54b2f-7fd8-41af-818e-1ca7b840679f")
 	)
@@ -4403,7 +4306,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "82b1c13f-94d9-45dd-b345-bafabb48f1c2")
 	)
@@ -4473,7 +4376,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "96bfa34b-e6ad-4215-ab0d-bad8db55a7b6")
 	)
@@ -4563,7 +4466,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "a7336b50-3637-4411-913a-a2eb79393c23")
 	)
@@ -4573,7 +4476,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "a82468df-10be-4fc1-8f4b-f59b584b84d4")
 	)
@@ -4583,7 +4486,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "a83265bd-df19-4ffe-9213-d652a09e27cf")
 	)
@@ -4643,7 +4546,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "ad014c93-a7a6-4440-be42-9ffd3433bc97")
 	)
@@ -4676,16 +4579,6 @@
 			(type solid)
 		)
 		(uuid "b8dad681-7feb-46d2-a7f5-950b2b6734ab")
-	)
-	(wire
-		(pts
-			(xy 110.49 27.94) (xy 130.81 27.94)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bc8c24c1-af81-4ee3-ad25-b1256927b04e")
 	)
 	(wire
 		(pts
@@ -4739,21 +4632,11 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 27.94) (xy 110.49 26.67)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d29a1411-9509-4ffd-8b38-f3c4459bb098")
-	)
-	(wire
-		(pts
 			(xy 146.05 30.48) (xy 146.05 33.02)
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "d2ef6f37-3323-4487-896a-41201792d01b")
 	)
@@ -4763,7 +4646,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "d399f4fa-7117-43de-99cc-6ffbad109361")
 	)
@@ -4803,7 +4686,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "e84b6d86-1b39-4c69-a99d-9791620ab7f5")
 	)
@@ -4893,7 +4776,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "fbc0404c-05cd-41ff-afc4-78e798ad3911")
 	)
@@ -4913,7 +4796,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "fd39d38c-2684-400d-9645-94cd0931ac56")
 	)
@@ -4931,7 +4814,7 @@
 		(at 231.14 96.52 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
@@ -4941,7 +4824,7 @@
 		(at 115.57 27.94 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
@@ -4951,7 +4834,7 @@
 		(at 100.33 52.07 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
@@ -4963,18 +4846,18 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify right)
 		)
 		(uuid "0ef1d7b7-0d53-46e5-8b8a-0f0eb12bee05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.1858 34.29 0)
+			(at 16.3196 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4985,18 +4868,18 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify right)
 		)
 		(uuid "466b5dc3-16ea-4072-a7ca-6d1b7ee14374")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.3077 137.16 0)
+			(at 72.4112 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5007,18 +4890,18 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify right)
 		)
 		(uuid "46db2d07-fd94-4f29-9441-617056561def")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.7453 137.16 0)
+			(at 23.8549 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5029,18 +4912,18 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify left)
 		)
 		(uuid "a0b17217-2f4c-448e-834f-e8bbb14cf8ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.7947 177.8 0)
+			(at 105.6851 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5051,18 +4934,18 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify right)
 		)
 		(uuid "e25dd371-a3db-4d46-8caf-26989d341609")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.2653 137.16 0)
+			(at 120.3749 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5073,18 +4956,18 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify left)
 		)
 		(uuid "e80e0064-58e4-43c3-9a0a-6fc481406cfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.4333 177.8 0)
+			(at 62.3273 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5095,24 +4978,24 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify right)
 		)
 		(uuid "ed5a7fcc-df84-49aa-a1fd-fff6de5e8fb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.5967 77.47 0)
+			(at 50.7027 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:GP1A57HR")
+		(lib_id "FED3_v7.3 SymLib:GP1A57HR")
 		(at 46.99 142.24 0)
 		(mirror y)
 		(unit 1)
@@ -5123,24 +5006,24 @@
 		(fields_autoplaced yes)
 		(uuid "0079d86a-0354-4932-9f0e-a1b1087dcbce")
 		(property "Reference" "PI3"
-			(at 55.88 137.1599 0)
+			(at 55.88 136.525 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "GP1A57HR"
-			(at 55.88 139.6999 0)
+			(at 55.88 140.335 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:GP1A57HR"
+		(property "Footprint" "FED3_v7.3:GP1A57HR"
 			(at 46.99 142.24 0)
 			(effects
 				(font
@@ -5210,21 +5093,22 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:WS2812B5050")
+		(lib_id "FED3_v7.3 SymLib:WS2812B5050")
 		(at 187.96 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0273ca99-cc79-4cbd-8a80-9e2a200628cd")
 		(property "Reference" "LED5"
-			(at 180.594 62.484 0)
+			(at 187.96 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "RGBLed"
@@ -5233,11 +5117,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:WS2812B"
+		(property "Footprint" "FED3_v7.3:WS2812B"
 			(at 187.96 74.93 0)
 			(effects
 				(font
@@ -5273,7 +5156,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 187.96 74.93 0)
 			(effects
 				(font
@@ -5312,6 +5195,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "098b0b65-9da8-434c-844a-afee9a4b4dd1")
 		(property "Reference" "#PWR0108"
 			(at 41.91 149.86 0)
@@ -5319,17 +5203,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 40.132 153.9875 0)
+			(at 41.91 153.9622 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5380,6 +5262,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1950276e-f00e-4d89-9cb6-d14d0233422b")
 		(property "Reference" "#+3V015"
 			(at 52.07 149.86 0)
@@ -5387,17 +5270,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "+3V3"
-			(at 50.292 154.178 0)
+			(at 52.07 154.3432 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5440,20 +5321,22 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:WS2812B5050")
+		(lib_id "FED3_v7.3 SymLib:WS2812B5050")
 		(at 264.16 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1b554752-1fa2-4e02-80a0-6d6ba169e0f2")
 		(property "Reference" "LED8"
-			(at 259.588 62.992 0)
+			(at 264.16 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "RGBLed"
@@ -5462,11 +5345,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:WS2812B"
+		(property "Footprint" "FED3_v7.3:WS2812B"
 			(at 264.16 74.93 0)
 			(effects
 				(font
@@ -5502,7 +5384,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 264.16 74.93 0)
 			(effects
 				(font
@@ -5535,6 +5417,7 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 130.81 35.56 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5542,21 +5425,21 @@
 		(dnp no)
 		(uuid "1e10300a-ebb7-4f29-9ed4-de985e08b826")
 		(property "Reference" "C5"
-			(at 132.334 34.29 0)
+			(at 133.35 34.2962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1uF"
-			(at 132.334 36.83 0)
+			(at 133.35 36.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -5627,6 +5510,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "223a48e7-eff8-44de-a969-0d38a0579930")
 		(property "Reference" "#PWR0105"
 			(at 138.43 39.37 0)
@@ -5634,17 +5518,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 136.652 42.926 0)
+			(at 138.43 43.4722 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5697,24 +5579,22 @@
 		(dnp no)
 		(uuid "26d5d232-c57f-4950-a7fb-e9734ba2548e")
 		(property "Reference" "BZ1"
-			(at 89.916 171.704 0)
+			(at 90.17 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 89.916 174.244 0)
+			(at 92.1951 187.1175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:Buzzer"
+		(property "Footprint" "FED3_v7.3:Buzzer"
 			(at 92.075 177.8 90)
 			(effects
 				(font
@@ -5742,12 +5622,11 @@
 			)
 		)
 		(property "MPN" "PS1240P02BT"
-			(at 91.694 173.482 0)
+			(at 91.44 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "OEPSPN" "OEPS100062"
@@ -5756,7 +5635,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5790,17 +5668,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 147.574 110.49 0)
+			(at 146.05 110.1978 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5850,6 +5726,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "33d6200c-4d7e-4a3b-bb2f-0fec01a26fed")
 		(property "Reference" "#PWR025"
 			(at 111.76 87.63 0)
@@ -5857,17 +5734,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 109.728 91.44 0)
+			(at 111.76 91.7322 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5921,19 +5796,19 @@
 		(fields_autoplaced yes)
 		(uuid "37848761-c313-4a34-914e-44f136266c9c")
 		(property "Reference" "R1"
-			(at 49.53 120.6499 0)
+			(at 50.419 120.3578 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "1k"
-			(at 49.53 123.1899 0)
+			(at 50.419 123.4822 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
@@ -6007,6 +5882,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3d85f82b-c93f-45db-909f-fabbeca9d387")
 		(property "Reference" "#+3V010"
 			(at 135.89 127 0)
@@ -6014,17 +5890,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "+3V3"
-			(at 132.334 122.936 0)
+			(at 135.89 122.5168 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6067,74 +5941,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:VUSB")
-		(at 35.56 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "443bdf6b-9e6a-4141-8026-97f070db5697")
-		(property "Reference" "#PWR08"
-			(at 35.56 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 38.1 22.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 35.56 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0faebd09-8b53-458a-9ff2-23ee07b62b98")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/91f92fff-cc86-4ce2-a671-c31760f8020c"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 161.29 39.37 0)
 		(unit 1)
@@ -6142,6 +5948,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4a561d93-7bcf-4bc2-8f66-6d0a27b33e58")
 		(property "Reference" "#PWR027"
 			(at 161.29 39.37 0)
@@ -6149,17 +5956,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 159.512 42.926 0)
+			(at 161.29 43.4722 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6209,6 +6014,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "54a1ba09-d6ad-4952-b6d0-c75173b3519e")
 		(property "Reference" "#PWR033"
 			(at 66.04 55.88 0)
@@ -6216,15 +6022,14 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 64.262 59.436 0)
+			(at 68.072 56.9595 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify left)
 			)
@@ -6276,9 +6081,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5afc4b47-59a1-4cb4-a50f-da15392c27c4")
 		(property "Reference" "C10"
-			(at 170.434 34.29 0)
+			(at 171.45 34.2962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +6093,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 170.434 36.83 0)
+			(at 171.45 36.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,21 +6162,22 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:WS2812B5050")
+		(lib_id "FED3_v7.3 SymLib:WS2812B5050")
 		(at 238.76 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6222b657-3b46-4e28-8003-10407828cd74")
 		(property "Reference" "LED7"
-			(at 231.394 62.484 0)
+			(at 238.76 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "RGBLed"
@@ -6379,11 +6186,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:WS2812B"
+		(property "Footprint" "FED3_v7.3:WS2812B"
 			(at 238.76 74.93 0)
 			(effects
 				(font
@@ -6419,7 +6225,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 238.76 74.93 0)
 			(effects
 				(font
@@ -6458,6 +6264,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "64d31d98-f592-4260-8beb-f6f33605ca1a")
 		(property "Reference" "#PWR034"
 			(at 86.36 149.86 0)
@@ -6465,17 +6272,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 84.582 153.9875 0)
+			(at 86.36 153.9622 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6526,6 +6331,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "67a6f5cd-0994-4275-ae74-9a3134fbb576")
 		(property "Reference" "#PWR036"
 			(at 135.89 149.86 0)
@@ -6533,17 +6339,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 134.112 153.9875 0)
+			(at 135.89 153.9622 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6597,19 +6401,19 @@
 		(fields_autoplaced yes)
 		(uuid "69198cab-2757-41c8-9cf7-45aa553d95ba")
 		(property "Reference" "R3"
-			(at 143.51 120.6499 0)
+			(at 144.399 120.3578 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "1k"
-			(at 143.51 123.1899 0)
+			(at 144.399 123.4822 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
@@ -6682,9 +6486,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6a0f9bfc-68e6-4676-9046-c6617b2f3ac0")
 		(property "Reference" "C9"
-			(at 162.814 34.29 0)
+			(at 163.83 34.2962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6693,7 +6498,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 162.814 36.83 0)
+			(at 163.83 36.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,6 +6575,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6b36c176-2116-4e86-8d6a-666669e45b95")
 		(property "Reference" "#+3V013"
 			(at 96.52 149.86 0)
@@ -6777,17 +6583,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "+3V3"
-			(at 94.742 154.178 0)
+			(at 96.52 154.3432 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6837,6 +6641,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6bf71d86-4068-41fe-852d-f38d579ab305")
 		(property "Reference" "#PWR029"
 			(at 137.16 87.63 0)
@@ -6844,17 +6649,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 135.128 91.44 0)
+			(at 137.16 91.7322 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6897,7 +6700,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:GP1A57HR")
+		(lib_id "FED3_v7.3 SymLib:GP1A57HR")
 		(at 91.44 142.24 0)
 		(mirror y)
 		(unit 1)
@@ -6908,24 +6711,24 @@
 		(fields_autoplaced yes)
 		(uuid "6eb1c2a6-95a2-4b0c-8a61-80d3f37774d5")
 		(property "Reference" "PI2"
-			(at 100.33 137.1599 0)
+			(at 100.33 136.525 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "GP1A57HR"
-			(at 100.33 139.6999 0)
+			(at 100.33 140.335 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:GP1A57HR"
+		(property "Footprint" "FED3_v7.3:GP1A57HR"
 			(at 91.44 142.24 0)
 			(effects
 				(font
@@ -7010,17 +6813,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 98.044 111.76 0)
+			(at 96.52 111.4678 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7074,19 +6875,19 @@
 		(fields_autoplaced yes)
 		(uuid "7668b675-9d86-4691-9b82-8db2c17aefb4")
 		(property "Reference" "R2"
-			(at 93.98 120.6499 0)
+			(at 94.869 120.3578 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "1k"
-			(at 93.98 123.1899 0)
+			(at 94.869 123.4822 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
@@ -7160,6 +6961,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7d2d8dda-38a8-49d0-868b-fa04550a488a")
 		(property "Reference" "#PWR049"
 			(at 53.975 184.15 0)
@@ -7167,15 +6969,14 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 53.086 188.214 0)
+			(at 56.007 185.2295 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
@@ -7220,7 +7021,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:GP1A57HR")
+		(lib_id "FED3_v7.3 SymLib:GP1A57HR")
 		(at 140.97 142.24 0)
 		(mirror y)
 		(unit 1)
@@ -7231,24 +7032,24 @@
 		(fields_autoplaced yes)
 		(uuid "82520579-93c6-43ee-b98d-ebb3ce4349da")
 		(property "Reference" "PI1"
-			(at 149.86 137.1599 0)
+			(at 149.86 136.525 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "GP1A57HR"
-			(at 149.86 139.6999 0)
+			(at 149.86 140.335 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:GP1A57HR"
+		(property "Footprint" "FED3_v7.3:GP1A57HR"
 			(at 140.97 142.24 0)
 			(effects
 				(font
@@ -7318,6 +7119,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 35.56 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82c648d4-42ba-41db-927d-b98c4f7bed50")
+		(property "Reference" "#PWR8"
+			(at 35.56 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 38.1 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "000034e0-5d00-499e-912f-e166e3bfe89f")
+		)
+		(instances
+			(project "FED3_v7.3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/91f92fff-cc86-4ce2-a671-c31760f8020c"
+					(reference "#PWR8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 138.43 35.56 0)
 		(unit 1)
@@ -7325,9 +7193,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "84816fa9-f256-4aa8-91bf-32ccaaf54dd2")
 		(property "Reference" "C6"
-			(at 139.954 34.29 0)
+			(at 140.97 34.2962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +7205,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 139.954 36.83 0)
+			(at 140.97 36.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,21 +7274,22 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:WS2812B5050")
+		(lib_id "FED3_v7.3 SymLib:WS2812B5050")
 		(at 86.36 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9379bd2e-9597-43eb-84d2-313ac5a85ece")
 		(property "Reference" "LED1"
-			(at 78.994 62.484 0)
+			(at 86.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "RGBLed"
@@ -7428,11 +7298,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:WS2812B"
+		(property "Footprint" "FED3_v7.3:WS2812B"
 			(at 86.36 74.93 0)
 			(effects
 				(font
@@ -7468,7 +7337,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 86.36 74.93 0)
 			(effects
 				(font
@@ -7507,6 +7376,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9b6c62d6-5c24-478c-b4d8-8c42195c3a61")
 		(property "Reference" "#PWR048"
 			(at 100.33 182.88 0)
@@ -7514,15 +7384,14 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 98.806 186.944 0)
+			(at 102.362 183.9595 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
@@ -7567,89 +7436,22 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 110.49 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5232ea8-bfbe-4109-ab4a-5e75f3748dc8")
-		(property "Reference" "TP2"
-			(at 113.03 23.3679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VccNEO"
-			(at 110.49 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 115.57 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21fa2097-3c1d-48b2-87a0-ba9c931a3d97")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/91f92fff-cc86-4ce2-a671-c31760f8020c"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FED3 SymbLib:WS2812B5050")
+		(lib_id "FED3_v7.3 SymLib:WS2812B5050")
 		(at 238.76 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a9045564-d140-49f0-bdb8-d9801fc929cb")
 		(property "Reference" "LED9"
-			(at 231.14 102.362 0)
+			(at 238.76 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "RGBLed"
@@ -7658,11 +7460,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:WS2812B"
+		(property "Footprint" "FED3_v7.3:WS2812B"
 			(at 238.76 114.3 0)
 			(effects
 				(font
@@ -7698,7 +7499,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 238.76 114.3 0)
 			(effects
 				(font
@@ -7736,6 +7537,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a9452dd3-6b9a-4df1-b6ca-3dab27e65704")
 		(property "Reference" "#PWR028"
 			(at 168.91 39.37 0)
@@ -7743,17 +7545,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 167.132 42.926 0)
+			(at 168.91 43.4722 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7803,6 +7603,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "aa1d10c1-a477-46c1-8307-3ff65f5a84bd")
 		(property "Reference" "#PWR030"
 			(at 162.56 87.63 0)
@@ -7810,17 +7611,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 160.528 91.44 0)
+			(at 162.56 91.7322 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7870,6 +7669,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "acb6786f-d837-4338-8748-3e4bc685b1c0")
 		(property "Reference" "#PWR018"
 			(at 130.81 39.37 0)
@@ -7877,17 +7677,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 129.032 42.926 0)
+			(at 130.81 43.4722 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7937,6 +7735,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "afe19af7-d60b-49d7-b523-926f2c6e27f9")
 		(property "Reference" "#PWR0110"
 			(at 86.36 87.63 0)
@@ -7944,17 +7743,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 84.328 91.44 0)
+			(at 86.36 91.7322 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8004,6 +7801,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b0fe9daa-4025-4613-9520-d2cbe2d8d634")
 		(property "Reference" "#PWR045"
 			(at 238.76 125.73 0)
@@ -8011,17 +7809,16 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 236.982 129.286 0)
+			(at 236.728 126.8095 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8079,17 +7876,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 53.594 110.49 0)
+			(at 52.07 110.1978 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8139,6 +7934,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b8471933-7acc-454e-9b81-c4c00aeaedc5")
 		(property "Reference" "#PWR032"
 			(at 213.36 87.63 0)
@@ -8146,17 +7942,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 211.328 91.44 0)
+			(at 213.36 91.7322 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8199,21 +7993,22 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:WS2812B5050")
+		(lib_id "FED3_v7.3 SymLib:WS2812B5050")
 		(at 137.16 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bb97cdbf-2346-4818-8095-2ba6c7b19b27")
 		(property "Reference" "LED3"
-			(at 129.794 62.484 0)
+			(at 137.16 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "RGBLed"
@@ -8222,11 +8017,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:WS2812B"
+		(property "Footprint" "FED3_v7.3:WS2812B"
 			(at 137.16 74.93 0)
 			(effects
 				(font
@@ -8262,7 +8056,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 137.16 74.93 0)
 			(effects
 				(font
@@ -8300,21 +8094,22 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bfcfb571-d7f8-45f0-a9da-3d5c53b856d3")
 		(property "Reference" "R9"
-			(at 67.818 49.276 0)
+			(at 67.691 47.9678 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "34k"
-			(at 67.818 51.816 0)
+			(at 67.691 51.0922 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
@@ -8387,6 +8182,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c31fcc5b-825e-4b35-ade7-9c721f1855d5")
 		(property "Reference" "#PWR024"
 			(at 146.05 39.37 0)
@@ -8394,17 +8190,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 144.272 42.926 0)
+			(at 146.05 43.4722 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8455,6 +8249,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c3823bcf-1b89-43fb-ac0b-9f2391e3c3c0")
 		(property "Reference" "#+3V011"
 			(at 86.36 127 0)
@@ -8462,17 +8257,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "+3V3"
-			(at 82.804 122.936 0)
+			(at 86.36 122.5168 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8523,6 +8316,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c4fd4f50-6c19-46de-a8a6-a8df413c73b0")
 		(property "Reference" "#+3V012"
 			(at 41.91 127 0)
@@ -8530,17 +8324,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "+3V3"
-			(at 38.354 122.936 0)
+			(at 41.91 122.5168 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8583,21 +8375,22 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:WS2812B5050")
+		(lib_id "FED3_v7.3 SymLib:WS2812B5050")
 		(at 111.76 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c834f64d-b672-4cc0-910a-d8d3ca431ea9")
 		(property "Reference" "LED2"
-			(at 104.394 62.484 0)
+			(at 111.76 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "RGBLed"
@@ -8606,11 +8399,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:WS2812B"
+		(property "Footprint" "FED3_v7.3:WS2812B"
 			(at 111.76 74.93 0)
 			(effects
 				(font
@@ -8646,7 +8438,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 111.76 74.93 0)
 			(effects
 				(font
@@ -8677,20 +8469,22 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:WS2812B5050")
+		(lib_id "FED3_v7.3 SymLib:WS2812B5050")
 		(at 264.16 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cebb7d8d-0014-4d68-8871-4a0fabaa7620")
 		(property "Reference" "LED10"
-			(at 259.842 102.362 0)
+			(at 264.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "RGBLed"
@@ -8699,11 +8493,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:WS2812B"
+		(property "Footprint" "FED3_v7.3:WS2812B"
 			(at 264.16 114.3 0)
 			(effects
 				(font
@@ -8739,7 +8532,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 264.16 114.3 0)
 			(effects
 				(font
@@ -8778,6 +8571,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cfd8d152-17d3-43ae-b81f-d733d8b52888")
 		(property "Reference" "#+3V014"
 			(at 146.05 149.86 0)
@@ -8785,17 +8579,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "+3V3"
-			(at 144.272 154.178 0)
+			(at 146.05 154.3432 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8845,9 +8637,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d00aebcd-688c-4efd-a9f9-f69184951405")
 		(property "Reference" "C8"
-			(at 155.194 34.29 0)
+			(at 156.21 34.2962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,7 +8649,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 155.194 36.83 0)
+			(at 156.21 36.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,21 +8718,22 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:WS2812B5050")
+		(lib_id "FED3_v7.3 SymLib:WS2812B5050")
 		(at 162.56 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d04a2101-342c-405b-a7f8-52cfb88ebc33")
 		(property "Reference" "LED4"
-			(at 155.194 62.484 0)
+			(at 162.56 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "RGBLed"
@@ -8948,11 +8742,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:WS2812B"
+		(property "Footprint" "FED3_v7.3:WS2812B"
 			(at 162.56 74.93 0)
 			(effects
 				(font
@@ -8988,7 +8781,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 162.56 74.93 0)
 			(effects
 				(font
@@ -9019,7 +8812,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:STEREO_JACK")
+		(lib_id "FED3_v7.3 SymLib:STEREO_JACK")
 		(at 46.99 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9029,24 +8822,24 @@
 		(fields_autoplaced yes)
 		(uuid "d80942c9-1a44-44e7-8710-dd946cf5833b")
 		(property "Reference" "EXT0"
-			(at 39.37 177.8253 0)
+			(at 39.751 177.5332 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "STEREO_JACK"
-			(at 39.37 180.3653 0)
+			(at 39.751 180.6576 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:35RASMT2BHNTRX"
+		(property "Footprint" "FED3_v7.3:35RASMT2BHNTRX"
 			(at 46.99 180.34 0)
 			(effects
 				(font
@@ -9117,9 +8910,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d82abeea-097f-49fb-bf3c-5a1e76d5abc1")
 		(property "Reference" "C7"
-			(at 147.574 34.29 0)
+			(at 148.59 34.2962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9128,7 +8922,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 147.574 36.83 0)
+			(at 148.59 36.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9204,6 +8998,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d8ade4ae-b741-4662-a46c-b9be518d7217")
 		(property "Reference" "#PWR031"
 			(at 187.96 87.63 0)
@@ -9211,17 +9006,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 185.928 91.44 0)
+			(at 187.96 91.7322 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9271,6 +9064,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "df5fa5ff-e212-4174-9239-007ced99e135")
 		(property "Reference" "#PWR046"
 			(at 264.16 125.73 0)
@@ -9278,17 +9072,16 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 262.382 129.286 0)
+			(at 262.128 126.8095 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -9331,30 +9124,29 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:SN74LVC1G125")
+		(lib_id "FED3_v7.3 SymLib:SN74LVC1G125")
 		(at 50.8 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e26015a3-9865-478f-9c6b-170f22881f2e")
 		(property "Reference" "IC1"
-			(at 42.926 49.022 0)
+			(at 50.8 49.53 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MC74VHC1GT125"
-			(at 42.926 51.562 0)
+		(property "Value" "MC74VHC1GT125DBVT1G"
+			(at 50.8 53.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
@@ -9434,6 +9226,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e40df271-7c90-441b-8d9c-e05ca73dbe7a")
 		(property "Reference" "#PWR038"
 			(at 264.16 87.63 0)
@@ -9441,17 +9234,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 262.128 91.44 0)
+			(at 264.16 91.7322 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9501,24 +9292,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e4715fe8-786e-4327-9a6c-5b724c39f3a0")
 		(property "Reference" "R12"
-			(at 64.008 72.39 90)
+			(at 67.31 72.5779 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "330R"
-			(at 64.008 74.93 90)
+			(at 67.31 74.9316 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -9589,6 +9380,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e492c4d3-9e52-4112-af24-56b05ec8a26f")
 		(property "Reference" "#PWR020"
 			(at 38.1 52.07 0)
@@ -9596,15 +9388,14 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 40.132 55.626 0)
+			(at 36.068 53.1495 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
@@ -9649,21 +9440,22 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:WS2812B5050")
+		(lib_id "FED3_v7.3 SymLib:WS2812B5050")
 		(at 213.36 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e8bc65d4-1a2a-4bb0-a0a6-494bcbe3aaea")
 		(property "Reference" "LED6"
-			(at 205.994 62.484 0)
+			(at 213.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "RGBLed"
@@ -9672,11 +9464,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:WS2812B"
+		(property "Footprint" "FED3_v7.3:WS2812B"
 			(at 213.36 74.93 0)
 			(effects
 				(font
@@ -9712,7 +9503,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 213.36 74.93 0)
 			(effects
 				(font
@@ -9750,6 +9541,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "eca7b4ca-83bf-496c-89e6-6f97d45fff58")
 		(property "Reference" "#PWR0106"
 			(at 153.67 39.37 0)
@@ -9757,17 +9549,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 151.892 42.926 0)
+			(at 153.67 43.4722 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9817,6 +9607,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ef78c33d-c748-4ad0-9bfd-c65e9c238b18")
 		(property "Reference" "#PWR037"
 			(at 238.76 87.63 0)
@@ -9824,17 +9615,16 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 236.728 91.44 0)
+			(at 236.728 88.7095 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -9877,7 +9667,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:MOSFET_P-CH")
+		(lib_id "FED3_v7.3 SymLib:MOSFET_P-CH")
 		(at 76.2 44.45 0)
 		(mirror x)
 		(unit 1)
@@ -9888,24 +9678,24 @@
 		(fields_autoplaced yes)
 		(uuid "f47a950b-7ced-4425-8294-193f50040349")
 		(property "Reference" "Q2"
-			(at 80.01 43.1798 0)
+			(at 80.01 42.5449 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "DMP2035U-7"
-			(at 80.01 45.7198 0)
+			(at 80.01 46.3549 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:TSMT3"
+		(property "Footprint" "FED3_v7.3:TSMT3"
 			(at 85.852 41.91 0)
 			(effects
 				(font

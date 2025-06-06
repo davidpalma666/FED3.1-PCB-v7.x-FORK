@@ -5,113 +5,6 @@
 	(uuid "2ba63f12-2fcd-4471-9636-2762cde37de8")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -970,7 +863,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:DIODE-SCHOTTKYSOD-123"
+		(symbol "FED3_v7.3 SymLib:DIODE-SCHOTTKYSOD-123"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1141,7 +1034,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:MCP73831/2"
+		(symbol "FED3_v7.3 SymLib:MCP73831/2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1458,7 +1351,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:SSSS811101"
+		(symbol "FED3_v7.3 SymLib:SSSS811101"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1673,7 +1566,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:TB6612FNGSSOP"
+		(symbol "FED3_v7.3 SymLib:TB6612FNGSSOP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2376,7 +2269,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:USB_MICRO_B"
+		(symbol "FED3_v7.3 SymLib:USB_MICRO_B"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2876,7 +2769,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:VREG_SOT23-5"
+		(symbol "FED3_v7.3 SymLib:VREG_SOT23-5"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3075,256 +2968,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:VUSB"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VUSB"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VUSB\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VUSB_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VUSB_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "FED3 SymbLib:V_Batt"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "V_Batt"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"V_Batt\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "V_Batt_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "V_Batt_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FED3_v7.3 SymLib:VUSB"
 			(power)
 			(pin_numbers
@@ -3429,6 +3072,131 @@
 				)
 			)
 			(symbol "VUSB_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FED3_v7.3 SymLib:V_Batt"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "V_Batt"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"V_Batt\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "V_Batt_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "V_Batt_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3687,6 +3455,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 161.29 14.605)
@@ -3714,7 +3607,7 @@
 	)
 	(rectangle
 		(start 26.67 20.32)
-		(end 124.46 131.826)
+		(end 124.46 113.03)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -3806,7 +3699,7 @@
 	)
 	(text "LOW: Standby\n200 kΩ pull-down at internal"
 		(exclude_from_sim no)
-		(at 190.246 128.016 0)
+		(at 172.72 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.0795)
@@ -3862,6 +3755,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34a93021-21d9-4179-8938-0492de505c18")
+	)
+	(junction
+		(at 64.77 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "395ad857-e3c2-47c0-b950-96ce04f29556")
 	)
 	(junction
 		(at 227.33 111.76)
@@ -3997,7 +3896,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 83.82) (xy 68.58 83.82)
+			(xy 64.77 83.82) (xy 68.58 83.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -4027,31 +3926,11 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 120.65) (xy 60.96 124.46)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "1327acd5-1594-480e-922b-ae611692d3c0")
-	)
-	(wire
-		(pts
-			(xy 60.96 124.46) (xy 66.04 124.46)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "133734c6-14c6-43c9-b960-23d7c1d6c54b")
-	)
-	(wire
-		(pts
 			(xy 184.15 147.32) (xy 184.15 149.86)
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "13669e19-9d34-4ae3-b9a6-343d2dccfd0c")
 	)
@@ -4064,16 +3943,6 @@
 			(type solid)
 		)
 		(uuid "150d8a08-3816-4933-8316-b64e53feb590")
-	)
-	(wire
-		(pts
-			(xy 80.01 124.46) (xy 80.01 121.92)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "1622a5d5-bf9d-48ab-98a5-a93eecece714")
 	)
 	(wire
 		(pts
@@ -4171,13 +4040,13 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "2a62084f-1053-450a-bc06-238924416e06")
 	)
 	(wire
 		(pts
-			(xy 227.33 106.68) (xy 236.22 106.68)
+			(xy 227.33 106.68) (xy 242.57 106.68)
 		)
 		(stroke
 			(width 0.1524)
@@ -4197,7 +4066,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 132.08) (xy 238.76 132.08)
+			(xy 227.33 132.08) (xy 242.57 132.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -4231,7 +4100,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "3b0c650d-09fa-4a3c-a654-d5af78fab377")
 	)
@@ -4261,7 +4130,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "411d41de-ae6d-48c6-913b-a3a9f5186e00")
 	)
@@ -4281,19 +4150,9 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "41b5b574-e775-493b-b104-6ee8a482fcc1")
-	)
-	(wire
-		(pts
-			(xy 40.64 120.65) (xy 40.64 124.46)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "43030efb-29b9-4b37-b4e6-c5f0e627a01b")
 	)
 	(wire
 		(pts
@@ -4317,11 +4176,11 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 44.45) (xy 53.34 44.45)
+			(xy 59.055 44.45) (xy 53.34 44.45)
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "47b875a5-e14f-4ace-be59-a0997588f1b1")
 	)
@@ -4351,7 +4210,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "4d1dd899-ec45-4537-9214-72f824f4c96c")
 	)
@@ -4371,7 +4230,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "4fa08d1c-5559-47ff-a7ac-c95433cf2cf1")
 	)
@@ -4441,7 +4300,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "5b2c483d-45f9-4a2c-910c-5b9746aa76ca")
 	)
@@ -4451,7 +4310,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "5e11356e-f772-450b-99ac-29b542a97bcd")
 	)
@@ -4464,16 +4323,6 @@
 			(type solid)
 		)
 		(uuid "6094b6ac-42ab-4230-84ce-b3afc873e4f5")
-	)
-	(wire
-		(pts
-			(xy 74.93 120.65) (xy 74.93 124.46)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "60a1ed39-f15c-4b11-b1de-1d7c92ff2e4e")
 	)
 	(wire
 		(pts
@@ -4551,7 +4400,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "6c45258d-19f7-4e03-9d6b-5c84cdbf58e5")
 	)
@@ -4601,13 +4450,13 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "7606c736-52e5-4b46-9a9d-97a621d5fecd")
 	)
 	(wire
 		(pts
-			(xy 177.8 109.22) (xy 186.69 109.22)
+			(xy 186.69 109.22) (xy 177.8 109.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -4624,16 +4473,6 @@
 			(type solid)
 		)
 		(uuid "7a7c88a6-decc-4aeb-a9ac-efb070121a29")
-	)
-	(wire
-		(pts
-			(xy 74.93 124.46) (xy 80.01 124.46)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "7b526aec-6c98-4089-8e88-d43517cfbd3d")
 	)
 	(wire
 		(pts
@@ -4654,16 +4493,6 @@
 			(type solid)
 		)
 		(uuid "7e617436-6a68-4af0-8c3e-4286eb988af5")
-	)
-	(wire
-		(pts
-			(xy 66.04 124.46) (xy 66.04 121.92)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "824885a1-4848-4430-98ad-9ee98d985c73")
 	)
 	(wire
 		(pts
@@ -4731,17 +4560,17 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "8bf30e58-95a8-4419-a34f-eba02925c834")
 	)
 	(wire
 		(pts
-			(xy 59.69 46.99) (xy 53.34 46.99)
+			(xy 59.055 46.99) (xy 53.34 46.99)
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "90afaa1f-473d-435f-abbe-c69eafde95f7")
 	)
@@ -4751,7 +4580,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "90dc891c-bf97-49a0-b92e-852d2ee6519c")
 	)
@@ -4787,7 +4616,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 111.76) (xy 236.22 111.76)
+			(xy 227.33 111.76) (xy 242.57 111.76)
 		)
 		(stroke
 			(width 0.1524)
@@ -4857,7 +4686,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 71.12) (xy 46.99 83.82)
+			(xy 46.99 79.375) (xy 46.99 83.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -4871,7 +4700,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "a5d0dcce-171e-4960-8704-14a86812fea1")
 	)
@@ -4891,7 +4720,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "adcf9c7e-5d7d-42d7-a53c-fd45b6916e58")
 	)
@@ -4947,13 +4776,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 124.46) (xy 54.61 121.92)
+			(xy 64.77 79.375) (xy 64.77 83.82)
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
-		(uuid "bc74c9bf-1659-460e-b256-419c078a3c61")
+		(uuid "bb0cf1cf-40c8-4644-b986-92eead2203e0")
 	)
 	(wire
 		(pts
@@ -4987,16 +4816,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 120.65) (xy 49.53 124.46)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "c3276f18-1871-4233-a6dc-2bd44b3c015c")
-	)
-	(wire
-		(pts
 			(xy 46.99 83.82) (xy 46.99 88.265)
 		)
 		(stroke
@@ -5017,7 +4836,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 106.68) (xy 186.69 106.68)
+			(xy 46.99 67.31) (xy 46.99 71.755)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c9dc20ff-17b0-4a29-b206-8b1eebfc1e1c")
+	)
+	(wire
+		(pts
+			(xy 186.69 106.68) (xy 177.8 106.68)
 		)
 		(stroke
 			(width 0.1524)
@@ -5041,7 +4870,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "d9c2226a-74e0-41cc-8933-6af0ad2bb71e")
 	)
@@ -5051,7 +4880,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "da85fe01-e938-4314-8030-9eb0353c89bd")
 	)
@@ -5101,7 +4930,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "e3e66df0-0524-4fce-b33e-a81c59b51e84")
 	)
@@ -5197,7 +5026,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 137.16) (xy 238.76 137.16)
+			(xy 227.33 137.16) (xy 242.57 137.16)
 		)
 		(stroke
 			(width 0.1524)
@@ -5207,11 +5036,21 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 83.82) (xy 64.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f386fa-0bfa-4635-ac3e-df64135494a4")
+	)
+	(wire
+		(pts
 			(xy 240.03 43.18) (xy 240.03 45.72)
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "f18c7d82-2225-42bb-83f7-27aa4cbf78c4")
 	)
@@ -5251,7 +5090,7 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "fa9005d0-538a-427f-95dd-17674c141e65")
 	)
@@ -5261,19 +5100,9 @@
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(uuid "ff69a9f3-7bdb-41dd-b08c-4ebc8b7d22bc")
-	)
-	(wire
-		(pts
-			(xy 49.53 124.46) (xy 54.61 124.46)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "ffe49e0c-fecd-4fba-8f43-bd0f6ace44fd")
 	)
 	(wire
 		(pts
@@ -5286,33 +5115,34 @@
 		(uuid "ffec4424-352c-464b-a557-72cb2dd0b654")
 	)
 	(label "ORANGE"
-		(at 236.22 111.76 0)
+		(at 242.57 111.76 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
 		(uuid "2790cdeb-edb6-4ec6-bf89-9f68c1bf4194")
 	)
 	(label "BLUE"
-		(at 238.76 132.08 0)
+		(at 242.57 132.08 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
 		(uuid "3f7d26b8-9d3b-4ffc-b145-4b3dc38ec716")
 	)
 	(label "EN"
-		(at 95.25 40.64 0)
+		(at 95.25 40.64 180)
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4892aeff-35f9-42b7-b430-ae742ca0d0c6")
 	)
@@ -5320,7 +5150,7 @@
 		(at 236.22 148.59 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
@@ -5330,18 +5160,19 @@
 		(at 58.42 100.33 0)
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 		(uuid "4f7107a1-3533-465e-92cd-954e245ea580")
 	)
 	(label "YELLOW"
-		(at 238.76 137.16 0)
+		(at 242.57 137.16 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
@@ -5351,7 +5182,7 @@
 		(at 236.22 151.13 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
@@ -5361,17 +5192,17 @@
 		(at 236.22 156.21 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
 		(uuid "da630204-a3ac-4abb-85f4-d56c2eaa5d29")
 	)
 	(label "PINK"
-		(at 236.22 106.68 0)
+		(at 242.57 106.68 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
@@ -5381,7 +5212,7 @@
 		(at 236.22 153.67 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
@@ -5393,18 +5224,18 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify right)
 		)
 		(uuid "0b450e1a-a4f4-46bb-9b7c-369e803e4aa4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.5806 132.08 0)
+			(at 173.8927 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5415,25 +5246,25 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify right)
 		)
 		(uuid "1e2d0d28-caef-45d8-8eab-0308870d359b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.3106 106.68 0)
+			(at 172.6227 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "D+"
 		(shape input)
-		(at 59.69 44.45 0)
+		(at 59.055 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5443,12 +5274,12 @@
 		)
 		(uuid "20b48648-d40c-4c79-ad5a-e6d528058c6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.7237 44.45 0)
+			(at 64.8826 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5459,18 +5290,18 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify right)
 		)
 		(uuid "82fc4e3f-b706-47c9-a2a8-c24a5202634f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.3106 109.22 0)
+			(at 172.6227 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5481,25 +5312,25 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify right)
 		)
 		(uuid "a13520ec-d401-4fcd-b93d-130fe36da41f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.0297 121.92 0)
+			(at 162.3696 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "D-"
 		(shape input)
-		(at 59.69 46.99 0)
+		(at 59.055 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5509,12 +5340,12 @@
 		)
 		(uuid "aef15a30-3935-4a9c-8fe6-30e54e17ec6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.7237 46.99 0)
+			(at 64.8826 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5525,18 +5356,18 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify left)
 		)
 		(uuid "af4e1f8b-8eb3-4654-aa3a-657b401e3f2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.5108 43.18 0)
+			(at 249.1951 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5547,49 +5378,50 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
 			(justify right)
 		)
 		(uuid "b886ab64-01aa-4883-87eb-830fd8a210da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.5806 134.62 0)
+			(at 173.8927 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:USB_MICRO_B")
+		(lib_id "FED3_v7.3 SymLib:USB_MICRO_B")
 		(at 48.26 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "012b129d-4b9b-46d2-903e-06d564886bf7")
 		(property "Reference" "USB0"
-			(at 46.355 30.48 0)
+			(at 49.53 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "USB_MICRO_B"
-			(at 46.355 33.02 0)
+			(at 57.15 33.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:ZX62D-B-5P8"
+		(property "Footprint" "FED3_v7.3:ZX62D-B-5P8"
 			(at 48.26 44.45 0)
 			(effects
 				(font
@@ -5685,6 +5517,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "01c779a3-7b23-44cf-915a-db63d91b96ea")
 		(property "Reference" "#+3V06"
 			(at 182.88 83.82 0)
@@ -5692,17 +5525,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "+3V3"
-			(at 180.34 80.01 0)
+			(at 182.88 79.3368 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5755,7 +5586,7 @@
 		(fields_autoplaced yes)
 		(uuid "0424daa9-1a51-44f7-8c3e-eee32299deb8")
 		(property "Reference" "R11"
-			(at 60.96 87.6299 0)
+			(at 60.071 87.7585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,11 +5595,12 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 60.96 90.1699 0)
+			(at 60.071 90.1122 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -5834,13 +5666,14 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:V_Batt")
+		(lib_id "FED3_v7.3 SymLib:V_Batt")
 		(at 227.33 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0940b298-9d4a-40cd-af62-69444a5e0f08")
 		(property "Reference" "#PWR059"
 			(at 227.33 41.91 0)
@@ -5848,17 +5681,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "VBat"
-			(at 225.806 33.528 0)
+			(at 227.33 33.9669 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.397 1.397)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5909,6 +5740,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0e7067b3-ecdf-4e2c-bc19-529700b91bba")
 		(property "Reference" "#+3V02"
 			(at 99.06 78.74 0)
@@ -5916,17 +5748,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "+3V3"
-			(at 97.282 74.676 0)
+			(at 99.06 74.2568 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5969,13 +5799,14 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:V_Batt")
+		(lib_id "FED3_v7.3 SymLib:V_Batt")
 		(at 77.47 40.005 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0eed4188-c33b-4f3b-a2e8-d9a6e25c326b")
 		(property "Reference" "#PWR05"
 			(at 77.47 43.815 0)
@@ -5983,17 +5814,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "VBat"
-			(at 75.692 35.941 0)
+			(at 77.47 35.8719 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6044,13 +5873,12 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0f6abddb-bda7-4f91-ad64-74320cf41b9a")
 		(property "Reference" "X5"
 			(at 82.55 40.64 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 			)
 		)
@@ -6058,13 +5886,12 @@
 			(at 83.82 49.53 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:JST-XH-02-PACKAGE-ROUND-PAD"
+		(property "Footprint" "FED3_v7.3:JST-XH-02-PACKAGE-ROUND-PAD"
 			(at 82.55 46.99 0)
 			(effects
 				(font
@@ -6125,97 +5952,28 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 40.64 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "131441bd-1126-4851-88d2-1adc278c9f33")
-		(property "Reference" "#PWR067"
-			(at 40.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 125.5394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 40.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1fd0f22-31d6-4a28-b7b3-132d7185ca28")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FED3 SymbLib:DIODE-SCHOTTKYSOD-123")
+		(lib_id "FED3_v7.3 SymLib:DIODE-SCHOTTKYSOD-123")
 		(at 54.61 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "13b6b90c-b628-44fb-86fc-ae69b6dddc15")
 		(property "Reference" "D2"
-			(at 57.15 75.1839 90)
+			(at 55.88 73.66 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "SM5817PL"
-			(at 57.15 77.7239 90)
+			(at 55.88 76.2 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
 				(justify left)
 			)
@@ -6289,6 +6047,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1700029e-d76d-4dba-8a64-0a67bd5bd356")
 		(property "Reference" "#PWR051"
 			(at 245.745 159.385 0)
@@ -6296,17 +6055,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 244.094 163.703 0)
+			(at 245.745 163.4872 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6364,15 +6121,14 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 229.108 101.6 0)
+			(at 229.87 101.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
@@ -6417,73 +6173,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:VUSB")
-		(at 67.31 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1da42a3e-fdd6-47bd-acbf-ab367ead6bed")
-		(property "Reference" "#PWR03"
-			(at 67.31 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 65.532 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 67.31 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "daeaf089-7a37-4f9d-8af3-bb9b5113d075")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 91.44 90.17 0)
 		(unit 1)
@@ -6491,9 +6180,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1f0ca781-9da5-4ca2-b7df-825f3bda954d")
 		(property "Reference" "C13"
-			(at 92.964 88.9 0)
+			(at 93.7641 88.9641 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6192,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 92.964 91.44 0)
+			(at 93.7641 91.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,7 +6261,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:VREG_SOT23-5")
+		(lib_id "FED3_v7.3 SymLib:VREG_SOT23-5")
 		(at 78.74 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6581,18 +6271,18 @@
 		(fields_autoplaced yes)
 		(uuid "20f7313f-c2d8-4a06-b474-b8292a763c22")
 		(property "Reference" "U2"
-			(at 78.74 76.2 0)
+			(at 78.74 77.2612 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
 			)
 		)
-		(property "Value" "MIC5504-3.3"
-			(at 78.74 78.74 0)
+		(property "Value" "SPX3819-3.3"
+			(at 78.74 79.6017 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
 			)
 		)
@@ -6623,7 +6313,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS080052"
+		(property "OEPSPN" "OEPS080165"
 			(at 78.74 86.36 0)
 			(effects
 				(font
@@ -6632,7 +6322,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MIC5504-3.3YM5-TR"
+		(property "MPN" "SPX3819-3.3"
 			(at 78.74 86.36 0)
 			(effects
 				(font
@@ -6673,6 +6363,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "27111452-6c3b-45b2-872e-146d4736560c")
 		(property "Reference" "#PWR019"
 			(at 170.18 135.89 0)
@@ -6680,17 +6371,16 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 168.148 139.7 0)
+			(at 168.148 136.9695 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6743,7 +6433,7 @@
 		(fields_autoplaced yes)
 		(uuid "27ec270c-8531-4cd7-b7b7-cae64eb571e8")
 		(property "Reference" "C15"
-			(at 101.6 88.9062 0)
+			(at 101.3841 88.9641 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6752,7 +6442,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 101.6 91.4462 0)
+			(at 101.3841 91.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6823,7 +6513,6 @@
 	(symbol
 		(lib_id "Device:R_US")
 		(at 213.36 43.18 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6831,21 +6520,19 @@
 		(dnp no)
 		(uuid "28504b28-dd41-45ef-8428-4deb1fe5c11f")
 		(property "Reference" "R14"
-			(at 211.328 45.72 90)
+			(at 213.36 49.2636 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "1k"
-			(at 211.582 48.006 90)
+			(at 213.36 46.1392 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -6916,22 +6603,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2cc4b0ce-5ae5-4a3e-b398-20a2d99a3965")
 		(property "Reference" "L2"
-			(at 116.84 93.0274 90)
+			(at 115.951 93.1272 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "RED"
-			(at 116.84 95.5674 90)
+			(at 111.76 96.52 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
 				(justify right)
 			)
@@ -6963,7 +6649,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "OEPSPN" "OEPS030038"
 			(at 113.03 92.71 0)
 			(effects
 				(font
@@ -6972,7 +6658,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5975004407F"
+		(property "MPN" "VFHR1116P-4C82A-TR"
 			(at 113.03 92.71 0)
 			(effects
 				(font
@@ -7004,6 +6690,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3058c138-4030-46ec-9e79-5eb41081006e")
 		(property "Reference" "#PWR0103"
 			(at 68.58 101.6 0)
@@ -7011,17 +6698,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 67.056 105.664 0)
+			(at 68.58 105.3102 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7064,73 +6749,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:VUSB")
-		(at 171.45 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31d85611-60f6-4970-bd17-69b39b94c935")
-		(property "Reference" "#PWR02"
-			(at 171.45 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 169.672 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 171.45 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1290cbf-8e09-48fd-9aa5-8867a1baf524")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 56.515 39.37 0)
 		(unit 1)
@@ -7138,6 +6756,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "340d94df-7f08-43a9-9d27-b9d37c93f1da")
 		(property "Reference" "#PWR0104"
 			(at 56.515 39.37 0)
@@ -7145,15 +6764,14 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 54.356 42.672 0)
+			(at 58.547 40.4495 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify left)
 			)
@@ -7205,6 +6823,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "36682003-9932-43f6-b982-6ac6707b3be1")
 		(property "Reference" "#PWR023"
 			(at 222.25 53.34 0)
@@ -7212,17 +6831,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 220.472 57.658 0)
+			(at 222.25 57.0502 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7265,35 +6882,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 40.64 120.65 0)
+		(lib_id "FED3_v7.3 SymLib:VUSB")
+		(at 67.31 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "47ef59bc-5a10-4747-8d85-95cc23ec3515")
-		(property "Reference" "TP5"
-			(at 38.862 115.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 118.6179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 45.72 120.65 0)
+		(fields_autoplaced yes)
+		(uuid "3f711f1a-b5b6-4a17-a2da-a5ca50c8fd27")
+		(property "Reference" "#PWR03"
+			(at 67.31 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,66 +6900,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 45.72 120.65 0)
+		(property "Value" "VUSB"
+			(at 67.31 36.5069 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 40.64 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6071d4d-8b05-4448-b3a5-b94f316eb452")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FED3 SymbLib:V_Batt")
-		(at 66.04 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c790e90-8040-434a-b4e7-c1cb80173968")
-		(property "Reference" "#PWR065"
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBat"
-			(at 63.754 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 121.92 0)
+			(at 67.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7369,7 +6918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 121.92 0)
+			(at 67.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7377,8 +6926,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"V_Batt\""
-			(at 66.04 121.92 0)
+		(property "Description" "Power symbol creates a global label with name \"VUSB\""
+			(at 67.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,12 +6936,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0c63a53-ab52-47c7-af21-6ddbcf4412f5")
+			(uuid "f6fcbea1-fbd6-4427-a42c-2e27cff0d052")
 		)
 		(instances
-			(project "FED3_v7.3"
+			(project ""
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR065")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7400,8 +6949,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 170.18 129.54 0)
-		(mirror x)
+		(at 170.18 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7409,7 +6957,7 @@
 		(dnp no)
 		(uuid "4eb2ce04-6342-4027-9aab-6062fc8a05dd")
 		(property "Reference" "R8"
-			(at 167.64 128.2699 0)
+			(at 166.37 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,11 +6966,12 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 167.64 130.8099 0)
+			(at 166.37 129.54 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
 				)
 				(justify right)
 			)
@@ -7488,73 +7037,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3_v7.3 SymLib:VUSB")
-		(at 54.61 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f2b0ab0-bee6-4440-ac66-c3b3fb3cb94b")
-		(property "Reference" "#PWR09"
-			(at 54.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 52.832 118.364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 54.61 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e1cedf3-49dd-484f-8915-93946c3c2f15")
-		)
-		(instances
-			(project "FED3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 184.15 149.86 0)
 		(unit 1)
@@ -7562,6 +7044,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5012b50a-6336-41bd-b407-5906d9777718")
 		(property "Reference" "#PWR013"
 			(at 184.15 149.86 0)
@@ -7569,17 +7052,16 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 182.118 153.67 0)
+			(at 182.118 150.9395 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7636,17 +7118,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 99.314 0)
+			(at 176.53 97.155 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7689,7 +7169,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:MCP73831/2")
+		(lib_id "FED3_v7.3 SymLib:MCP73831/2")
 		(at 194.31 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7699,18 +7179,18 @@
 		(fields_autoplaced yes)
 		(uuid "5a6226e2-ae4b-4704-a452-64a573b2e282")
 		(property "Reference" "U3"
-			(at 194.31 27.94 0)
+			(at 194.31 29.0012 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
 			)
 		)
 		(property "Value" "MCP73831T"
-			(at 194.31 30.48 0)
+			(at 194.31 31.3417 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
 			)
 		)
@@ -7795,7 +7275,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a923b1c-b06c-4eb5-a0e5-f292d19e47a1")
 		(property "Reference" "C4"
-			(at 233.68 92.7162 0)
+			(at 233.4641 92.7741 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7804,7 +7284,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 233.68 95.2562 0)
+			(at 233.4641 95.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,6 +7360,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5f857cb4-9ac9-4efc-88d2-0af830416738")
 		(property "Reference" "#PWR021"
 			(at 102.87 48.26 0)
@@ -7887,17 +7368,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 101.092 52.07 0)
+			(at 102.87 52.3622 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7950,21 +7429,21 @@
 		(dnp no)
 		(uuid "65e1f6b6-8bd5-4e2f-9a54-1fd193b5a1b1")
 		(property "Reference" "CHG0"
-			(at 167.64 40.3224 90)
+			(at 165.1 38.735 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "RED"
-			(at 167.64 42.8624 90)
+			(at 163.83 41.275 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -7994,7 +7473,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "OEPSPN" "OEPS030038"
 			(at 171.45 40.005 0)
 			(effects
 				(font
@@ -8003,7 +7482,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5975004407F"
+		(property "MPN" "VFHR1116P-4C82A-TR"
 			(at 171.45 40.005 0)
 			(effects
 				(font
@@ -8028,7 +7507,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:VUSB")
+		(lib_id "power:VCC")
 		(at 227.33 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8042,17 +7521,17 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Value" "VUSB"
-			(at 224.79 82.55 0)
+		(property "Value" "VCC"
+			(at 229.87 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8073,7 +7552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 227.33 86.36 0)
 			(effects
 				(font
@@ -8102,6 +7581,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6a21fca8-f3a7-486c-a0aa-4da2861bb503")
 		(property "Reference" "#PWR063"
 			(at 209.55 53.34 0)
@@ -8109,17 +7589,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 207.772 57.658 0)
+			(at 209.55 57.0502 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8162,6 +7640,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 46.99 75.565 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bcd2283-d5ee-40cb-b5b0-f7e283c16367")
+		(property "Reference" "R18"
+			(at 41.91 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 41.91 76.835 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 46.99 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS020001"
+			(at 46.99 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 46.99 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d44e4bfd-cff2-4f31-b399-48171f2eb608")
+		)
+		(pin "2"
+			(uuid "e03779bc-63f3-4e4f-bffc-951af5202606")
+		)
+		(instances
+			(project "FED3_v7.3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 77.47 50.165 0)
 		(mirror y)
@@ -8170,6 +7737,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "74547a37-acf9-4682-834e-1f44e9660338")
 		(property "Reference" "#PWR015"
 			(at 77.47 50.165 0)
@@ -8177,17 +7745,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 75.692 53.975 0)
+			(at 77.47 53.8752 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8238,6 +7804,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7632ade6-9e73-49a1-9f25-163c337fed49")
 		(property "Reference" "#+3V016"
 			(at 113.03 76.2 0)
@@ -8245,17 +7812,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "+3V3"
-			(at 111.252 72.136 0)
+			(at 113.03 71.7168 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8306,10 +7871,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7f2b9edd-3062-4899-a974-ba9350986f41")
 		(property "Reference" "C11"
-			(at 49.53 89.5412 0)
+			(at 49.314 89.5991 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8318,7 +7882,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 49.53 92.0812 0)
+			(at 49.314 92.0234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,20 +7951,19 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:SSSS811101")
+		(lib_id "FED3_v7.3 SymLib:SSSS811101")
 		(at 102.87 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "89cd4200-7aab-4445-baa8-cd9499a6a88f")
 		(property "Reference" "SW1"
-			(at 102.87 38.1 0)
+			(at 99.06 38.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 			)
 		)
@@ -8408,13 +7971,12 @@
 			(at 93.98 43.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:SSSS811101"
+		(property "Footprint" "FED3_v7.3:SSSS811101"
 			(at 102.87 40.64 0)
 			(effects
 				(font
@@ -8490,149 +8052,14 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 49.53 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ff1c641-8a2b-4e34-842a-523c723979d6")
-		(property "Reference" "TP4"
-			(at 52.07 116.0779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 52.07 118.6179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 54.61 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "421d3fdf-c281-4d09-9c9c-39b9eff9a26d")
-		)
-		(instances
-			(project "FED3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 80.01 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93b03d6c-0ace-4bb1-b241-89c7cf73c94c")
-		(property "Reference" "#+3V017"
-			(at 80.01 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 78.994 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "369339d6-a5df-4283-81eb-69d36f070db7")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#+3V017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FED3 SymbLib:V_Batt")
+		(lib_id "FED3_v7.3 SymLib:V_Batt")
 		(at 240.03 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9b3ef3e6-95fc-45b4-923f-1617a04f78c0")
 		(property "Reference" "#PWR060"
 			(at 240.03 35.56 0)
@@ -8640,17 +8067,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "VBat"
-			(at 238.506 27.178 0)
+			(at 240.03 27.6169 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.397 1.397)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8703,7 +8128,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0ae91ff-6d39-4824-bddc-f4c2ea04cfcc")
 		(property "Reference" "R19"
-			(at 115.57 82.5499 0)
+			(at 114.681 82.8122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8712,10 +8137,10 @@
 			)
 		)
 		(property "Value" "68R"
-			(at 115.57 85.0899 0)
+			(at 114.681 85.0321 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 					(thickness 0.127)
 				)
 				(justify left)
@@ -8783,8 +8208,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 222.25 48.26 0)
-		(mirror x)
+		(at 222.25 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8792,19 +8216,19 @@
 		(dnp no)
 		(uuid "ad7c0b26-88d0-437d-b446-168e437e93cc")
 		(property "Reference" "R20"
-			(at 220.726 47.498 0)
+			(at 217.17 46.99 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "1k"
-			(at 220.726 50.038 0)
+			(at 218.44 49.53 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify right)
 			)
@@ -8870,6 +8294,71 @@
 		)
 	)
 	(symbol
+		(lib_id "FED3_v7.3 SymLib:VUSB")
+		(at 46.99 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1786a55-1998-4a06-a016-f093a3586d24")
+		(property "Reference" "#PWR02"
+			(at 46.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 45.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VUSB\""
+			(at 46.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6fcbea1-fbd6-4427-a42c-2e27cff0d053")
+		)
+		(instances
+			(project ""
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 227.33 48.26 0)
 		(unit 1)
@@ -8880,7 +8369,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3367d96-c38a-4cdb-9ff7-a02c0a654fa7")
 		(property "Reference" "C16"
-			(at 229.87 46.9962 0)
+			(at 229.6541 47.0541 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8889,7 +8378,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 229.87 49.5362 0)
+			(at 229.6541 49.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8958,33 +8447,32 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:TB6612FNGSSOP")
+		(lib_id "FED3_v7.3 SymLib:TB6612FNGSSOP")
 		(at 204.47 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b92276a1-de96-439c-8ef3-b860b134b24d")
 		(property "Reference" "IC2"
-			(at 190.5 87.122 0)
+			(at 205.74 87.4212 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TB6612FNG"
-			(at 190.5 89.662 0)
+			(at 205.74 89.7617 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:SSOP24"
+		(property "Footprint" "FED3_v7.3:SSOP24"
 			(at 204.47 124.46 0)
 			(effects
 				(font
@@ -9121,7 +8609,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc6ceab7-385f-49b6-899d-7f416c89ddef")
 		(property "Reference" "R16"
-			(at 242.57 36.8299 0)
+			(at 241.681 36.9585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9130,11 +8618,12 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 242.57 39.3699 0)
+			(at 241.681 39.3122 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
 				)
 				(justify right)
 			)
@@ -9214,17 +8703,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 238.252 58.928 0)
+			(at 240.03 58.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.0795 1.0795)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9274,6 +8761,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c1e015e9-a1e0-4198-b859-67da176bdd7e")
 		(property "Reference" "#PWR0102"
 			(at 91.44 95.25 0)
@@ -9281,17 +8769,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 89.916 99.314 0)
+			(at 91.44 98.9602 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9348,17 +8834,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 230.632 122.682 0)
+			(at 231.14 120.65 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9410,22 +8894,21 @@
 		(dnp no)
 		(uuid "c7ab71e0-dda5-432e-ae88-2b381cafdf60")
 		(property "Reference" "R10"
-			(at 173.99 48.006 90)
+			(at 176.53 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "1k"
-			(at 173.99 50.546 90)
+			(at 176.53 43.1816 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -9489,35 +8972,35 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:VUSB")
-		(at 46.99 71.12 0)
+		(lib_id "power:VCC")
+		(at 64.77 79.375 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cac5048a-7d3d-459c-9ca7-22f2491ff1de")
-		(property "Reference" "#PWR1"
-			(at 46.99 74.93 0)
+		(property "Reference" "#PWR01"
+			(at 64.77 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Value" "VUSB"
-			(at 45.212 67.056 0)
+		(property "Value" "VCC"
+			(at 67.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 71.12 0)
+			(at 64.77 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9526,7 +9009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 71.12 0)
+			(at 64.77 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9534,8 +9017,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 46.99 71.12 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 64.77 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,7 +9032,7 @@
 		(instances
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR1")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -9563,6 +9046,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cd3c5522-db63-4e13-ae65-90434421a312")
 		(property "Reference" "#PWR026"
 			(at 227.33 53.34 0)
@@ -9570,17 +9054,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 225.552 57.658 0)
+			(at 227.33 57.0502 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9630,6 +9112,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d01db8ba-08c9-4869-90a5-8bc549bc12a2")
 		(property "Reference" "#PWR0107"
 			(at 46.99 95.885 0)
@@ -9637,17 +9120,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 45.466 99.949 0)
+			(at 46.99 99.5952 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9700,7 +9181,7 @@
 		(fields_autoplaced yes)
 		(uuid "d206f45f-943c-4642-b2d2-50ac2b0d1920")
 		(property "Reference" "R17"
-			(at 242.57 48.2599 0)
+			(at 241.681 48.3885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,11 +9190,12 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 242.57 50.7999 0)
+			(at 241.681 50.7422 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -9779,6 +9261,72 @@
 		)
 	)
 	(symbol
+		(lib_id "FED3_v7.3 SymLib:VUSB")
+		(at 171.45 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d86845cf-ea4a-495d-a9c5-85dfdd201bf3")
+		(property "Reference" "#PWR64"
+			(at 171.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 171.45 26.3469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VUSB\""
+			(at 171.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c59ef8e-2b99-4287-8752-8a204c49754a")
+		)
+		(instances
+			(project "FED3_v7.3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "#PWR64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 170.18 115.57 180)
 		(unit 1)
@@ -9789,7 +9337,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc09f89d-a56d-457c-bb13-f9356019f792")
 		(property "Reference" "R7"
-			(at 172.72 114.2999 0)
+			(at 171.831 114.4285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,11 +9346,12 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 172.72 116.8399 0)
+			(at 171.831 116.7822 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
 				)
 				(justify right)
 			)
@@ -9875,6 +9424,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e1cce025-bac6-4dbd-afcf-80d6d4c906c4")
 		(property "Reference" "#PWR012"
 			(at 227.33 147.32 0)
@@ -9882,17 +9432,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 225.044 151.638 0)
+			(at 227.33 151.4222 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9935,7 +9483,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:VUSB")
+		(lib_id "power:VCC")
 		(at 238.76 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9949,17 +9497,17 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Value" "VUSB"
-			(at 237.236 119.126 0)
+		(property "Value" "VCC"
+			(at 241.3 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9980,7 +9528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 238.76 123.19 0)
 			(effects
 				(font
@@ -10002,72 +9550,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 60.96 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9b92327-e354-48f2-8a33-aad7f9cd3f4e")
-		(property "Reference" "TP3"
-			(at 60.706 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBat"
-			(at 64.262 115.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 66.04 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0d12a52-56b5-405a-bc25-9e9b9670fb96")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 251.46 151.13 0)
 		(unit 1)
@@ -10077,10 +9559,10 @@
 		(dnp no)
 		(uuid "ea0f59f8-c804-4c5e-abb2-f47d91beb7af")
 		(property "Reference" "MOTOR0"
-			(at 247.65 142.748 0)
+			(at 246.38 142.875 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
 				(justify left)
 			)
@@ -10089,13 +9571,13 @@
 			(at 245.11 161.29 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify bottom)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:1X05"
+		(property "Footprint" "FED3_v7.3:1X05"
 			(at 251.46 151.13 0)
 			(effects
 				(font
@@ -10165,80 +9647,14 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 74.93 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ecf6de63-fef5-41a2-a669-e30f14ced2d8")
-		(property "Reference" "TP1"
-			(at 73.914 114.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V3"
-			(at 73.66 115.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf753627-c3ac-43d1-8a35-e271e768dc82")
-		)
-		(instances
-			(project ""
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FED3 SymbLib:V_Batt")
+		(lib_id "FED3_v7.3 SymLib:V_Batt")
 		(at 54.61 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f23b2278-b858-47d2-a46a-0b651a8903b6")
 		(property "Reference" "#PWR04"
 			(at 54.61 74.93 0)
@@ -10246,17 +9662,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "VBat"
-			(at 52.832 67.056 0)
+			(at 54.61 66.9869 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10307,6 +9721,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f5ea5a5d-38c8-4d8d-8977-ce358d5f60bf")
 		(property "Reference" "#PWR062"
 			(at 113.03 99.06 0)
@@ -10314,17 +9729,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 111.506 103.124 0)
+			(at 113.03 103.1622 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -10377,7 +9790,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb560530-3a02-443f-8930-6504ca71748f")
 		(property "Reference" "C3"
-			(at 176.53 89.5412 0)
+			(at 175.6791 89.5991 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10386,7 +9799,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 176.53 92.0812 0)
+			(at 175.6791 92.0234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10462,6 +9875,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "fb5c63f2-dcea-4b94-9834-b5318e3a8e7d")
 		(property "Reference" "#PWR0101"
 			(at 99.06 95.25 0)
@@ -10469,17 +9883,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 97.536 99.314 0)
+			(at 99.06 98.9602 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10522,8 +9934,8 @@
 		)
 	)
 	(sheet
-		(at 71.374 140.208)
-		(size 40.64 44.45)
+		(at 69.85 125.73)
+		(size 40.64 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10539,7 +9951,7 @@
 		)
 		(uuid "91f92fff-cc86-4ce2-a671-c31760f8020c")
 		(property "Sheetname" "IOs Interface"
-			(at 71.374 139.1076 0)
+			(at 69.85 124.6296 0)
 			(effects
 				(font
 					(size 2 2)
@@ -10550,7 +9962,7 @@
 			)
 		)
 		(property "Sheetfile" "IOs Interface.kicad_sch"
-			(at 71.374 185.2664 0)
+			(at 69.85 184.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10559,7 +9971,7 @@
 			)
 		)
 		(instances
-			(project "FED3"
+			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(page "3")
 				)
@@ -10567,8 +9979,8 @@
 		)
 	)
 	(sheet
-		(at 26.67 140.208)
-		(size 39.37 43.942)
+		(at 26.67 125.73)
+		(size 39.37 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10584,7 +9996,7 @@
 		)
 		(uuid "f4901940-5078-48a6-adaa-a0748712c93b")
 		(property "Sheetname" "controler stage"
-			(at 26.67 139.1314 0)
+			(at 26.67 124.6534 0)
 			(effects
 				(font
 					(size 2 2)
@@ -10604,7 +10016,7 @@
 			)
 		)
 		(instances
-			(project "FED3"
+			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(page "2")
 				)

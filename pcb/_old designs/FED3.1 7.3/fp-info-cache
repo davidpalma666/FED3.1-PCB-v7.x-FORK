@@ -1,4 +1,4 @@
-24796821926557950
+24794672427068950
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57252,245 +57252,238 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-FED3.1 v7.4
-oe logo
-
-
-0
-0
-0
-FED3_PCBLib
+FED3_v7.3
 1X01
 PIN HEADER
 
 0
 1
 1
-FED3_PCBLib
+FED3_v7.3
 1X04
 PIN HEADER
 
 0
 4
 4
-FED3_PCBLib
+FED3_v7.3
 1X05
 PIN HEADER
 
 0
 5
 5
-FED3_PCBLib
+FED3_v7.3
 1X06
 PIN HEADER
 
 0
 6
 6
-FED3_PCBLib
+FED3_v7.3
 1X12
 PIN HEADER
 
 0
 12
 12
-FED3_PCBLib
+FED3_v7.3
 1X16
 PIN HEADER
 
 0
 16
 16
-FED3_PCBLib
+FED3_v7.3
 4UCONN_20329_V2
 
 
 0
 11
 11
-FED3_PCBLib
+FED3_v7.3
 35RASMT2BHNTRX
 
 
 0
 3
 3
-FED3_PCBLib
+FED3_v7.3
 0805-NO
 
 
 0
 2
 2
-FED3_PCBLib
+FED3_v7.3
 Buzzer
 
 
 0
 2
 2
-FED3_PCBLib
+FED3_v7.3
 CHIPLED_0805_NOOUTLINE
 
 
 0
 2
 2
-FED3_PCBLib
+FED3_v7.3
 CR1220
 
 
 0
 3
 3
-FED3_PCBLib
+FED3_v7.3
 CRYSTAL_8X3.8
 8.0x3.8x2.5mm SMT Crystal{return}{return}Source: http://www.abracon.com/Resonators/abs25.pdf
 
 0
 4
 4
-FED3_PCBLib
+FED3_v7.3
 DO-214AC
 SURFACE MOUNT GENERAL RECTIFIER JEDEC DO-214AC molded platic body{return}{return}Method 2026{return}Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf
 
 0
 2
 2
-FED3_PCBLib
+FED3_v7.3
 D_SOD-123
 SOD-123
 SOD-123
 0
 2
 2
-FED3_PCBLib
+FED3_v7.3
 FED_logo
 
 
 0
 0
 0
-FED3_PCBLib
+FED3_v7.3
 Fiducial_0.5mm_Mask1mm
 Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)
 fiducial
 0
 1
 0
-FED3_PCBLib
+FED3_v7.3
 GP1A57HR
 
 
 0
 5
 5
-FED3_PCBLib
+FED3_v7.3
 HVSON8_4X4
 
 
 0
 9
 9
-FED3_PCBLib
+FED3_v7.3
 JST-XH-02-PACKAGE-ROUND-PAD
 JST XH Connector Round Pads (Package){return}{return}Wire to board connector.  Pitch: 2,54 mm, (0.100"){return}{return}Number of pins: 2  Created by Rembrandt Electronics{return}{return}www.rembrandtelectronics.com
 
 0
 2
 2
-FED3_PCBLib
+FED3_v7.3
 JSTPH2
 2-Pin JST PH Series Right-Angle Connector (+/- for batteries)
 
 0
 4
 4
-FED3_PCBLib
+FED3_v7.3
 KMR2
 
 
 0
 4
 4
-FED3_PCBLib
+FED3_v7.3
 MICROSD
 Courtesy: Adafruit Industries
 
 0
 12
 12
-FED3_PCBLib
+FED3_v7.3
 MountingHole_2.5mm
 Mounting Hole 2.5mm, no annular
 mounting hole 2.5mm no annular
 0
 0
 0
-FED3_PCBLib
+FED3_v7.3
 PinHeader_toProgram
 Through hole straight pin header, 2x03, 2.54mm pitch, double rows
 Through hole pin header THT 2x03 2.54mm double row
 0
 6
 6
-FED3_PCBLib
+FED3_v7.3
 SOT-23-5
 SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOT TO_SOT_SMD
 0
 5
 5
-FED3_PCBLib
+FED3_v7.3
 SSOP24
 Small Shrink Outline Package{return}{return}SOT340-1 / JEDEC MO-150AG
 
 0
 24
 24
-FED3_PCBLib
+FED3_v7.3
 SSSS811101
 
 
 0
 7
 7
-FED3_PCBLib
+FED3_v7.3
 TQFN48_7MM
 
 
 0
 49
 49
-FED3_PCBLib
+FED3_v7.3
 TSMT3
 
 
 0
 3
 3
-FED3_PCBLib
+FED3_v7.3
 TestPoint_Pad_D1.5mm
 SMD pad as test Point, diameter 1.5mm
 test point SMD pad
 0
 1
 1
-FED3_PCBLib
+FED3_v7.3
 WS2812B
 
 
 0
 4
 4
-FED3_PCBLib
+FED3_v7.3
 XTAL3215
 
 
 0
 2
 2
-FED3_PCBLib
+FED3_v7.3
 ZX62D-B-5P8
 
 

@@ -1,7 +1,7 @@
 (footprint "GP1A57HR"
-	(version 20241229)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -20,6 +20,18 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "c45f13ae-6cd8-43d2-96a4-a2b4a6536d16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "FED3_v7.3:GP1A57HR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ea82fe2-29bb-41c6-8eda-4806eae91123")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -108,7 +120,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill no)
+		(fill none)
 		(layer "F.CrtYd")
 		(uuid "4e79ca32-2b7c-4b85-83e9-bf7f7156850d")
 	)
@@ -175,17 +187,5 @@
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "6feec3d8-af7e-44fc-8ba4-53b6315ddacb")
-	)
-	(embedded_fonts no)
-	(model "${KIPRJMOD}/FED3_PCBLib.pretty/GP1A57HR.STEP"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
 	)
 )

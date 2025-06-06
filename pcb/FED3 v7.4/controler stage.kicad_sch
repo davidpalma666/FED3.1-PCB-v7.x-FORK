@@ -5795,6 +5795,16 @@
 		)
 		(uuid "d1c2db23-3471-4fa0-8884-ac52e04020be")
 	)
+	(label "D7"
+		(at 138.43 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d60416e2-6da1-44f5-a387-4da25b31dc28")
+	)
 	(label "D12"
 		(at 50.8 167.64 0)
 		(effects
@@ -6078,28 +6088,6 @@
 		(uuid "92b60e5d-cec0-4114-bed9-9e37fbe1c9ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 143.6073 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D7"
-		(shape input)
-		(at 138.43 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "95a6673f-03d8-405f-9022-c35f11c2c560")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.7851 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +7205,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "5k1 10k"
 			(at 118.618 172.974 0)
 			(effects
 				(font
@@ -7254,7 +7242,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020032"
+		(property "OEPSPN" "TBD"
 			(at 116.84 170.18 0)
 			(effects
 				(font
@@ -7263,7 +7251,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RCS040268R0FKED"
+		(property "MPN" "??"
 			(at 116.84 170.18 0)
 			(effects
 				(font
@@ -7823,7 +7811,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "2k2"
 			(at 107.696 173.736 0)
 			(effects
 				(font
@@ -7860,7 +7848,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020032"
+		(property "OEPSPN" "OEPS020174"
 			(at 105.41 171.45 0)
 			(effects
 				(font
@@ -7869,7 +7857,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RCS040268R0FKED"
+		(property "MPN" "ERJ-2RKF2201X"
 			(at 105.41 171.45 0)
 			(effects
 				(font

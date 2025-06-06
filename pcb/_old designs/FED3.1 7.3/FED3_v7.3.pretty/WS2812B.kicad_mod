@@ -1,10 +1,10 @@
 (footprint "WS2812B"
-	(version 20241229)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -6.0325 -1.8415 270)
+		(at -6.0325 -1.8415 -90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8dba3763-6a12-43b7-a3e3-f0385054b1df")
@@ -21,6 +21,18 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "44fb9554-615e-4eb2-bf26-6aa9132ed578")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "FED3_v7.3:WS2812B"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd7c2766-e803-4cbb-a303-f5a901f2f9fd")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -159,7 +171,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(fill no)
+		(fill none)
 		(layer "F.SilkS")
 		(uuid "8b342a22-3a6d-494c-a0c5-76427bd8297d")
 	)
@@ -170,14 +182,14 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill no)
+		(fill none)
 		(layer "F.CrtYd")
 		(uuid "a6287311-21dd-4905-b8eb-06c8fae276f7")
 	)
 	(pad "1-VDD" smd rect
 		(at 2.45 1.65)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "6aa1d392-aa73-4a16-90a7-0e0edb382eb8")
@@ -185,7 +197,7 @@
 	(pad "2-DOUT" smd rect
 		(at 2.45 -1.65)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "a792101b-0e96-4114-995c-44fe93f8ac2c")
@@ -193,7 +205,7 @@
 	(pad "3-GND" smd rect
 		(at -2.45 -1.65)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "ac2b1fee-2d37-42b5-9f99-f8ce71c66b54")
@@ -201,21 +213,9 @@
 	(pad "4-DIN" smd rect
 		(at -2.45 1.65)
 		(size 1.5 0.9)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "4123f112-8cbf-463e-805d-050b140f6e4e")
-	)
-	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
 	)
 )

@@ -1,7 +1,7 @@
 (footprint "Buzzer"
-	(version 20241229)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 9.15 -0.35 0)
@@ -20,6 +20,19 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a7355b4e-303c-4c05-addc-9be1904c373e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5434ae5b-9f9c-43b0-a07c-e7aba4bc3914")
 		(effects
 			(font
 				(size 1 1)
@@ -81,7 +94,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill no)
+		(fill none)
 		(layer "F.SilkS")
 		(uuid "991e62ce-86ad-4272-a3ea-5343588e9be9")
 	)
@@ -92,7 +105,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(fill no)
+		(fill none)
 		(layer "F.SilkS")
 		(uuid "c8c5abd4-cad1-48dc-8048-056c3bf95bcd")
 	)
@@ -103,7 +116,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill no)
+		(fill none)
 		(layer "F.SilkS")
 		(uuid "725cad1e-643d-41c1-a9ca-1c23e7b28c61")
 	)
@@ -132,17 +145,5 @@
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "2ec0cb11-e934-4a03-84cb-b1298d269158")
-	)
-	(embedded_fonts no)
-	(model "${KIPRJMOD}/FED3_PCBLib.pretty/9x12 Buzzer.step"
-		(offset
-			(xyz 0 -5.5 30.5)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 90 -0 -0)
-		)
 	)
 )

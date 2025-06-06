@@ -2760,7 +2760,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:VUSB"
+		(symbol "FED3 SymbLib:V_Batt"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2781,7 +2781,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VUSB"
+			(property "Value" "V_Batt"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2807,7 +2807,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VUSB\""
+			(property "Description" "Power symbol creates a global label with name \"V_Batt\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2825,7 +2825,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VUSB_0_1"
+			(symbol "V_Batt_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2863,7 +2863,7 @@
 					)
 				)
 			)
-			(symbol "VUSB_1_1"
+			(symbol "V_Batt_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -6067,74 +6067,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:VUSB")
-		(at 35.56 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "443bdf6b-9e6a-4141-8026-97f070db5697")
-		(property "Reference" "#PWR08"
-			(at 35.56 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 38.1 22.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 35.56 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0faebd09-8b53-458a-9ff2-23ee07b62b98")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/91f92fff-cc86-4ce2-a671-c31760f8020c"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 161.29 39.37 0)
 		(unit 1)
@@ -6580,6 +6512,73 @@
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/91f92fff-cc86-4ce2-a671-c31760f8020c"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FED3 SymbLib:V_Batt")
+		(at 35.56 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68e2170a-bcea-4f47-a3c2-190a9524ed2b")
+		(property "Reference" "#PWR07"
+			(at 35.56 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBat"
+			(at 33.782 20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"V_Batt\""
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "829e768c-5524-46ec-a99e-68dca31b8485")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/91f92fff-cc86-4ce2-a671-c31760f8020c"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
