@@ -5584,7 +5584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 100kΩ ±0.1% 0.063W"
 			(at 58.42 88.9 0)
 			(effects
 				(font
@@ -5593,7 +5593,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020019"
+		(property "OEPSPN" "OEPS020175"
 			(at 58.42 88.9 0)
 			(effects
 				(font
@@ -5602,7 +5602,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1003X"
+		(property "MPN" "RG1005P-104-B-T5"
 			(at 58.42 88.9 0)
 			(effects
 				(font
@@ -6319,7 +6319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO 3.3V 300mA"
 			(at 78.74 86.36 0)
 			(effects
 				(font
@@ -6483,7 +6483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD CER 0402 1uF 25V ±10% X5R"
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -6571,7 +6571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
 			(at 213.36 43.18 0)
 			(effects
 				(font
@@ -6974,7 +6974,7 @@
 		(at 40.64 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "47ef59bc-5a10-4747-8d85-95cc23ec3515")
@@ -7150,7 +7150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 4.7kΩ ±1% 0.100W"
 			(at 170.18 129.54 0)
 			(effects
 				(font
@@ -7437,7 +7437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BATT CNTL LI-ION 1CEL"
 			(at 194.31 43.18 0)
 			(effects
 				(font
@@ -8069,7 +8069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SWITCH SLIDE SPDT 0.3A 5V (OEPS K01 017)"
 			(at 102.87 40.64 0)
 			(effects
 				(font
@@ -8531,7 +8531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
 			(at 222.25 48.26 0)
 			(effects
 				(font
@@ -8706,7 +8706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOTOR DRIVER 2.7V-5.5V (OEPS K01 002)"
 			(at 204.47 124.46 0)
 			(effects
 				(font
@@ -8861,7 +8861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 100kΩ ±0.1% 0.063W"
 			(at 240.03 38.1 0)
 			(effects
 				(font
@@ -9217,7 +9217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
 			(at 176.53 45.72 0)
 			(effects
 				(font
@@ -9440,7 +9440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 100kΩ ±0.1% 0.063W"
 			(at 240.03 49.53 0)
 			(effects
 				(font
