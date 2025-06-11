@@ -5556,7 +5556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 0.1%"
 			(at 60.96 90.1699 0)
 			(effects
 				(font
@@ -6618,9 +6618,9 @@
 		(at 113.03 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2cc4b0ce-5ae5-4a3e-b398-20a2d99a3965")
 		(property "Reference" "L2"
@@ -8336,7 +8336,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a0ae91ff-6d39-4824-bddc-f4c2ea04cfcc")
 		(property "Reference" "R19"
@@ -8833,7 +8833,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 0.1%"
 			(at 242.57 39.3699 0)
 			(effects
 				(font
@@ -9412,7 +9412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 0.1%"
 			(at 242.57 50.7999 0)
 			(effects
 				(font
@@ -9487,9 +9487,9 @@
 		(at 170.18 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dc09f89d-a56d-457c-bb13-f9356019f792")
 		(property "Reference" "R7"
