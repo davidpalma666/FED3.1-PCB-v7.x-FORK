@@ -2907,7 +2907,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k2"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "1b477096-7681-4def-ab35-c58f12a57bcf")
@@ -2931,7 +2931,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 2.2kΩ ±1% 0.100W"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2944,7 +2944,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020006"
+		(property "OEPSPN" "OEPS020174"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2957,7 +2957,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1001X"
+		(property "MPN" "ERJ-2RKF2201X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20148,7 +20148,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k2"
 			(at 0 1.17 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20173,7 +20173,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 2.2kΩ ±1% 0.100W"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20186,7 +20186,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020006"
+		(property "OEPSPN" "OEPS020174"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20199,7 +20199,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1001X"
+		(property "MPN" "ERJ-2RKF2201X"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

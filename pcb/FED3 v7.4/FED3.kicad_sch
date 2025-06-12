@@ -6544,7 +6544,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k2"
 			(at 211.582 48.006 90)
 			(effects
 				(font
@@ -6571,7 +6571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 2.2kΩ ±1% 0.100W"
 			(at 213.36 43.18 0)
 			(effects
 				(font
@@ -6580,7 +6580,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020006"
+		(property "OEPSPN" "OEPS020174"
 			(at 213.36 43.18 0)
 			(effects
 				(font
@@ -6589,7 +6589,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1001X"
+		(property "MPN" "ERJ-2RKF2201X"
 			(at 213.36 43.18 0)
 			(effects
 				(font
@@ -8504,7 +8504,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k2"
 			(at 220.726 50.038 0)
 			(effects
 				(font
@@ -8531,7 +8531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 2.2kΩ ±1% 0.100W"
 			(at 222.25 48.26 0)
 			(effects
 				(font
@@ -8540,7 +8540,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020006"
+		(property "OEPSPN" "OEPS020174"
 			(at 222.25 48.26 0)
 			(effects
 				(font
@@ -8549,7 +8549,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1001X"
+		(property "MPN" "ERJ-2RKF2201X"
 			(at 222.25 48.26 0)
 			(effects
 				(font
