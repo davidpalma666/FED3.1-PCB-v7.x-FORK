@@ -141,6 +141,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -1048,7 +1049,6 @@
 		(path "/f4901940-5078-48a6-adaa-a0748712c93b/90820b62-07d2-43b9-ac46-b5e66c157570")
 		(sheetname "/controler stage/")
 		(sheetfile "controler stage.kicad_sch")
-		(attr exclude_from_pos_files)
 		(fp_line
 			(start -5.715 1.27)
 			(end -6.985 1.27)
@@ -6252,7 +6252,7 @@
 		(path "/f4901940-5078-48a6-adaa-a0748712c93b/a891a6a8-735c-4430-b703-9aba4f2d3d1c")
 		(sheetname "/controler stage/")
 		(sheetfile "controler stage.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole)
 		(fp_line
 			(start 3.92 -1.38)
 			(end 3.92 6.46)
@@ -14303,7 +14303,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8572e387-f0ad-4d58-a78b-04f8701294c7")
+			(uuid "e84f6a19-fc6b-465e-97e7-f017e71aefdc")
 			(effects
 				(font
 					(size 1 1)
@@ -14311,11 +14311,11 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "Qwiic"
 			(at 0 3.3 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6993bed7-dbed-47ef-b82a-d377a0171879")
+			(uuid "57937a49-8f25-4d08-9319-dbafc5e25bbb")
 			(effects
 				(font
 					(size 1 1)
@@ -14328,7 +14328,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6403e9e0-b40e-40c7-bc7f-f65c85d9d288")
+			(uuid "9cedc395-01d9-40ef-923a-bdd47cd26d54")
 			(effects
 				(font
 					(size 1 1)
@@ -14341,7 +14341,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "522639e0-963a-4ebd-a1dc-f93ab616b83d")
+			(uuid "138cf3bc-1216-47ed-9c54-2a946ecd3094")
 			(effects
 				(font
 					(size 1 1)
@@ -14349,7 +14349,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS070125"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14362,7 +14362,7 @@
 				)
 			)
 		)
-		(property "MPN" "n.a."
+		(property "MPN" "BM04B-SRSS-TB(LF)(SN)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17877,7 +17877,6 @@
 		(path "/0f6abddb-bda7-4f91-ad64-74320cf41b9a")
 		(sheetname "/")
 		(sheetfile "FED3.kicad_sch")
-		(attr exclude_from_pos_files)
 		(fp_line
 			(start 3.7 2.3575)
 			(end 3.7 -3.3925)
@@ -20032,7 +20031,7 @@
 		(path "/91f92fff-cc86-4ce2-a671-c31760f8020c/26d5d232-c57f-4950-a7fb-e9734ba2548e")
 		(sheetname "/IOs Interface/")
 		(sheetfile "IOs Interface.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole)
 		(fp_line
 			(start -3.998 -0.004)
 			(end -5.35 -0.004)
@@ -20221,7 +20220,7 @@
 		(path "/ea0f59f8-c804-4c5e-abb2-f47d91beb7af")
 		(sheetname "/")
 		(sheetfile "FED3.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(fp_line
 			(start -6.35 -0.635)
 			(end -6.35 0.635)
@@ -27681,7 +27680,7 @@
 		)
 	)
 	(gr_text "Qwiic"
-		(at 127.92 118.82 0)
+		(at 128.08 119.06 0)
 		(layer "F.SilkS")
 		(uuid "2f823456-d219-4873-90b4-88f3533ab15c")
 		(effects
@@ -27730,7 +27729,7 @@
 		)
 	)
 	(gr_text "STEMMA QT"
-		(at 127.92 117.29 0)
+		(at 128.08 117.53 0)
 		(layer "F.SilkS")
 		(uuid "559f5c3f-0737-4110-a63e-f5c9e1b813ba")
 		(effects
@@ -27851,7 +27850,7 @@
 		)
 	)
 	(gr_text "CHARGING"
-		(at 199.704163 105.423767 90)
+		(at 199.95 105.41 90)
 		(layer "F.SilkS")
 		(uuid "a385c754-6ace-422e-b647-769c53f83908")
 		(effects
@@ -27971,14 +27970,15 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text ".1"
+	(gr_text ".2"
 		(at 110.7 96.628 0)
 		(layer "F.SilkS")
 		(uuid "f001c6da-cecb-4dc1-9b95-5d52e06a04e9")
 		(effects
 			(font
 				(size 1.64084 1.64084)
-				(thickness 0.28956)
+				(thickness 0.328168)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -27989,7 +27989,7 @@
 		(uuid "f35c561f-5ed9-4965-bad6-2a4db996a53d")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 1)
 				(thickness 0.2)
 			)
 			(justify left bottom)

@@ -7456,7 +7456,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "Qwiic"
 			(at 77.47 161.29 0)
 			(effects
 				(font
@@ -7493,7 +7493,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS070125"
 			(at 71.12 168.91 0)
 			(effects
 				(font
@@ -7502,7 +7502,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "n.a."
+		(property "MPN" "BM04B-SRSS-TB(LF)(SN)"
 			(at 71.12 168.91 0)
 			(effects
 				(font

@@ -3579,7 +3579,7 @@
 	)
 	(text "5.0K  = 200mA"
 		(exclude_from_sim no)
-		(at 207.645 34.29 0)
+		(at 207.772 32.385 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -3611,6 +3611,17 @@
 		)
 		(uuid "b71eeb16-4bf1-4f78-8ddc-0e92d99eae93")
 	)
+	(text "2.2K  = 455mA"
+		(exclude_from_sim no)
+		(at 207.772 34.29 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcc511a9-b65d-4905-8c5e-3d303413fc02")
+	)
 	(text "1.0K  = 1000mA"
 		(exclude_from_sim no)
 		(at 207.645 38.1 0)
@@ -3624,7 +3635,7 @@
 	)
 	(text "10K  = 100mA"
 		(exclude_from_sim no)
-		(at 207.645 32.385 0)
+		(at 207.772 30.48 0)
 		(effects
 			(font
 				(size 1.2 1.2)
