@@ -533,7 +533,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Gerbers&Drills/",
-      "pos_files": "",
+      "pos_files": "PickPlace & BOM/",
       "specctra_dsn": "",
       "step": "FED3_v7.3.step",
       "svg": "",

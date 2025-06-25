@@ -1048,6 +1048,7 @@
 		(path "/f4901940-5078-48a6-adaa-a0748712c93b/90820b62-07d2-43b9-ac46-b5e66c157570")
 		(sheetname "/controler stage/")
 		(sheetfile "controler stage.kicad_sch")
+		(attr exclude_from_pos_files)
 		(fp_line
 			(start -5.715 1.27)
 			(end -6.985 1.27)
@@ -6251,7 +6252,7 @@
 		(path "/f4901940-5078-48a6-adaa-a0748712c93b/a891a6a8-735c-4430-b703-9aba4f2d3d1c")
 		(sheetname "/controler stage/")
 		(sheetfile "controler stage.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 3.92 -1.38)
 			(end 3.92 6.46)
@@ -17876,6 +17877,7 @@
 		(path "/0f6abddb-bda7-4f91-ad64-74320cf41b9a")
 		(sheetname "/")
 		(sheetfile "FED3.kicad_sch")
+		(attr exclude_from_pos_files)
 		(fp_line
 			(start 3.7 2.3575)
 			(end 3.7 -3.3925)
@@ -20030,7 +20032,7 @@
 		(path "/91f92fff-cc86-4ce2-a671-c31760f8020c/26d5d232-c57f-4950-a7fb-e9734ba2548e")
 		(sheetname "/IOs Interface/")
 		(sheetfile "IOs Interface.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -3.998 -0.004)
 			(end -5.35 -0.004)
@@ -20219,7 +20221,7 @@
 		(path "/ea0f59f8-c804-4c5e-abb2-f47d91beb7af")
 		(sheetname "/")
 		(sheetfile "FED3.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.35 -0.635)
 			(end -6.35 0.635)
