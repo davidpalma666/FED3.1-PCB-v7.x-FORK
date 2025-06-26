@@ -1018,7 +1018,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS070118"
+		(property "OEPSPN" "_ acrescentar PN ecrã ou header 90º?"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1031,7 +1031,7 @@
 				)
 			)
 		)
-		(property "MPN" "61300611021"
+		(property "MPN" "_ acrescentar PN ecrã ou header 90º?"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1048,6 +1048,7 @@
 		(path "/f4901940-5078-48a6-adaa-a0748712c93b/90820b62-07d2-43b9-ac46-b5e66c157570")
 		(sheetname "/controler stage/")
 		(sheetfile "controler stage.kicad_sch")
+		(attr through_hole)
 		(fp_line
 			(start -5.715 1.27)
 			(end -6.985 1.27)
@@ -1692,7 +1693,7 @@
 		(path "/8ff1c641-8a2b-4e34-842a-523c723979d6")
 		(sheetname "/")
 		(sheetfile "FED3.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 -0.7)
 			(end 0.7 0.7)
@@ -15478,7 +15479,7 @@
 		(path "/ecf6de63-fef5-41a2-a669-e30f14ced2d8")
 		(sheetname "/")
 		(sheetfile "FED3.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 -0.7)
 			(end 0.7 0.7)
@@ -17876,6 +17877,7 @@
 		(path "/0f6abddb-bda7-4f91-ad64-74320cf41b9a")
 		(sheetname "/")
 		(sheetfile "FED3.kicad_sch")
+		(attr through_hole)
 		(fp_line
 			(start 3.7 2.3575)
 			(end 3.7 -3.3925)
@@ -18550,6 +18552,7 @@
 		(path "/012b129d-4b9b-46d2-903e-06d564886bf7")
 		(sheetname "/")
 		(sheetfile "FED3.kicad_sch")
+		(attr through_hole)
 		(fp_line
 			(start -3.75 -2.9)
 			(end 3.75 -2.9)
@@ -19777,7 +19780,7 @@
 		(path "/47ef59bc-5a10-4747-8d85-95cc23ec3515")
 		(sheetname "/")
 		(sheetfile "FED3.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.2 -1.2)
 			(end 1.2 1.2)
@@ -20219,7 +20222,7 @@
 		(path "/ea0f59f8-c804-4c5e-abb2-f47d91beb7af")
 		(sheetname "/")
 		(sheetfile "FED3.kicad_sch")
-		(attr exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -6.35 -0.635)
 			(end -6.35 0.635)
@@ -22095,6 +22098,7 @@
 		(path "/91f92fff-cc86-4ce2-a671-c31760f8020c/d80942c9-1a44-44e7-8710-dd946cf5833b")
 		(sheetname "/IOs Interface/")
 		(sheetfile "IOs Interface.kicad_sch")
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start 11 3)
 			(end -3.5 3)
@@ -25297,6 +25301,7 @@
 		(path "/91f92fff-cc86-4ce2-a671-c31760f8020c/0079d86a-0354-4932-9f0e-a1b1087dcbce")
 		(sheetname "/IOs Interface/")
 		(sheetfile "IOs Interface.kicad_sch")
+		(attr through_hole)
 		(fp_line
 			(start 9.5 3.1)
 			(end 9.5 -3.1)
@@ -25305,7 +25310,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "a1747230-293c-47b1-bbb9-e89445164c9c")
+			(uuid "85e7e38c-026b-4c2a-ba75-8522136e0c3b")
 		)
 		(fp_line
 			(start 9.5 -3.1)
@@ -25315,7 +25320,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "b64373e0-ca8a-4c11-a585-1a81d5282f1f")
+			(uuid "cec0ad6f-e983-47a9-8570-bec7844d27e3")
 		)
 		(fp_line
 			(start -9.5 3.1)
@@ -25325,7 +25330,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "759cea5b-327b-4d8b-bfae-847712baa87c")
+			(uuid "b6ed5643-b099-496f-a1cb-242c451d7ea0")
 		)
 		(fp_line
 			(start -9.5 3.1)
@@ -25335,7 +25340,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "0a04cc2f-a3c2-4cef-bbf4-033a427d9f3b")
+			(uuid "8ef0fd9d-d5e6-47a4-8b2e-bf456ec412cd")
 		)
 		(fp_line
 			(start -9.5 -3.1)
@@ -25345,7 +25350,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "68ac1182-7eee-4392-896b-54970c76e342")
+			(uuid "8b4545c1-05f9-4f56-ac24-3fc38b1dda57")
 		)
 		(fp_rect
 			(start -9.5 3.1)
@@ -25356,21 +25361,21 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "0478abca-5c37-400d-98af-e0a37c6ea3d4")
+			(uuid "4dc00139-6511-48ed-98e3-b350bb225b24")
 		)
 		(pad "" np_thru_hole circle
 			(at -8.95 2)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "6cb0a010-f8c8-4960-9ea7-382d7c004c48")
+			(uuid "49bff43b-41b4-46c2-bb1d-5dbeaf839ddb")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 1.5 1.5)
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9e4eb428-7619-46f5-88f4-25a8dbd9c1c0")
+			(uuid "357a89f5-ca66-43b3-821b-98bbeb0db3cd")
 		)
 		(pad "1" thru_hole circle
 			(at -7.6 1.24)
@@ -25542,6 +25547,7 @@
 		(path "/91f92fff-cc86-4ce2-a671-c31760f8020c/82520579-93c6-43ee-b98d-ebb3ce4349da")
 		(sheetname "/IOs Interface/")
 		(sheetfile "IOs Interface.kicad_sch")
+		(attr through_hole)
 		(fp_line
 			(start 9.5 3.1)
 			(end 9.5 -3.1)
@@ -25550,7 +25556,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "b1102fab-206d-41d4-9fe1-363cd3ee16a6")
+			(uuid "afe8e184-b398-4bdd-9b4a-1423ab756688")
 		)
 		(fp_line
 			(start 9.5 -3.1)
@@ -25560,7 +25566,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "73f2c9b1-9dad-4a64-9aa1-9d81006aea1d")
+			(uuid "70e1a26b-f33c-4b5b-9179-ba9115f9650f")
 		)
 		(fp_line
 			(start -9.5 3.1)
@@ -25570,7 +25576,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "8e5533c4-6ac3-456c-94e3-b0610d0061b7")
+			(uuid "aaa52e2b-363c-4e15-9c00-f0fe71203c23")
 		)
 		(fp_line
 			(start -9.5 3.1)
@@ -25580,7 +25586,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "99895a36-c014-4333-adab-cfe539709e64")
+			(uuid "b286f33a-793e-4c81-b744-04b5907f0036")
 		)
 		(fp_line
 			(start -9.5 -3.1)
@@ -25590,7 +25596,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "45ba9fec-79d5-485c-a3c9-851a9c4a31f3")
+			(uuid "e09886e4-eb8f-4ee8-b5d6-6ab5ee101bb0")
 		)
 		(fp_rect
 			(start -9.5 3.1)
@@ -25601,21 +25607,21 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "3dc33c19-058b-4b29-aaf3-a8294c785e30")
+			(uuid "516447d9-3693-45b4-9215-2bd8ea7001d6")
 		)
 		(pad "" np_thru_hole circle
 			(at -8.95 2)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "88a71f75-ec16-45e4-b818-655e5a805408")
+			(uuid "f2f74dba-6a71-4331-8a3d-b69697161e01")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 1.5 1.5)
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "a1e996b3-d50e-49a6-92e0-0d15a9b416fc")
+			(uuid "7904fbb0-e91c-47d2-9a78-dd2bc3527b3f")
 		)
 		(pad "1" thru_hole circle
 			(at -7.6 1.24)
@@ -25787,6 +25793,7 @@
 		(path "/91f92fff-cc86-4ce2-a671-c31760f8020c/6eb1c2a6-95a2-4b0c-8a61-80d3f37774d5")
 		(sheetname "/IOs Interface/")
 		(sheetfile "IOs Interface.kicad_sch")
+		(attr through_hole)
 		(fp_line
 			(start 9.5 3.1)
 			(end 9.5 -3.1)
@@ -25795,7 +25802,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "e31ec447-8497-485b-9a71-7e72597f3b95")
+			(uuid "2e64146d-b464-43b7-9093-cae5366c7216")
 		)
 		(fp_line
 			(start 9.5 -3.1)
@@ -25805,7 +25812,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "9ff924bd-0ee4-4daa-a6b2-0604a990be87")
+			(uuid "18339290-f209-4baf-880a-aa7fe7b941c8")
 		)
 		(fp_line
 			(start -9.5 3.1)
@@ -25815,7 +25822,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "9c44914f-a336-4b4d-a3bd-270baabb92d9")
+			(uuid "96e78050-85e3-443c-934a-2679468f4419")
 		)
 		(fp_line
 			(start -9.5 3.1)
@@ -25825,7 +25832,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "8d13f077-396b-4f1a-8642-da269a6b1698")
+			(uuid "e95b298d-544b-448b-9c85-ebbe592a74a8")
 		)
 		(fp_line
 			(start -9.5 -3.1)
@@ -25835,7 +25842,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "126ce0fc-72cd-49b7-a923-90e47822b993")
+			(uuid "71daa2de-2af3-44e1-bc03-2d28934ad293")
 		)
 		(fp_rect
 			(start -9.5 3.1)
@@ -25846,21 +25853,21 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "ca2e3c99-5790-4aba-88d4-ee56689d15ad")
+			(uuid "08129262-1566-49a3-aa6d-f328614115fb")
 		)
 		(pad "" np_thru_hole circle
 			(at -8.95 2)
 			(size 0.7 0.7)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "7e38410b-93cc-441d-b72c-896fc156d0b3")
+			(uuid "89922d14-ea08-431c-9b01-1acb5a3254fe")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 1.5 1.5)
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "90c23446-20d6-46a2-ae5a-aeff7d9ac0ab")
+			(uuid "489dcd90-1fba-4aa8-8f8f-c4044b5ef1ce")
 		)
 		(pad "1" thru_hole circle
 			(at -7.6 1.24)

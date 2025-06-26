@@ -8254,7 +8254,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS070118"
+		(property "OEPSPN" "_ acrescentar PN ecrã ou header 90º?"
 			(at 38.1 167.64 0)
 			(effects
 				(font
@@ -8263,7 +8263,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "61300611021"
+		(property "MPN" "_ acrescentar PN ecrã ou header 90º?"
 			(at 38.1 167.64 0)
 			(effects
 				(font
