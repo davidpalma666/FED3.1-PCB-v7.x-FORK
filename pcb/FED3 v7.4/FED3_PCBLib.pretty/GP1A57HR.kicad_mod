@@ -51,6 +51,7 @@
 			)
 		)
 	)
+	(attr through_hole)
 	(fp_line
 		(start -9.5 -3.1)
 		(end -9.5 -3.1)
@@ -111,6 +112,30 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4e79ca32-2b7c-4b85-83e9-bf7f7156850d")
+	)
+	(fp_rect
+		(start -9.5 -3.1)
+		(end 9.5 3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "20226a8c-6e7b-403f-bdf3-2b540e046bb1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -4.2 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2506aec7-2fbd-46e6-9b54-fe2663d91790")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "" np_thru_hole circle
 		(at -8.95 -2 180)
