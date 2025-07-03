@@ -1,4 +1,37 @@
 
+
+
+*************************************************
+*	@2 Julho 2025
+*
+
+from jonnew
+https://github.com/KravitzLabDevices/FED3/issues/13
+
+. Review of hardware 7.4 #13
+
+1. "huge circle in the top silk layer"
+Don't have that circle on my 'fork' version.
+Also noticed about other differences on PCB file:
+ . layers setup to be diferent - which layer were hidden or not
+ . 'Zone Fills' to be drawn as Filled-Areas or Outlined
+ 
+ While looking & working is perfectly legitim to change setups mentioned above.
+ Maybe while doing it got that huge circle designed by mystake??
+ For now can't imagine other reason...
+
+2. "Fab layers are a mess".
+Fab is short for "fabrication" layer (not "fabulous" as you might have guessed).
+There's no requirement for it to contain anything or even to be sent to the PCB maker
+It's can be used as PCB design auxiliary. Or time loosing if you won't used it for anything.
+Characters & Numbers & Draws that will be printed on board are on Silkcreen layers, and this layers got and are 'clean'.
+
+
+3. "board version (7.4) is nowhere that I can see."
+
+
+
+
 *************************************************
 *	@28 Maio 2025
 *

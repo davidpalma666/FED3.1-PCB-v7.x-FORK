@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "587cc7c4-7482-421d-aaae-3c8e4857b225")
 	(paper "A4")
+	(title_block
+		(title "FED3 Control Board")
+		(rev "7.4")
+		(company "Kravitz Lab")
+		(comment 1 "Open Ephys, Inc.")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
@@ -8254,7 +8260,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "_ acrescentar PN ecrã ou header 90º?"
+		(property "OEPSPN" "OEPS070118"
 			(at 38.1 167.64 0)
 			(effects
 				(font
@@ -8263,7 +8269,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "_ acrescentar PN ecrã ou header 90º?"
+		(property "MPN" "61300611021"
 			(at 38.1 167.64 0)
 			(effects
 				(font
