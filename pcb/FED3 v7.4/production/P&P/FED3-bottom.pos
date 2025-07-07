@@ -1,4 +1,4 @@
-### Footprint positions - created on 2025-07-03T15:53:34+0100 ###
+### Footprint positions - created on 2025-07-04T09:52:52+0100 ###
 ### Printed by KiCad version 9.0.2
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -13,4 +13,5 @@ LED7      RGBLed    WS2812B            132.6519  -121.2660  -90.0000  bottom
 LED8      RGBLed    WS2812B            126.3019  -121.2660  -90.0000  bottom
 LED9      RGBLed    WS2812B            118.0011   -96.0004  180.0000  bottom
 LED10     RGBLed    WS2812B            179.0011   -96.0004  180.0000  bottom
+SW1       Sw        SSSS811101         199.4500  -121.0500  -90.0000  bottom
 ## End

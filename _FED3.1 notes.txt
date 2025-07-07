@@ -1,5 +1,18 @@
 
 
+*************************************************
+*	@4 Julho 2025
+*
+- hw foi para produção
+- footprints não totalmente em sintonia com as Libraries - propriedades mudadas
+	- MPN corrigidos pelo Filipe
+	- ficha USB & jack & switch: alterados para componentes SMD
+	- gerado novos ficheiros P&P
+	- mais algum alterado?? unsepecified 2 SMD?? - aqueles acima eram os criticos para aparecerem no P&P
+	- redesenhado layer de Fabrication
+
+
+
 
 *************************************************
 *	@2 Julho 2025

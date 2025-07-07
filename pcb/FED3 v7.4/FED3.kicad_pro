@@ -533,7 +533,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Gerbers&Drills/",
-      "pos_files": "PickPlace&BOM/",
+      "pos_files": "production/P&P/",
       "specctra_dsn": "",
       "step": "FED3_v7.3.step",
       "svg": "",
@@ -801,7 +801,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
