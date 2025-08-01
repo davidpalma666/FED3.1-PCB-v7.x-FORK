@@ -4253,6 +4253,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 166.37) (xy 105.41 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc24073-3a64-4eea-91d7-5ab922c3ab0d")
+	)
+	(wire
+		(pts
 			(xy 207.01 133.35) (xy 210.185 133.35)
 		)
 		(stroke
@@ -4403,7 +4413,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 154.305) (xy 105.41 157.48)
+			(xy 105.41 145.415) (xy 105.41 148.59)
 		)
 		(stroke
 			(width 0.1524)
@@ -4843,7 +4853,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 165.1) (xy 105.41 167.64)
+			(xy 105.41 156.21) (xy 105.41 158.75)
 		)
 		(stroke
 			(width 0.1524)
@@ -5752,7 +5762,7 @@
 		(uuid "b9382cfc-dd14-40d0-a986-5c27edfd1e95")
 	)
 	(label "D8"
-		(at 105.41 154.305 0)
+		(at 105.41 145.415 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6291,6 +6301,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 105.41 171.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03a2ce9c-0dfa-4f7e-a043-2159ecd6fdc8")
+		(property "Reference" "R13"
+			(at 99.06 169.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.27k"
+			(at 98.552 172.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 105.41 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0402 1.27kΩ ±1% 0.100W"
+			(at 105.41 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS020190"
+			(at 105.41 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW04021K27FKED"
+			(at 105.41 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f01f42f-1338-4ae8-9116-f544129a16ff")
+		)
+		(pin "2"
+			(uuid "50721e22-e0b2-45c5-a555-14126600d6cb")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/f4901940-5078-48a6-adaa-a0748712c93b"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 135.89 29.21 180)
 		(unit 1)
@@ -6534,7 +6632,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 105.41 161.29 90)
+		(at 105.41 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6542,7 +6640,7 @@
 		(dnp no)
 		(uuid "1ed7bd61-eba7-49f3-91ad-e747e4719eb4")
 		(property "Reference" "L1"
-			(at 107.188 159.639 90)
+			(at 107.188 150.749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6649,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 107.188 162.179 90)
+			(at 107.188 153.289 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6560,7 +6658,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 105.41 161.29 0)
+			(at 105.41 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,7 +6667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 161.29 0)
+			(at 105.41 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6676,7 @@
 			)
 		)
 		(property "Description" "LED 0603 Green 570nm 20mA"
-			(at 105.41 161.29 0)
+			(at 105.41 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6587,7 +6685,7 @@
 			)
 		)
 		(property "OEPSPN" "OEPS030005"
-			(at 105.41 161.29 0)
+			(at 105.41 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6596,7 +6694,7 @@
 			)
 		)
 		(property "MPN" "150060VS75000"
-			(at 105.41 161.29 0)
+			(at 105.41 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7446,6 +7544,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 105.41 162.56 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "661f1e43-fe82-4b7b-acc1-63612612140a")
+		(property "Reference" "R21"
+			(at 102.87 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 102.87 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 105.41 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
+			(at 105.41 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS020006"
+			(at 105.41 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1001X"
+			(at 105.41 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b983c174-f9fa-46df-9e0d-1373e5ef346e")
+		)
+		(pin "1"
+			(uuid "53953f3e-055d-48f6-81dc-16fb5f8d1070")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/f4901940-5078-48a6-adaa-a0748712c93b"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 71.12 168.91 180)
 		(unit 1)
@@ -7801,94 +7988,6 @@
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/f4901940-5078-48a6-adaa-a0748712c93b"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 105.41 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8543562c-476c-43ae-9f6c-470455057dc6")
-		(property "Reference" "R13"
-			(at 107.696 171.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "2k2"
-			(at 107.696 173.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.127)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 105.41 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 2.2kΩ ±1% 0.100W"
-			(at 105.41 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPSPN" "OEPS020174"
-			(at 105.41 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-2RKF2201X"
-			(at 105.41 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ff8e8e7-eb5f-409e-8a24-3fc8d970ab74")
-		)
-		(pin "2"
-			(uuid "f13226a4-dcce-439f-813f-bcb86b97edb7")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/f4901940-5078-48a6-adaa-a0748712c93b"
-					(reference "R13")
 					(unit 1)
 				)
 			)

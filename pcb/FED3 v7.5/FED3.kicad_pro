@@ -519,8 +519,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers&Drills/",
-      "pos_files": "PickPlace&BOM/",
+      "plot": "production/P&P/",
+      "pos_files": "production/P&P/",
       "specctra_dsn": "",
       "step": "FED3_v7.3.step",
       "svg": "",
@@ -820,7 +820,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "OEPSPN"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

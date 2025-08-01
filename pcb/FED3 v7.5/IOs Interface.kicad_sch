@@ -3824,6 +3824,12 @@
 		)
 	)
 	(junction
+		(at 68.58 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18ea9935-ab88-4754-8798-01f3789f8373")
+	)
+	(junction
 		(at 142.24 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3860,6 +3866,12 @@
 		(uuid "57900acf-163f-41a2-85dd-2353ded779cd")
 	)
 	(junction
+		(at 64.77 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66004b41-025b-4339-8762-8bf877f5dd95")
+	)
+	(junction
 		(at 243.84 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3882,12 +3894,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b40273de-e42b-4062-b88a-019a39121890")
-	)
-	(junction
-		(at 66.04 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b553dd77-e1c5-4fb5-a475-ca08fc93e1ee")
 	)
 	(junction
 		(at 193.04 52.07)
@@ -4195,6 +4201,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 53.34) (xy 64.77 55.88)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "47b251e3-8c0e-4d7c-9e8e-cb266ed0ccf8")
+	)
+	(wire
+		(pts
 			(xy 86.36 127) (xy 86.36 129.54)
 		)
 		(stroke
@@ -4255,7 +4271,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 44.45) (xy 66.04 45.72)
+			(xy 68.58 44.45) (xy 68.58 45.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -4465,16 +4481,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 44.45) (xy 68.58 44.45)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "958ccb7a-549c-4a3c-9929-d83463337cfe")
-	)
-	(wire
-		(pts
 			(xy 38.1 45.72) (xy 38.1 52.07)
 		)
 		(stroke
@@ -4565,7 +4571,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 53.34) (xy 66.04 55.88)
+			(xy 68.58 53.34) (xy 68.58 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4705,6 +4711,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 44.45) (xy 68.58 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c27ccd1d-5358-46fc-af49-37d80698565b")
+	)
+	(wire
+		(pts
 			(xy 63.5 77.47) (xy 55.88 77.47)
 		)
 		(stroke
@@ -4725,7 +4741,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 44.45) (xy 63.5 44.45)
+			(xy 63.5 44.45) (xy 64.77 44.45)
 		)
 		(stroke
 			(width 0.1524)
@@ -4782,6 +4798,16 @@
 			(type solid)
 		)
 		(uuid "d64fe7fd-9a30-4708-aa1e-e712ab7f677d")
+	)
+	(wire
+		(pts
+			(xy 64.77 44.45) (xy 64.77 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75349a4-2dbb-4920-83bf-ca7a3be06c66")
 	)
 	(wire
 		(pts
@@ -5372,6 +5398,73 @@
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/91f92fff-cc86-4ce2-a671-c31760f8020c"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 64.77 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cdcfb87-f22d-4822-9153-aef7e5268f1f")
+		(property "Reference" "#PWR069"
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.992 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc625580-9fcd-4ab6-867e-16e871aac8f1")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/91f92fff-cc86-4ce2-a671-c31760f8020c"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6141,7 +6234,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 66.04 55.88 0)
+		(at 68.58 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6149,7 +6242,7 @@
 		(dnp no)
 		(uuid "54a1ba09-d6ad-4952-b6d0-c75173b3519e")
 		(property "Reference" "#PWR033"
-			(at 66.04 55.88 0)
+			(at 68.58 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,7 +6252,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.262 59.436 0)
+			(at 66.802 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,7 +6261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 55.88 0)
+			(at 68.58 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,7 +6270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 55.88 0)
+			(at 68.58 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,7 +6279,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 66.04 55.88 0)
+			(at 68.58 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +8392,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 66.04 49.53 180)
+		(at 68.58 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8307,7 +8400,7 @@
 		(dnp no)
 		(uuid "bfcfb571-d7f8-45f0-a9da-3d5c53b856d3")
 		(property "Reference" "R9"
-			(at 67.818 49.276 0)
+			(at 70.358 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8315,8 +8408,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "34k"
-			(at 67.818 51.816 0)
+		(property "Value" "100k 0.1%"
+			(at 70.358 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8418,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 49.53 0)
+			(at 68.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,7 +8427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 49.53 0)
+			(at 68.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8343,7 +8436,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 34kΩ ±0.1% 0.063W"
-			(at 66.04 49.53 0)
+			(at 68.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,8 +8444,8 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020044"
-			(at 66.04 49.53 0)
+		(property "OEPSPN" "OEPS020175"
+			(at 68.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,8 +8453,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0402BRD0734KL"
-			(at 66.04 49.53 0)
+		(property "MPN" "RG1005P-104-B-T5"
+			(at 68.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,6 +8769,94 @@
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/91f92fff-cc86-4ce2-a671-c31760f8020c"
 					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 64.77 49.53 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd16989d-3eeb-485a-b5e1-219cd22c426a")
+		(property "Reference" "R22"
+			(at 62.23 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k 0.1%"
+			(at 62.23 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 64.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0402 34kΩ ±0.1% 0.063W"
+			(at 64.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS020175"
+			(at 64.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RG1005P-104-B-T5"
+			(at 64.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17d20865-1acd-42aa-a7a5-972b2867376b")
+		)
+		(pin "1"
+			(uuid "a9f160a2-5fe8-4fed-b51b-93ed714ee71d")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/91f92fff-cc86-4ce2-a671-c31760f8020c"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -9345,7 +9526,7 @@
 		(dnp no)
 		(uuid "e26015a3-9865-478f-9c6b-170f22881f2e")
 		(property "Reference" "IC1"
-			(at 42.926 49.022 0)
+			(at 42.926 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9354,7 +9535,7 @@
 			)
 		)
 		(property "Value" "MC74VHC1GT125"
-			(at 42.926 51.562 0)
+			(at 42.926 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
