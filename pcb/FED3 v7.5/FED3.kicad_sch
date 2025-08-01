@@ -7194,7 +7194,7 @@
 			(fill
 				(type none)
 			)
-			(uuid f600251f-1de1-47f1-9419-c6651b562382)
+			(uuid b162783c-bf87-493b-94e9-e3cc041e7821)
 		)
 	)
 	(symbol
@@ -10137,10 +10137,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "888e8a81-3926-4fdf-b1ea-daf4926d97ef")
-		(property "Reference" "D9"
-			(at 121.92 41.91 0)
+		(property "Reference" "D1"
+			(at 115.824 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,7 +10235,7 @@
 		(instances
 			(project "FED3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "D9")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10422,21 +10421,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "92a9bdfa-a95c-49cb-abae-ea39c99e89c6")
-		(property "Reference" "R267"
-			(at 91.44 71.12 90)
+		(property "Reference" "R24"
+			(at 91.44 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "5.1k"
-			(at 93.98 71.12 90)
+			(at 91.44 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -10528,7 +10530,7 @@
 		(instances
 			(project "FED3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "R267")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -12796,21 +12798,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "fc793be7-fbcf-40e7-8471-4a2e9127b96e")
-		(property "Reference" "R266"
-			(at 82.55 71.12 90)
+		(property "Reference" "R23"
+			(at 82.55 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "5.1k"
-			(at 85.09 71.12 90)
+			(at 82.55 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -12902,7 +12907,7 @@
 		(instances
 			(project "FED3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "R266")
+					(reference "R23")
 					(unit 1)
 				)
 			)

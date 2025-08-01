@@ -11,7 +11,7 @@
 		(comment 1 "Open Ephys, Inc.")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -20,14 +20,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
+			(property "Value" "Conn_01x05"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -53,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,9 +80,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x05_1_1"
 				(rectangle
-					(start -1.27 3.81)
+					(start -1.27 6.35)
 					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
@@ -90,6 +90,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -137,7 +148,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -155,7 +166,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -173,7 +184,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -191,7 +202,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -201,6 +212,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4148,6 +4177,10 @@
 		(uuid "d95449c6-9907-4b15-b66d-5ce0f634f19c")
 	)
 	(no_connect
+		(at 77.47 161.29)
+		(uuid "e43165bd-7680-4666-b943-81318f097f4c")
+	)
+	(no_connect
 		(at 120.65 67.31)
 		(uuid "e45081f9-1736-4cf4-8523-ce655aedcbbc")
 	)
@@ -4770,6 +4803,16 @@
 			(type solid)
 		)
 		(uuid "6d94823e-ae58-45e7-bb5d-4dd583829350")
+	)
+	(wire
+		(pts
+			(xy 77.47 161.29) (xy 76.2 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dcdb5ba-3a18-4e5f-bcca-fcdfec675e6e")
 	)
 	(wire
 		(pts
@@ -7633,8 +7676,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 71.12 168.91 180)
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 71.12 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7642,7 +7685,7 @@
 		(dnp no)
 		(uuid "6f0b4202-e861-4a3c-a071-417007c02607")
 		(property "Reference" "AUX_I2C0"
-			(at 72.644 160.02 0)
+			(at 72.644 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7650,7 +7693,7 @@
 			)
 		)
 		(property "Value" "Qwiic"
-			(at 77.47 161.29 0)
+			(at 77.47 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7660,7 +7703,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 71.12 168.91 0)
+			(at 71.12 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7669,7 +7712,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 168.91 0)
+			(at 71.12 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,8 +7720,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 71.12 168.91 0)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 71.12 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +7730,7 @@
 			)
 		)
 		(property "OEPSPN" "OEPS070125"
-			(at 71.12 168.91 0)
+			(at 71.12 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7696,7 +7739,7 @@
 			)
 		)
 		(property "MPN" "BM04B-SRSS-TB(LF)(SN)"
-			(at 71.12 168.91 0)
+			(at 71.12 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7715,6 +7758,9 @@
 		)
 		(pin "1"
 			(uuid "c1315a8d-b80f-4393-8e15-987609392e7c")
+		)
+		(pin "5"
+			(uuid "614f4f7c-b188-4c4f-9515-85b6a891a10c")
 		)
 		(instances
 			(project "FED3_v7.3"
