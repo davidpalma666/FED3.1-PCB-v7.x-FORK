@@ -1,27 +1,4 @@
 
-*************************************************
-*	@26 Agosto 2025
-*
->> FED3.1
-	. meu @8 Agosto
-		. Foi programado e viu-se as coisas a 'mexer', power e programação e LCD ok
-		
-	. Filipe @21 Agosto
-			Percebi que o FED3 não carregava com um dos carregadores USB-C que tinha comigo
-			Depis de várias testes, uma resistência de 1k ohm entre os 5V da ficha USB e GND resolveu.
-					Dou como terminado oo desenvolvimento do FED3
-					
-					
-			Fica aqui o link para a versão com a resistência entre a tensão de 5V da ficha USB e GND. Usei 330 ohms para termos mais corrente.
-			https://github.com/KravitzLabDevices/FED3/tree/df9cc5ba60b0ba6e178a161061aa71733f4ab352
-		. ecrã do FED3 passa a ter o OEPS PN OEPS100071
-		. em produção 200un 
-			
-		. há ainda as PNs a corrigir no projecto?? 
-		
-		. sincronizar com o meu fork com o main branch
-		
-		
 
 *************************************************
 *	@4 Julho 2025
@@ -68,9 +45,12 @@ Characters & Numbers & Draws that will be printed on board are on Silkcreen laye
 
 
 
-		
-		
-		
+*************************************************
+*	@28 Maio 2025
+*
+
+
+
 	
 *************************************************
 *	@28 Maio 2025
@@ -156,22 +136,22 @@ Characters & Numbers & Draws that will be printed on board are on Silkcreen laye
 	- pinout fichas de Atmel-ICE programmer para  Feather M0 Adalogger 
 	
 		. tem de ser flat cable c\ condutores separados !!
-				=>	o	o	o			#4	nc	#6				(top view & view from PCB edge)
-						o	o	o			#1	#5	#2		
-					
-					=> AVR port => OK para o u !!!!!!!!!!!!1
-	
-	
+		. a ficha 3x2 não tem IOs necessários. Pinout:
+				=>	#fio do flat q estão ligados na ficha 3x2	
+				=>	o	o	o			#4	#9	#2				(top view)
+						o	o	o			#3	#1	#6		
+							||
+				=>	FICHA NÃO UTILÁVEL EM NENHUMA DAS CONFIGURAÇÕES !!!
+
 		. pinout para condutores separados:	
 				. AVR port
 						#1 	SWCLCK		TCK	(verde)
 						#2 	GND			GND
-						#3 	n.c.				SWO = Serial Wire Output (optional- not implemented on all devices)
+													#3 	n.c.				SWO = Serial Wire Output (optional- not implemented on all devices)
 						#4 	3V3				VTG
 						#5 	SWDIO		Serial Wire Debug Data Input/Output		(azul)
 						#6 	RST				nRESET
-			
-			
+					
 				. SAM port
 						#1 	3V3				VTG
 						#2 	SWDIO		Serial Wire Debug Data Input/Output		(azul)
@@ -179,14 +159,6 @@ Characters & Numbers & Draws that will be printed on board are on Silkcreen laye
 						#4 	SWCLCK		TCK	(verde)
 													#6	n.c.				SWO = Serial Wire Output (optional- not implemented on all devices)
 						#10 	RST				nRESET
-
-	
-				. a ficha 3x2 não tem IOs necessários. Pinout:
-						=>	#fio do flat q estão ligados na ficha 3x2	
-						=>	o	o	o			#4	#9	#2				(top view)
-								o	o	o			#3	#1	#6		
-									||
-						=>	FICHA NÃO UTILÁVEL EM NENHUMA DAS CONFIGURAÇÕES !!!
 
 
 
