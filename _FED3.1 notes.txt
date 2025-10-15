@@ -1,4 +1,13 @@
 
+
+https://github.com/davidpalma666/FED3.1-PCB-v7.x-FORK
+
+
+
+
+
+
+
 *************************************************
 *	@26 Agosto 2025
 *
@@ -19,7 +28,7 @@
 			
 		. há ainda as PNs a corrigir no projecto?? 
 		
-		. sincronizar com o meu fork com o main branch
+		. sincronizar o meu fork com o main branch
 		
 		
 
@@ -35,6 +44,7 @@
 	- redesenhado layer de Fabrication
 
 
+- produzir documentação para Manufacturers programarem fws: para testes & final
 
 
 *************************************************
@@ -356,9 +366,6 @@ https://www.digikey.pt/en/products/detail/cit-relay-and-switch/ct11027-0f160/125
 *************************************************
 *@21 Janeiro 2025
 
-
-
-
 - Board redesenhada: integração de Atmel 'as-is' na nossa board
 
 >> substituir componentes da board Atmel, por componentes nossos & similares:
@@ -435,6 +442,13 @@ https://www.digikey.pt/en/products/detail/cit-relay-and-switch/ct11027-0f160/125
 *************************************************
 *@2 Janeiro 2025
 
+	:: início Janeiro 2025
+	1. FED3.1	> produto de controle acção-recompensa para ratos
+		- objectivo:
+			integração do kit Arduino 'Feather M0 Adalogger' na nossa main board FED3.1
+		
+		
+		
 . 	O FED3 base PCB está nesta pasta do Google Drive
 \production files\FED3\OEPS-7504 - FED3.1 PCB\pcb\v7.2\oeps files\
 
@@ -450,5 +464,12 @@ https://www.digikey.pt/en/products/detail/cit-relay-and-switch/ct11027-0f160/125
 . Os ficheiros do módulo Adalogger
 	https://github.com/adafruit/Adafruit-Feather-M0-Adalogger-PCB
 	
+
+	
+
+**************************************************************************************************
+**************************************************************************************************
+
+
 
 	
