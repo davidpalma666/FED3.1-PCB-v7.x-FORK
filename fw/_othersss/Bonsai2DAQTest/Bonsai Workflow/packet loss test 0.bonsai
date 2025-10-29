@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowBuilder Version="2.7.1"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:gl="clr-namespace:Bonsai.Shaders;assembly=Bonsai.Shaders"
+                 xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                 xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
+                 xmlns:harp="clr-namespace:Bonsai.Harp;assembly=Bonsai.Harp"
+                 xmlns="https://bonsai-rx.org/2018/workflow">
+  <Workflow>
+    <Nodes>
+      <Expression xsi:type="GroupWorkflow">
+        <Name>PulseCounter</Name>
+        <Workflow>
+          <Nodes>
+            <Expression xsi:type="ExternalizedMapping">
+              <Property Name="Period" />
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="gl:Timer">
+                <gl:DueTime>PT1S</gl:DueTime>
+                <gl:Period>PT0.015S</gl:Period>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="ExternalizedMapping">
+              <Property Name="Value" DisplayName="CountStop" />
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="IntProperty">
+                <Value>3000</Value>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="Multiply">
+              <Operand xsi:type="WorkflowProperty" TypeArguments="sys:Int64">
+                <Value>2</Value>
+              </Operand>
+            </Expression>
+            <Expression xsi:type="PropertyMapping">
+              <PropertyMappings>
+                <Property Name="Value" />
+              </PropertyMappings>
+            </Expression>
+            <Expression xsi:type="rx:Condition">
+              <Workflow>
+                <Nodes>
+                  <Expression xsi:type="WorkflowInput">
+                    <Name>Source1</Name>
+                  </Expression>
+                  <Expression xsi:type="ExternalizedMapping">
+                    <Property Name="Value" />
+                  </Expression>
+                  <Expression xsi:type="LessThan">
+                    <Operand xsi:type="WorkflowProperty" TypeArguments="sys:Int64">
+                      <Value>6000</Value>
+                    </Operand>
+                  </Expression>
+                  <Expression xsi:type="WorkflowOutput" />
+                </Nodes>
+                <Edges>
+                  <Edge From="0" To="2" Label="Source1" />
+                  <Edge From="1" To="2" Label="Source2" />
+                  <Edge From="2" To="3" Label="Source1" />
+                </Edges>
+              </Workflow>
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="BooleanProperty">
+                <Value>true</Value>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="WorkflowOutput" />
+          </Nodes>
+          <Edges>
+            <Edge From="0" To="1" Label="Source1" />
+            <Edge From="1" To="6" Label="Source1" />
+            <Edge From="2" To="3" Label="Source1" />
+            <Edge From="3" To="4" Label="Source1" />
+            <Edge From="4" To="5" Label="Source1" />
+            <Edge From="5" To="6" Label="Source2" />
+            <Edge From="6" To="7" Label="Source1" />
+            <Edge From="7" To="8" Label="Source1" />
+          </Edges>
+        </Workflow>
+      </Expression>
+      <Expression xsi:type="GroupWorkflow">
+        <Name>Create15Messages</Name>
+        <Workflow>
+          <Nodes>
+            <Expression xsi:type="WorkflowInput">
+              <Name>Source1</Name>
+            </Expression>
+            <Expression xsi:type="ExternalizedMapping">
+              <Property Name="Address" />
+            </Expression>
+            <Expression xsi:type="ExternalizedMapping">
+              <Property Name="PayloadType" />
+            </Expression>
+            <Expression xsi:type="ExternalizedMapping">
+              <Property Name="Payload" />
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="harp:CreateMessage">
+                <harp:MessageType>Write</harp:MessageType>
+                <harp:Address>8</harp:Address>
+                <harp:PayloadType>U32</harp:PayloadType>
+                <harp:Payload>1</harp:Payload>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="harp:CreateMessage">
+                <harp:MessageType>Write</harp:MessageType>
+                <harp:Address>8</harp:Address>
+                <harp:PayloadType>U32</harp:PayloadType>
+                <harp:Payload>1</harp:Payload>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="harp:CreateMessage">
+                <harp:MessageType>Write</harp:MessageType>
+                <harp:Address>8</harp:Address>
+                <harp:PayloadType>U32</harp:PayloadType>
+                <harp:Payload>1</harp:Payload>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="rx:Merge" />
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="rx:Merge" />
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="rx:Merge" />
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="rx:Merge" />
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="rx:Merge" />
+            </Expression>
+            <Expression xsi:type="WorkflowOutput" />
+          </Nodes>
+          <Edges>
+            <Edge From="0" To="4" Label="Source1" />
+            <Edge From="0" To="5" Label="Source1" />
+            <Edge From="0" To="6" Label="Source1" />
+            <Edge From="1" To="4" Label="Source2" />
+            <Edge From="1" To="5" Label="Source2" />
+            <Edge From="1" To="6" Label="Source2" />
+            <Edge From="2" To="4" Label="Source3" />
+            <Edge From="2" To="5" Label="Source3" />
+            <Edge From="2" To="6" Label="Source3" />
+            <Edge From="3" To="4" Label="Source4" />
+            <Edge From="3" To="5" Label="Source4" />
+            <Edge From="3" To="6" Label="Source4" />
+            <Edge From="4" To="7" Label="Source1" />
+            <Edge From="4" To="8" Label="Source1" />
+            <Edge From="5" To="7" Label="Source2" />
+            <Edge From="5" To="8" Label="Source2" />
+            <Edge From="5" To="10" Label="Source4" />
+            <Edge From="6" To="7" Label="Source3" />
+            <Edge From="6" To="8" Label="Source3" />
+            <Edge From="6" To="9" Label="Source3" />
+            <Edge From="6" To="10" Label="Source3" />
+            <Edge From="7" To="9" Label="Source1" />
+            <Edge From="7" To="10" Label="Source1" />
+            <Edge From="8" To="9" Label="Source2" />
+            <Edge From="8" To="10" Label="Source2" />
+            <Edge From="9" To="11" Label="Source1" />
+            <Edge From="10" To="11" Label="Source2" />
+            <Edge From="11" To="12" Label="Source1" />
+          </Edges>
+        </Workflow>
+      </Expression>
+      <Expression xsi:type="Disable">
+        <Builder xsi:type="GroupWorkflow">
+          <Name>Create7Messages</Name>
+          <Workflow>
+            <Nodes>
+              <Expression xsi:type="WorkflowInput">
+                <Name>Source1</Name>
+              </Expression>
+              <Expression xsi:type="ExternalizedMapping">
+                <Property Name="Address" />
+              </Expression>
+              <Expression xsi:type="ExternalizedMapping">
+                <Property Name="PayloadType" />
+              </Expression>
+              <Expression xsi:type="ExternalizedMapping">
+                <Property Name="Payload" />
+              </Expression>
+              <Expression xsi:type="Combinator">
+                <Combinator xsi:type="harp:CreateMessage">
+                  <harp:MessageType>Write</harp:MessageType>
+                  <harp:Address>8</harp:Address>
+                  <harp:PayloadType>U32</harp:PayloadType>
+                  <harp:Payload>1</harp:Payload>
+                </Combinator>
+              </Expression>
+              <Expression xsi:type="Combinator">
+                <Combinator xsi:type="harp:CreateMessage">
+                  <harp:MessageType>Write</harp:MessageType>
+                  <harp:Address>8</harp:Address>
+                  <harp:PayloadType>U32</harp:PayloadType>
+                  <harp:Payload>1</harp:Payload>
+                </Combinator>
+              </Expression>
+              <Expression xsi:type="Combinator">
+                <Combinator xsi:type="harp:CreateMessage">
+                  <harp:MessageType>Write</harp:MessageType>
+                  <harp:Address>8</harp:Address>
+                  <harp:PayloadType>U32</harp:PayloadType>
+                  <harp:Payload>1</harp:Payload>
+                </Combinator>
+              </Expression>
+              <Expression xsi:type="Combinator">
+                <Combinator xsi:type="rx:Merge" />
+              </Expression>
+              <Expression xsi:type="Combinator">
+                <Combinator xsi:type="rx:Merge" />
+              </Expression>
+              <Expression xsi:type="Combinator">
+                <Combinator xsi:type="rx:Merge" />
+              </Expression>
+              <Expression xsi:type="WorkflowOutput" />
+            </Nodes>
+            <Edges>
+              <Edge From="0" To="4" Label="Source1" />
+              <Edge From="0" To="5" Label="Source1" />
+              <Edge From="0" To="6" Label="Source1" />
+              <Edge From="1" To="4" Label="Source2" />
+              <Edge From="1" To="5" Label="Source2" />
+              <Edge From="1" To="6" Label="Source2" />
+              <Edge From="2" To="4" Label="Source3" />
+              <Edge From="2" To="5" Label="Source3" />
+              <Edge From="2" To="6" Label="Source3" />
+              <Edge From="3" To="4" Label="Source4" />
+              <Edge From="3" To="5" Label="Source4" />
+              <Edge From="3" To="6" Label="Source4" />
+              <Edge From="4" To="7" Label="Source1" />
+              <Edge From="4" To="8" Label="Source1" />
+              <Edge From="5" To="7" Label="Source2" />
+              <Edge From="5" To="8" Label="Source2" />
+              <Edge From="6" To="7" Label="Source3" />
+              <Edge From="6" To="8" Label="Source3" />
+              <Edge From="6" To="9" Label="Source3" />
+              <Edge From="7" To="9" Label="Source1" />
+              <Edge From="8" To="9" Label="Source2" />
+              <Edge From="9" To="10" Label="Source1" />
+            </Edges>
+          </Workflow>
+        </Builder>
+      </Expression>
+      <Expression xsi:type="MulticastSubject">
+        <Name>WallCommands</Name>
+      </Expression>
+      <Expression xsi:type="GroupWorkflow">
+        <Name>RegWriteCounter</Name>
+        <Workflow>
+          <Nodes>
+            <Expression xsi:type="SubscribeSubject">
+              <Name>WallCommands</Name>
+            </Expression>
+            <Expression xsi:type="SubscribeSubject">
+              <Name>WallEvents</Name>
+            </Expression>
+            <Expression xsi:type="ExternalizedMapping">
+              <Property Name="Address" DisplayName="RegisterAddress" />
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="harp:FilterMessage">
+                <harp:Address>8</harp:Address>
+                <harp:MessageType>Write</harp:MessageType>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="IntProperty">
+                <Value>1</Value>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="rx:Accumulate" />
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="harp:FilterMessage">
+                <harp:Address>8</harp:Address>
+                <harp:MessageType>Write</harp:MessageType>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="IntProperty">
+                <Value>1</Value>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="rx:Accumulate" />
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="rx:CombineLatest" />
+            </Expression>
+            <Expression xsi:type="WorkflowOutput" />
+          </Nodes>
+          <Edges>
+            <Edge From="0" To="3" Label="Source1" />
+            <Edge From="1" To="6" Label="Source1" />
+            <Edge From="2" To="3" Label="Source2" />
+            <Edge From="2" To="6" Label="Source2" />
+            <Edge From="3" To="4" Label="Source1" />
+            <Edge From="4" To="5" Label="Source1" />
+            <Edge From="5" To="9" Label="Source1" />
+            <Edge From="6" To="7" Label="Source1" />
+            <Edge From="7" To="8" Label="Source1" />
+            <Edge From="8" To="9" Label="Source2" />
+            <Edge From="9" To="10" Label="Source1" />
+          </Edges>
+        </Workflow>
+      </Expression>
+      <Expression xsi:type="Subtract" />
+      <Expression xsi:type="GroupWorkflow">
+        <Name>Hardware</Name>
+        <Workflow>
+          <Nodes>
+            <Expression xsi:type="rx:BehaviorSubject" TypeArguments="harp:HarpMessage">
+              <rx:Name>WallCommands</rx:Name>
+            </Expression>
+            <Expression xsi:type="ExternalizedMapping">
+              <Property Name="PortName" />
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="harp:Device">
+                <harp:DeviceState>Active</harp:DeviceState>
+                <harp:DumpRegisters>true</harp:DumpRegisters>
+                <harp:LedState>On</harp:LedState>
+                <harp:VisualIndicators>On</harp:VisualIndicators>
+                <harp:Heartbeat>Disable</harp:Heartbeat>
+                <harp:IgnoreErrors>false</harp:IgnoreErrors>
+                <harp:PortName>COM9</harp:PortName>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="rx:PublishSubject">
+              <Name>WallEvents</Name>
+            </Expression>
+          </Nodes>
+          <Edges>
+            <Edge From="0" To="2" Label="Source1" />
+            <Edge From="1" To="2" Label="Source2" />
+            <Edge From="2" To="3" Label="Source1" />
+          </Edges>
+        </Workflow>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="gl:CreateWindow">
+          <gl:Width>100</gl:Width>
+          <gl:Height>100</gl:Height>
+          <gl:VSync>On</gl:VSync>
+          <gl:SwapSync>false</gl:SwapSync>
+          <gl:ClearColor>Black</gl:ClearColor>
+          <gl:ClearMask>DepthBufferBit ColorBufferBit</gl:ClearMask>
+          <gl:CursorVisible>true</gl:CursorVisible>
+          <gl:Location xsi:nil="true" />
+          <gl:WindowBorder>Hidden</gl:WindowBorder>
+          <gl:WindowState>Normal</gl:WindowState>
+          <gl:DisplayDevice>First</gl:DisplayDevice>
+          <gl:TargetRenderFrequency>60</gl:TargetRenderFrequency>
+          <gl:TargetUpdateFrequency>120</gl:TargetUpdateFrequency>
+          <gl:RenderState />
+          <gl:GraphicsMode>
+            <gl:ColorFormat>
+              <gl:Red>8</gl:Red>
+              <gl:Green>8</gl:Green>
+              <gl:Blue>8</gl:Blue>
+              <gl:Alpha>8</gl:Alpha>
+            </gl:ColorFormat>
+            <gl:Depth>16</gl:Depth>
+            <gl:Stencil>0</gl:Stencil>
+            <gl:Samples>0</gl:Samples>
+            <gl:AccumulatorFormat>
+              <gl:Red>0</gl:Red>
+              <gl:Green>0</gl:Green>
+              <gl:Blue>0</gl:Blue>
+              <gl:Alpha>0</gl:Alpha>
+            </gl:AccumulatorFormat>
+            <gl:Buffers>2</gl:Buffers>
+            <gl:Stereo>false</gl:Stereo>
+          </gl:GraphicsMode>
+        </Combinator>
+      </Expression>
+    </Nodes>
+    <Edges>
+      <Edge From="0" To="1" Label="Source1" />
+      <Edge From="1" To="2" Label="Source1" />
+      <Edge From="2" To="3" Label="Source1" />
+      <Edge From="4" To="5" Label="Source1" />
+    </Edges>
+  </Workflow>
+</WorkflowBuilder>

@@ -4,9 +4,20 @@ https://github.com/davidpalma666/FED3.1-PCB-v7.x-FORK
 
 
 
+*************************************************
+*	@29 Outubro 2025
+*
+> adicionada folder de \_fw ao commited
 
+*************************************************
+*	@15 Outubro 2025
+*
+." sincronizar o meu fork com o main branch" 
+>> (??) já estava sincronizado?? havia files ainda diferentes;
 
-
+>> garantia de sincronia com o main branch agora!!!
+		
+		
 
 *************************************************
 *	@26 Agosto 2025

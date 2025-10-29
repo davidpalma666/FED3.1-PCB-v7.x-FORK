@@ -1,0 +1,158 @@
+
+
+Arguments:
+  Use atprogram help <command> to get available attributes.
+
+For command specific help, use atprogram help <command>
+
+
+
+Example:
+	atprogram -t avrone -i pdi -d atxmega128a1 chiperase
+
+my core full erase
+	atprogram -i jtag -d ATSAMD21G18A chiperase			NOK	found more than one matching tool		>> -t needed
+	atprogram -t atmelice -i SWD chiperase			NOK >> -d device needed
+	atprogram -t atmelice -d ATSAMD21G18A chiperase		NOK >> specify inteface..	>> -i needed
+	atprogram -i jtag -t avrone -d ATSAMD21G18A chiperase		NOK		>> -t tool errada
+
+
+	atprogram -i jtag -s J42700079908 -d ATSAMD21G18A chiperase		OK	>> mesmo sem -t tool mas com #endereço tool
+	atprogram -t atmelice -i JTAG -d ATSAMD21G18A chiperase	OK	>> mesmo com -i interface errado
+
+	atprogram -t atmelice -i SWD -d ATSAMD21G18A chiperase	OK	OK	OK
+	
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 	
+
+Example
+	atprogram -t jtagice3 -i jtag -d at32uc3b0512 program -f e:\file.elf
+	
+my to program
+
+	atprogram -i jtag -t avrone -d ATSAMD21G18A program -f "_flash #0 REF LEDs test .hex"		NOK - not find tool
+	atprogram -i jtag -s J42700079908 -d ATSAMD21G18A program -f _flash#0REF.hex		NOK - not find tool
+	
+	atprogram -t atmelice -i SWD -d ATSAMD21G18A program -f "_flash #0 REF LEDs test .hex"		NOK >> no connection to device
+	atprogram -t atmelice -i SWD -s J42700079908 -d ATSAMD21G18A program -f "_flash #0 REF LEDs test .hex"	NOK >> no connection to device 
+	
+	
+	
+atprogram -t atmelice -i SWD -d ATSAMD21G18A program -f "_flash #0 REF LEDs test .hex"			OK!!!!!!!!!
+
+atprogram -t atmelice -i SWD -d ATSAMD21G18A chiperase program -f "_flash #0 REF LEDs test .hex" reset		OK
+
+atprogram -t atmelice -i SWD -d ATSAMD21G18A chiperase program -f "ClassicFED3.hex" reset		OK
+
+atprogram -t atmelice -i SWD -d ATSAMD21G18A chiperase program -f "_flash #0 REF LEDs test .hex" reset		OK
+
+atprogram -t atmelice -i SWD -d ATSAMD21G18A -cl 2MHz chiperase program -f "_flash #0 REF LEDs test .hex" reset		OK
+
+atprogram -t atmelice -i SWD -d ATSAMD21G18A -cl 2MHz chiperase program -f "_flash #0 REF LEDs test .hex" reset	
+
+atprogram -t atmelice -i SWD -d ATSAMD21G18A -cl 2MHz chiperase program -f "_flash #0 REF LEDs test .hex" verify -f "_flash #0 REF LEDs test .hex" reset		OK
+
+
+
+atprogram -t atmelice -i SWD -d ATSAMD21G18A -cl 2MHz -v chiperase program -f "_userpage#0 REF.hex" program -f "_flash#0_REF_LEDs_test.hex" verify -f "_flash#0_REF_LEDs_test.hex" reset		
+
+
+atprogram -t atmelice -i SWD -d ATSAMD21G18A -cl 2MHz -v chiperase
+atprogram -t atmelice -i SWD -d ATSAMD21G18A -cl 2MHz -v program -f "_userpage#0 REF.hex"
+
+atprogram -t atmelice -i SWD -d ATSAMD21G18A -cl 2MHz program -f "_flash#0_REF_LEDs_test.hex" 
+
+atprogram -t atmelice -i SWD -d ATSAMD21G18A -cl 2MHz verify -f "_flash#0_REF_LEDs_test.hex" 
+atprogram -t atmelice -i SWD -d ATSAMD21G18A -cl 2MHz reset		
+
+2program _flash#0_REF_LEDs_test.hex _userpage#0_REF.hex
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 	
+
+ atprogram [options] <command> [arguments] [<command> [arguments] ...]
+ 
+ Options:
+			  -t  --tool <arg>           Tool name: avrdragon, avrispmk2, avrone, jtagice3,
+										 jtagicemkii, qt600, stk500, stk600, samice, edbg,
+										 medbg, nedbg, atmelice, pickit4, snap,
+										 powerdebugger, megadfu or flip.
+			  -s  --serialnumber <arg>   The programmer/debugger serialnumber. Must be
+										 specified when more than one debugger is
+										 connected.
+			  -c  --comport <arg>        The com port to use for the programmer/debugger.
+										 e.g. -c COM1 or -c 1
+			  -i  --interface <arg>      Physical interface: aWire, debugWIRE, HVPP, HVSP,
+										 ISP, JTAG, PDI, UPDI, TPI or SWD.
+			  -d  --device <arg>         Device name. E.g. atxmega128a1 or at32uc3a0256.
+			  -v  --verbose              Verbose output (debug).
+			  -h  --host <arg>           Target host which runs the backend process.
+			  -p  --port <arg>           Specify which port to use for the backend process.
+										 Ignored if the host option is not given.
+			  -l  --logfile <arg>        Log file for atpbackend output.
+			  -f  --force                Force command even if firmware is not up to date.
+			  -cl --clock <arg>          The frequency to use for communication with a
+										 device (hz, khz, mhz, default hz). E.g. -cl 10mhz
+			  -mb --max-baudrate <arg>   The maximum baud rate for communication on awire
+										 (bps).
+			  -xr --externalreset        Apply external reset when starting a session.
+			  -dc --daisychain <args,..> Set up a JTAG daisychain. Arguments are <devices-
+										 before, devices-after, instr-before, instr-after>.
+			  -dca --daisychain_auto <arg> Deprecated.
+			  -sa --snippet_addr <arg>   Address where flash programming ram snippet should
+										 be loaded.
+			  -nr --no_ram               Do not use ram snippet to program flash.
+			  -tv --target-voltage <arg> Set the STK600, STK500 or Powerdebugger target
+										 voltage (float value).
+			  -a0 --aref0 <arg>          Set the STK600 Aref0 or STK500 aref generator
+										 voltage (float value).
+			  -a1 --aref1 <arg>          Set the STK600 Aref1 generator voltage (float
+										 value).
+			  -cg --clock-generator <arg> Set the STK600 or STK500 clock generator frequency
+										 (hz, khz, mhz, default hz).
+				  --timeout <arg>        Set the timeout value in seconds for commands. The
+										 default is 180 seconds. Set to 0 for no timeout.
+			  -q  --quiet                Do not display activity indicator.
+			  -?  --help                 Display help information.
+			  -V  --version              Display version information.
+			  -cf --configfile <arg>     Set the configuration setting file name with path.
+			  -ua --12v-updi-activation <arg>
+										 Use the high-voltage activation sequence for UPDI.
+										 Disconnect any peripherals on the UPDI line which
+										 are not 12V tolerant! Supported modes are: tool-
+										 toggle-power, user-toggle-power, simple-unsafe-
+										 pulse
+			  -ul --user_row_locked_device Writes the User Row on a locked device. (UPDI
+										 devices only)
+			  -ab --atbackend <arg>      Specify path to atbackend executable. If specified
+										 with --host and --port, then --host and --port is
+										 used.
+
+Commands:
+	   calibrate        Performs the oscillator calibration procedure.
+	   chiperase        Full erase of chip.
+	   debugaccess      Set(/get) Debug Access Level (DAL) on ARM devices.
+	   detect           Detects devices on the jtag interface for supported tools.
+	   dwdisable        Disable debugWIRE interface.
+	   erase            Erase the specified memory.
+	   exitcodes        Display possible exit codes for atprogram.
+	   help             Displays help for a specific command.
+	   info             Display information about a device.
+	   interactive      Run in interactive mode.
+	   list             Detect and print information about connected Atmel Tools.
+	   migration        Display help for migration from old command line utilities.
+	   panel            Pops-up Tool's settings Dialog.
+	   parameters       Sets given parameters on the given tool without doing anything else.
+	   powercalibration Performs the calibration procedure for the Powerdebugger.
+	   program          Program device with data from <file>.
+	   read             Read the contents of the memory on the device.
+	   reboot           Reboots the given tool.
+	   reset            Reset all domains and jump to the reset vector.
+	   secure           Set the security bit on UC3 and ARM devices.
+	   selftest         Performs the selftest procedure on Atmel-ICE.
+	   verify           Verify content of memory based on a file.
+	   version          Display the version.
+	   write            Write to the memory with values entered on the command line.
+
+
+

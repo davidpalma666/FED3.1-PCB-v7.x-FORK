@@ -1,0 +1,115 @@
+
+
+
+Ordem de progs para testes
+https://docs.google.com/presentation/d/1164saHV7O6Chq6a7cgfvu5cB5gbfZ52maMfhZIL-nxI/edit?slide=id.g23df6e39f89_0_0#slide=id.g23df6e39f89_0_0
+
+	1. SetClock_ModifiedOEPS.ino
+	
+	2. IntermediateTest.ino.
+		-> Pass if all 10x LEDs light in the next sequence: Blue, Green, Red, White
+		-> Pass if motor moves back and forward
+		-> Pass if listen to a beep sound
+
+	3. ClassicFED3.ino
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+		0. chip erase	- Microchip Studio
+		
+		1. read virgin memory 			- Microchip Studio	(sem on/off nenhum)
+
+		2. burn bootloader from Arduino	- Arduino	(sem on/off nenhum)
+		
+		3. read bootloader memory 	- Microchip Studio	(sem on/off nenhum)
+		
+		4. read fuses							- Microchip Studio	(sem on/off nenhum)
+			#1
+				OTP4_WORD_0 = 0x40004007 (valid)
+				OTP4_WORD_1 = 0x65F4B25C (valid)
+				OTP4_WORD_2 = 0xFFFFFE00 (valid)
+				TEMP_LOG_WORD_0 = 0x5501E (valid)
+				TEMP_LOG_WORD_1 = 0xD05B1BFD (valid)
+				USER_WORD_0 = 0xD8E0C7FF (valid)
+				USER_WORD_1 = 0xFFFFFC5D (valid)
+
+		#2
+				OTP4_WORD_0 = 0x40004007 (valid)
+				OTP4_WORD_1 = 0x6DF4B25C (valid)
+				OTP4_WORD_2 = 0xFFFFFE00 (valid)
+				TEMP_LOG_WORD_0 = 0xFC05501E (valid)
+				TEMP_LOG_WORD_1 = 0xCDDAEAFB (valid)
+				USER_WORD_0 = 0xD8E0C7FF (valid)
+				USER_WORD_1 = 0xFFFFFC5D (valid)
+				
+		#3 - q estaria NOK - do kit
+				OTP4_WORD_0 = 0x40004007 (valid)
+				OTP4_WORD_1 = 0x51F4B4DC (valid)
+				OTP4_WORD_2 = 0xFFFFFE00 (valid)
+				TEMP_LOG_WORD_0 = 0xFB95411E (valid)
+				TEMP_LOG_WORD_1 = 0xCCAABFF8 (valid)
+				USER_WORD_0 = 0xD800C777 (valid)
+				USER_WORD_1 = 0xFFFF005D (valid)
+
+				=>>>	HÁ  Words não editáveis não estão iguais - HÁ PROBLEMAS??
+
+
+		#0_REF Fuses
+			OTP4_WORD_0 = 0x40004007 (valid)
+			OTP4_WORD_1 = 0x6DF4B29C (valid)
+			OTP4_WORD_2 = 0xFFFFFE00 (valid)
+			TEMP_LOG_WORD_0 = 0xFE05581D (valid)
+			TEMP_LOG_WORD_1 = 0xD3AB2DFB (valid)
+			USER_WORD_0 = 0xD800C777 (valid)
+			USER_WORD_1 = 0xFFFF005D (valid)
+
+				ADC_LINEARITY_0 = 0x08
+				ADC_LINEARITY_1 = 0x04
+				ADC_BIASCAL = 0x03
+				OSC32K_CAL = 0x4A
+				USB_TRANSN = 0x05
+				USB_TRANSP = 0x1D
+				USB_TRIM = 0x03
+				DFLL48M_COARSE_CAL = 0x1B
+				DFLL48M_FINE_CAL = 0x200
+				ROOM_TEMP_VAL_INT = 0x1D
+				ROOM_TEMP_VAL_DEC = 0x08
+				HOT_TEMP_VAL_INT = 0x55
+				HOT_TEMP_VAL_DEC = 0x00
+				ROOM_INT1V_VAL = 0xFE
+				HOT_INT1V_VAL = 0xFB
+				ROOM_ADC_VAL = 0xB2D
+				HOT_ADC_VAL = 0xD3A
+				
+				WORD_ 0		USER_WORD_0 = 0xD800C777 (valid)
+							NVMCTRL_BOOTPROT = SIZE_0BYTES
+							NVMCTRL_EEPROM_SIZE = SIZE_0BYTES
+							BOD33USERLEVEL = 0x07
+							BOD33_EN = ENABLED
+							BOD33_ACTION = RESET
+							WDT_ENABLE = DISABLED
+							WDT_ALWAYSON = DISABLED
+							WDT_PER = CYC16384
+							WDT_WINDOW_0 = [X]
+				WORD_1		USER_WORD_1 = 0xFFFF005D (valid)
+							WDT_WINDOW_1 = 0x05
+							WDT_EWOFFSET = CYC16384
+							WDT_WEN = DISABLED
+							BOD33_HYST = DISABLED
+							NVMCTRL_REGION_LOCKS = 0xFFFF
+
+
+		
+		
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+core full erase
+	atprogram -i jtag -s J42700079908 -d ATSAMD21G18A chiperase
+	
+	Firmware check OK
+	Chiperase completed successfully
+
+
+
