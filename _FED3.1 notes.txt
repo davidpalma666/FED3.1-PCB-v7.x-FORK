@@ -1,6 +1,37 @@
 
 
+
+> meu repositório FORK
 https://github.com/davidpalma666/FED3.1-PCB-v7.x-FORK
+
+> o reposit´rio main
+
+
+> doc instruções
+https://docs.google.com/document/d/1KJnj2vmsR2Gq2-051aAo4KDC9eWGih1XZerS2I0B4w4/edit?tab=t.0#heading=h.icr42l3inwr6
+
+
+
+
+*************************************************
+*	@30 Outubro 2025
+*
+> ontem Filipe com problemas na programação das 1ªs placas do lote de 200:
+	- nem todas as placas ficavam programadas/havia-outros-erros diferentes numa amostragem de 10 PCBs
+
+> veio-se a perceber q o problema derivava do cabo & ficha USB-tipoC
+	- a ficha ficava com folga: neste momento não na PCB, apenas na máquina do Filipe
+	- a forma como o cabo estava a ir no 'ar' da máquina para a PCB criava força de momento na ligação não ficando OK
+	- a máquina do Filipe já ter 'muita' folga na ficha??? Talvez
+	
+> ficou esclarecido & reposto & garantindo a ligação mecânica firme da ficha-cabo à ficha-máquina
+
+>mas anteve-se problemas futuros para o utilizador:
+	- esta fragilidade mecânica do microUSB vai-se repercutir na PCB
+	- em boards FED3 depois de utilizadas muitas vezes, a robustez mecânica da ficha vai enfraquecer & danificar contacto eléctrico
+	- terá a ver com o 'cuidado' do utilizador? Tb, sim
+	- mas a própria estrutura mecânica de soldadura da ficha é frágil e neste 1º lote os pinos mecânicos não vêem soldados - pinos TH sem soldadura no bottom layer
+		!!!!! questão a ver com o produtor das PCBs na produção de um próximo lote
 
 
 
@@ -8,6 +39,9 @@ https://github.com/davidpalma666/FED3.1-PCB-v7.x-FORK
 *	@29 Outubro 2025
 *
 > adicionada folder de \_fw ao commited
+
+
+
 
 *************************************************
 *	@15 Outubro 2025
