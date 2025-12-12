@@ -10278,7 +10278,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "100k 0.1%"
 			(at 241.3 41.9099 0)
 			(effects
 				(font
@@ -10315,7 +10315,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020010"
+		(property "OEPSPN" "OEPS020175"
 			(at 238.76 40.64 0)
 			(effects
 				(font
@@ -10324,7 +10324,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF4701X"
+		(property "MPN" "RG1005P-104-B-T5"
 			(at 238.76 40.64 0)
 			(effects
 				(font

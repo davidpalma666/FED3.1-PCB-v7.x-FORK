@@ -12,6 +12,31 @@ https://docs.google.com/document/d/1KJnj2vmsR2Gq2-051aAo4KDC9eWGih1XZerS2I0B4w4/
 
 
 
+battery
+PKNERGY 18650 – 3,7 V 4400 mAh personalizado
+https://www.pknergy.com/pt/lithium-ion-battery-pack-3-7v-4400mah-2-product
+
+
+
+*************************************************
+*	@17 Novembro 2025
+análise em:
+	\my_projects\FED3_to_workkk\analise carga bateria.gsheet
+	
+	novo valor 	R18= 100k
+
+
+
+
+*************************************************
+*	@4 Novembro 2025
+- há mais consumo agora no modo stdby-off do q antes: consumo agora ~720uA
+
+- R18 & R19: controlo do Lipo Charger
+
+
+
+
 
 *************************************************
 *	@30 Outubro 2025
