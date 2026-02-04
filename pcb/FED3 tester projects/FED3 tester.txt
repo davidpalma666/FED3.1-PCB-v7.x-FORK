@@ -1,0 +1,234 @@
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @30 Janeiro 2026
+
+>> nova topologia para TP na placa redesenhada pelo Filipe:
+	GND - Connect to GND
+
+	ADCx - Connect to any ADC of the uC (PORTA)
+		VCCRGB
+		3V3
+		LED-Charge
+		RED_LED
+		GREEN_LED
+		
+	D0 - Connect to any uC pin with a 1k resistor in series
+		Enable
+		
+	D1 - Connect to any uC pin with a 1k resistor in series
+			\Reset
+			
+	A0 - Needs a relay to switch between open and power deliver (using the 3.7V LDO with current meter *) to DUT. Also connect to any uC's ADC (PORTA). * The power meter (or two power meters) should be able to read from 0 to 1 mA and from 20 to 300 mA.
+		VBat
+
+	A1 - Power deliver directly to DUT from the USB 5V with a power meter in the way (up to 300 mA). Needs a relay to turn the power off
+		VUSB
+		
+		
+	PROG - Direct connection to programmer
+
+	MOTOR - Direct connection to motor
+	
+	RELAY - Connected to a relay to Open/Close the connection between the pins
+
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @29 Janeiro 2026
+
+>> Revisões feitas com o Filipe
+	. agulha/ponto para Enb/Dsb do Main Switch (??)
+	. agulha/ponto para ler estado dos LEDs - esperar por decisão
+	
+	. leitura I:
+		. I min agora é 800uA; próximo volume será 80uA
+		. IMax 8mA
+		. em causa o q está feito com ZXCT1082
+			. RLoad tem q ser grande
+			. foi dimensionado para Imin 800uA - qd fôr 80uA a sensibilidade será menor
+			. Utilizar Relais para utilizar RLoads diferentes para os 80uA e 8mA?? Opção posta pelo Filipe
+			
+		. controle da VUSB c\ FET ou Relais..
+			para forçar o ON-OFF... não me lembro do pq desta questão
+	
+	
+	. arquitectura do conjunto:
+		- Board-to-Case; 
+			. sem componentes; sem cobre?
+			. furos para arquitectura mecânica do conjunto - esta board fixa-se à caixa; parafusos M3=> furos 2.9mm; external diameter 7mm
+			. furos para os separadores Verticais - o q vai garantir o espaço entre esta Board-to-Case & a TestBoard
+			. furos fixação/alinhamento das Test-Sleeves junto com a TestBoard - garantir a verticalidade das agulhas
+			
+		- TestBoard
+			. board com o circuito de teste
+			. furos para passagem de chave e apertar a Board-to-Case; os mesmos M3 q acima mas com diâmetro maior (p/a cabeça chave(?))
+			. furos para os separadores Verticais - os mesmos q acima
+			. furos fixação/alinhamento das Test-Sleeves junto com a TestBoard - garantir a verticalidade das agulhas & soldar ao circuito teste
+			
+		- DUT
+			. furos/pads de teste 1.5mm raio?? ou diâmetro?!
+			. 
+			
+		
+	
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @27 Janeiro 2026
+>> ainda sem nova revisão com o Filipe
+- ToDos:
+	. estudar sobre a implementação das sleeves e Test Probes
+	. estudar sobre a integração mecânica do todo - Sleeves, agulhas e montagemmecânica do sistema
+	
+	. rever alocação das parts na PCB
+	
+	. mais um Switch para mais uma confirmação??
+	
+	. localização dos LEDs?
+	
+	. BOM - codigos coerentes
+	
+	. valores de R da leitura de corrente 	OK
+	
+	. sockets 2.54mm mais baixas para facilitar encaixe pinos
+		https://www.digikey.com/en/products/detail/3m/929870-01-02-RA/1239300
+		https://www.digikey.com/en/products/detail/samtec-inc/SL-102-TT-11/1105396
+		https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/834-93-002-10-001000/7771172		9€ ?!?!
+		
+		
+		
+>> Vias and through-holes in a PCB are typically used to pass a signal from one layer to another. When these are to be used as test points, it is necessary that they are not solder-masked so that they can be easily probed.
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @22 Janeiro 2026
+>> revisão com o Filipe
+
+	- socket mais alta para motor
+	
+	- ter maior noção da relação furo/agulha para saber exigência da agulha
+		- há já dados disto doChatGPT
+	
+	- controle de main-switch do DUT; disponibiliar ou não VUSB no DUT
+		. actuar no En/Dsb do LDO do DUT
+		. haver novo TP En/Dsb na DUT
+		: actuar c/ FET ou Relay
+	
+	- 5 switches como do Pyboard-Test
+		. start
+		. 2x buzzer: OK/NOK
+		. 2x motor: OK/NOK
+		
+	- controle para header 2x1 do charger
+		. implica novos test pins na FED3? 
+			Não pq o produto é vendido com o header em aberto - sem jumper
+		. utilizar sockets 2.54mm 1x2 na TestBoard para ligar os Pinos do DUT 
+	
+	- furos ~M3 para fixar a case 'onde der' - próximo cantos
+
+	- em falta decisão sobre substituir ou não o header de programação na FED3
+		. substituir por flat TP??
+	
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @20,21 Janeiro 2026
+
+>> adicionar rail de 3.7V para 'simular' a pilha
+
+	OEPS080129	LDO ADJ 200mA   SOT-23-6		TPS79301DBVRG4		Once stock is depleted, this product will no longer be sold at DigiKey
+		temos #13
+	
+	OEPS080147	LDO ADJ 240mA	SOT-23-6			NJM11100F1-TE2		Available To Order		NOK
+		temos #19
+
+		>> trabalhar com 
+			OEPS080129	LDO ADJ 200mA   SOT-23-6		TPS79301DBVRG4
+				
+				R1=(Vout/Vref-1).R2
+					R2=30.1k as-ref
+					Vref=1.2246V
+						=> Vout=3.3V 	=> 	R1= 51k
+						=> Vout=3.7V	=>	R1=60k8
+				
+	
+	
+>> colocar relay para comutar entre estados de Power: 	USB ou Pilha
+
+	OEPS100001	RELAY DPDT 1A 5V RF	SMD	G6K-2F-RF-S-TR03 DC5
+		temos #1
+	OEPS100010	RELAY DPDT 1A 5V RF	SMD	G6K-2F-RF DC5
+		temos # ??
+	relays acima equivalentes; optimizados para HF; custo maior => NOK
+		
+	OEPS100047	RELAY DPDT 1A 5V RF	SMD	UB2-5NUN-L
+		temos # ??	#0 (?)
+			refª errada ?? 
+			mas é o mais adequado do nosso espólio
+			"NOT FOR NEW DESIGN"
+		
+		!!!!!!!!!!!!!!!!!!!	A TER DE ESCOLHER RELAY NOVO ?!
+		
+		>> 5V SPDT
+		https://www.digikey.com/en/products/filter/signal-relays-up-to-2-amps/189?s=N4IgjCBcoOwExVAYygMwIYBsDOBTANCAPZQDaIcALAJwCsAHAGwgC6hADgC5QgDKnAJwCWAOwDmIAL6EwlAAzVEIFJAw4CxMiHm1qjRWxBce-YeKkzq9RdGVoseQiUjk5raSAC0CWysEBXDWdyWndJSSA
+		
+		1. 5€	https://www.digikey.com/en/products/detail/te-connectivity-potter-brumfield-relays/1462042-7/2126947
+		2. 5€	 https://www.digikey.com/en/products/detail/te-connectivity-potter-brumfield-relays/1462042-8/2126945		!!
+		3. 1.3€	https://www.digikey.com/en/products/detail/cit-relay-and-switch/J1031C5VDC-15S/14002065
+		4.	2.3€	https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/G5V-1-DC5/87831
+		
+		
+		
+		
+		
+>> FET para controle do Relay
+	OEPS060013	MOSFET N-CH 30V 350mA	SOT23	SMD	DMN63D8L-7
+		temos # 18
+			OK
+			
+		
+		
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @16 Janeiro 2026
+
+>> notas de rervisão feita com o Filipe depois do desenho já feito a esta data
+
+- alinhar diagonal inferior da Board com a do DUT - facilita a caixa final		OK
+
+- definir o furo para o eixo para fixação da Board na caixa final - deixar furos na board para isto
+- furos para fixação M3 tb board (~último passo)
+
+- colocar socket 1x5 onde vai encaixar controle de motor
+- colocar headers 1x5 onde vai encaixar o motor 						OK
+
+- LED vermelho para sinalizar Fail
+- LEDs espaçados para haver espaço de labeling
+
+- como avaliar o teste final de I?
+	:: Imin<=800uA		IMax<=8.8mA
+	- na projecto DAC há circuito para beber disto??
+	- ver como...
+	
+	
+	> resolução ADC ATXMEGA32A4U = 12 bits > 4096
+	LSB= Vref/4096
+	
+	Vref= 1V (internal)	 LSB=0.244mV
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+

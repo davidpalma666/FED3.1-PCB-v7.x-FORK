@@ -1,0 +1,103 @@
+(footprint "FED3 board"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.2 -1.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "71cb9e85-c386-47bd-8726-537da96f0008")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FED3.2 board"
+		(at 1.2 0.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68d48804-95cf-4dea-b736-1ee597a168a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "723bd486-08a5-49d9-8c25-bff25c14f431")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f272ae80-a2c1-49b8-aa8a-0142edf3b7d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -55.5 -25.5)
+		(end 54.5 25.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "User.4")
+		(uuid "8d30966a-33c1-49c4-ac1e-aeb07e9b803c")
+	)
+	(fp_line
+		(start -55.5 25.5)
+		(end 54.5 -25.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "User.4")
+		(uuid "91be8f03-25c2-4d37-88e1-64f3db30519b")
+	)
+	(fp_rect
+		(start -55.5 -25.5)
+		(end 54.5 25.5)
+		(stroke
+			(width 2)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "3f944146-827b-4f2c-8ce7-a0243f420bf2")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/FED3_v7.3 2 as is.step"
+		(opacity 0.6200)
+		(offset
+			(xyz -0.5 -4.2 -20)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

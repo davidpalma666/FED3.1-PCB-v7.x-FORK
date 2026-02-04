@@ -1,0 +1,218 @@
+
+
+
+
+
+https://www.qatech.com/en/resources-probe-selection/tip-style-selection.html
+
+>> Vias and through-holes in a PCB are typically used to pass a signal from one layer to another. When these are to be used as test points, it is necessary that they are not solder-masked so that they can be easily probed.
+
+
+
+
+>>> CHIP SHINE / CSRF			20 DIAS ENTREGA
+as cups
+	R100S		preferível
+	R100W	
+		Dgk	2376-R100W-ND
+		MPN	R100W
+		https://www.digikey.pt/en/products/detail/chip-shine-csrf/R100W/12317243
+		
+	
+	
+as tips
+	C09		esferica 0.9 diam		diam NOK
+	MPN	TOP100C09/280G
+	Dgk		2376-TOP100C09/280G-ND
+	https://www.digikey.pt/en/products/detail/chip-shine-csrf/TOP100C09-280G/12317208
+
+
+
+	R06		piramide muito fina 0.6mm - boa para vias
+	MPN	TOP100R06/200G
+	Dgk		2376-TOP100R06/200G-ND
+	https://www.digikey.pt/en/products/detail/chip-shine-csrf/TOP100R06-200G/12317214
+	
+	W09		~piramide diametro 0.9mm		!!
+	MPN	TOP100W09/250G
+	Dgk		2376-TOP100W09/250G-ND
+	https://www.digikey.pt/en/products/detail/chip-shine-csrf/TOP100W09-250G/12317224
+	
+	BB15	~ponteira serrada	diametro 1.5mm
+	MPN	TOP100BB15/200G
+	Dgk	2376-TOP100BB15/200G-ND
+	https://www.digikey.pt/en/products/detail/chip-shine-csrf/TOP100BB15-200G/12317207
+	
+	I064		piramide com serra		0.25diam
+	MPN	TOP100I064/200G
+	Dgk	2376-TOP100I064/200G-ND
+	https://www.digikey.pt/en/products/detail/chip-shine-csrf/TOP100I064-200G/12317230
+
+	F09		cone ~0.9mm
+	BB12	~ponteira serrada	diametro 1.2mm
+
+
+
+
+>> HARWIN TIPS
+
+			=tips para 2.54mm pittch
+				> lenght 18.5mm (o + curto)
+				> CONVEX HEAD	P25-0123		
+					https://www.digikey.pt/en/products/detail/harwin-inc/P25-0123/3727855?s=N4IgTCBcDaIApgKwFoAMBGMBmEBdAvkA
+				
+				> SPHERICAL HEAD	P25-0423
+					https://www.digikey.pt/en/products/detail/harwin-inc/p25-0423/3924411
+				> STAR HEAD		P25-5223
+					https://www.digikey.pt/en/products/detail/harwin-inc/p25-5223/3924419
+			
+			=sleeve
+				>SOLDER CUP SLEEVE	S25-022
+						https://www.digikey.pt/en/products/detail/harwin-inc/s25-022/3728259
+						
+				> SOLDER BARREL SLEEVE	S25-512
+					diâmetro furo = 1.75mm
+					https://www.digikey.pt/en/products/detail/harwin-inc/S25-512/3728260?s=N4IgjCBcoGwEwHYqgMZQGYEMA2BnApgDQgD2UA2iACwAMArDTQJwgC6xADgC5QgDKXAE4BLAHYBzEAF9iAWjjIQaSEICuRUhRB02UvUA
+					
+
+
+
+
+>> escolha de tips
+- para projecto de teste e know how sobre tips & sleeves
+- projecto piloto para know-how: FE3 - test board
+	- marca de refª:	Harwin
+	- single piece test probe: 
+		. manga & ponteira uma peça só; a ponteira não pode ser modificada isoladamente - será toda a test probe
+	- 2 pieces test-probes
+		. sleeve & probe peças separadas; uma sleeve dá para utilizar diferentes probes
+	
+	>> escolher algumas single pieces & 2 pieces test probes
+	
+- na Board FED3 os test pointe têm diferentes caracteristicas - um pad outros vias => diferentes diâmetros furo
+	. GND - pad quadrado 2x2 mm; furo 1mm diametro
+	. program header - pad redondo 1.7mm diam; furo 1mm diamt
+	. outros pads teste:
+		. via em pad quadrado 1x1 mm ; furo 0.5mm diamt
+
+>> implica escolher:
+	. escolha ponteiras para 0.5mm & 1mm diamt furo
+	
+	. ponteiras 2 pieces sleeve + tip
+	. ponteiras single-piece 
+			> diametro das cabeças não conveniente para socket prog 2x3
+			> 
+			> pode ser para socket de GND etc ??
+
+				
+	. ponteiras com formato diferente ??
+	. ponteiras com alturas diferentes ??
+
+
+
+
+-------------------------------------------------------------------------------------------------
+
+
+vocabulário:
+test jig
+
+> test probe tips
+. connection type: sleeve - a manga onde corre a ponta de teste
+. tip type  - a forma da ponta de teste
+
+- fabricantes diferentes têm diferentes denominações para a 'sleeve' & 'tip'
+- é melhor começar a escolha:
+	1º pelo fabricante
+	2º depois as "sleeves e tips" como denominadas por ele
+	
+
+
+
+. exemplos para refª
+
+. a sleeve
+https://www.digikey.pt/en/products/detail/harwin-inc/s25-501/3924781
+. a tip
+https://www.digikey.pt/en/products/detail/harwin-inc/P25-0123/3727855
+
+
+
+manufacturer:
+chip shine	126
+https://shop.chipshine.com/en/shop/Default.aspx?cmd=Nav&tid=46
+https://www.digikey.pt/en/products/filter/test-probe-tips/622?s=N4IgjCBcoLQExVAYygFwE4FcCmAaEA9lANogCsIAugL74wTQgqQBmAhgDYDOehJIcAMwB2AGxVqkoA
+
+harwin	20
+https://www.digikey.pt/en/products/filter/test-probe-tips/622?s=N4IgjCBcoLQExVAYygFwE4FcCmAaEA9lANogCsIAugL74wTQgqQBmAhgDYDOehJIATjIIa1akA
+
+
+
+
+
+
+
+
+
+
+
+
+
+>> Electronic Test Jigs
+
+>> mecho design
+https://www.mechodesign.com/jigs-and-fixtures
+OK?? se calhar
+
+
+>> Coda-Pin	link herdado da JigApps
+https://coda-systems.co.uk/product-category/specialist-test-products/
+https://coda-systems.co.uk/product-category/bench-top-test-jigs/
+OK	OK
+
+
+
+>>	JigsApp
+https://www.thejigsapp.com
+. só jigs board com agulhas & IDC?? sem outra electronica??
+NOK
+
+
+
+>>	 Understanding Functional Circuit Testing (FCT) for PCBs – Ensuring Your Board Works Before Deployment
+. tutorial info
+https://www.fastturnpcbs.com/blog/functional-circuit-testing/
+https://www.fastturnpcbs.com/blog/pcb-board-testing-methods-dft-guide/
+OK
+
+
+
+>> How to design a test jig for your PCB (home made??)
+https://source-robotics.com/blogs/blog/how-to-design-a-test-jig-for-your-pcb?srsltid=AfmBOooRhzxoEJbiCUmAYXpEuTLJuZgTp2NcXT9WAsK2yD3-_dUjxndP
+. construção amadora, mas de onde se bebe algum know-how
+OK
+
+
+
+
+
+
+>> PCBite System For Precise PCB Probing
+https://www.electronics-lab.com/pcbite-system-precise-pcb-probing/
+. dispensa complexiadade mecânica no conjunto test
+. simples na adaptaptação a qq ponto de teste ou pino
+. limitativo quanto à mecânica: se forem necessárion 'vários' pontos teste e próximos, não é viavél este eqpt
+NOK
+
+>> PCBWay test probes
+	https://www.pcbway.com/project/gifts_detail/Test_board_probe_holder.html
+. dispensa complexiadade mecânica no conjunto test
+. exige muita simplicidade pinout e tamanho etc na placa em teste
+NOK
+
+
+
+
+
+
+

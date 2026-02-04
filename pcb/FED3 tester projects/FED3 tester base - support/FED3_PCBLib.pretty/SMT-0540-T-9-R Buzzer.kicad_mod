@@ -1,0 +1,114 @@
+(footprint "SMT-0540-T-9-R Buzzer"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Buzzers Transducer, Externally Driven 3V0-P 80DB 4000HZ")
+	(property "Reference" "BZ?"
+		(at -2.6 -3.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e47ffd5b-e643-411f-985b-4001bee4e665")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMT-0540-T-9-R"
+		(at 0.05 0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3efbfdde-e720-4609-9b97-ea0616c0eb4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50304c5c-0fb5-4ffc-856d-79b4a03d65ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Buzzers Transducer, 3V 0.2X 0.2\" SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22094e4d-e1bd-4442-b5ec-25a38fc1bcf0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.75 -3)
+		(end 3.75 3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4213fc94-b29c-48bb-8796-30f3ef40f66d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a71b7131-f02e-439b-b403-9f61bc620ea2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.1 1.75)
+		(size 2.25 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1176470588)
+		(uuid "cd399679-c448-452f-b6d8-9cbfa219b6ce")
+	)
+	(pad "2" smd roundrect
+		(at 2.1 1.75)
+		(size 2.25 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1176470588)
+		(uuid "317a5eea-84db-412d-9c80-6f09028f931f")
+	)
+	(pad "3" smd roundrect
+		(at -2.1 -1.75)
+		(size 2.25 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1176470588)
+		(uuid "20257cbe-99f5-4a4c-bfcf-f067b0a01a01")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/SMT-0540-T-9-R.STEP"
+		(offset
+			(xyz 0 -11 -5.23)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
