@@ -1,5 +1,5 @@
-Drill report for FED3 tester base - support.kicad_pcb
-Created on 2026-02-04T15:47:27+0000
+Drill report for FED3 tester - support.kicad_pcb
+Created on 2026-02-04T16:31:19+0000
 
 Copper Layer Stackup:
     =============================================================
@@ -7,7 +7,7 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 'FED3 tester base - support-PTH-drl.gbr' contains
+Drill file 'FED3 tester - support-PTH-drl.gbr' contains
     plated through holes:
     =============================================================
     T1  1.700mm  0.0669"  (6 holes)
@@ -16,7 +16,7 @@ Drill file 'FED3 tester base - support-PTH-drl.gbr' contains
     Total plated holes count 18
 
 
-Drill file 'FED3 tester base - support-NPTH-drl.gbr' contains
+Drill file 'FED3 tester - support-NPTH-drl.gbr' contains
     unplated through holes:
     =============================================================
     T1  2.950mm  0.1161"  (10 holes)

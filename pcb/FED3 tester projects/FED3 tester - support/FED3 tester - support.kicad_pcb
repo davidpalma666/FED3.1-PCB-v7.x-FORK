@@ -3413,7 +3413,7 @@
 		(layer "F.Fab")
 		(uuid "4c941acf-3140-4330-a137-42db4fbcc9ff")
 	)
-	(gr_text "FED3 tester base - support\nrev.A"
+	(gr_text "FED3 tester - support\nrev.A"
 		(at 112.25 112.05 0)
 		(layer "F.SilkS")
 		(uuid "573460c4-167e-47eb-9ec6-1b6fd32c4fd1")
