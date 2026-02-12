@@ -1,5 +1,13 @@
 
 
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @4 Fevereiro 2026
+- placas para teste a produzir
+- ainda sem componentes - para avaliar inteegração mecânica
+
+
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 *  @30 Janeiro 2026
 

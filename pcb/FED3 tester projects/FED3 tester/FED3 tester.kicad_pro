@@ -195,7 +195,7 @@
       ],
       "track_widths": [
         0.0,
-        0.21,
+        0.22,
         0.23,
         0.26,
         0.3,
@@ -237,7 +237,7 @@
         },
         {
           "diameter": 0.55,
-          "drill": 0.21
+          "drill": 0.22
         }
       ],
       "zones_allow_external_fillets": false
@@ -738,19 +738,19 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "OEPSPN",
           "name": "OEPSPN",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "MPN",
           "name": "MPN",
           "show": true
@@ -799,92 +799,14 @@
         },
         {
           "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Availability",
           "name": "Availability",
           "show": false
         },
         {
           "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Comment",
           "name": "Comment",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "EU_RoHS_Compliance",
-          "name": "EU_RoHS_Compliance",
           "show": false
         }
       ],
@@ -941,12 +863,12 @@
       "Root"
     ],
     [
-      "838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d",
-      "DUT stage"
-    ],
-    [
       "a050073c-fe8b-47ad-8c37-c2ab8f59b63a",
       "main core"
+    ],
+    [
+      "838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d",
+      "DUT stage"
     ]
   ],
   "text_variables": {}

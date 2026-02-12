@@ -2865,6 +2865,12 @@
 		(uuid "0fe8adad-fe3a-464c-a77a-d1a392eebb99")
 	)
 	(junction
+		(at 99.06 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1653380f-a2a4-443f-a823-b46abe74a8fc")
+	)
+	(junction
 		(at 127 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2875,12 +2881,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e6036f1-debc-4d52-9670-b719836b4193")
-	)
-	(junction
-		(at 227.33 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1eb011c3-14be-49d4-99b2-290ba6191df0")
 	)
 	(junction
 		(at 127 69.85)
@@ -3021,6 +3021,18 @@
 		(uuid "a5f243d1-e914-471a-9525-2866cce10d90")
 	)
 	(junction
+		(at 226.06 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa3c06e6-59cb-45be-af02-036feaa5150e")
+	)
+	(junction
+		(at 223.52 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad3d48db-652d-430a-8551-0098b6304c1b")
+	)
+	(junction
 		(at 252.73 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3057,12 +3069,6 @@
 		(uuid "d82c21fa-f470-41a8-ad55-b442c5ece171")
 	)
 	(junction
-		(at 224.79 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddddbb5f-87e2-4b8e-bc3f-bba50efe1941")
-	)
-	(junction
 		(at 82.55 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3097,12 +3103,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4b6bfbc-fac5-4c07-ab20-cdb671cca031")
-	)
-	(junction
-		(at 104.14 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffa3d7bc-3e96-416d-9830-6b94adbe17af")
 	)
 	(no_connect
 		(at 267.97 25.4)
@@ -3186,7 +3186,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 139.7) (xy 104.14 142.24)
+			(xy 99.06 139.7) (xy 99.06 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3386,7 +3386,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 129.54) (xy 104.14 132.08)
+			(xy 99.06 129.54) (xy 99.06 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3886,16 +3886,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 125.73) (xy 229.87 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "547a87f6-ebb3-49b9-8b57-a28e3e766441")
-	)
-	(wire
-		(pts
 			(xy 60.96 54.61) (xy 60.96 41.91)
 		)
 		(stroke
@@ -4033,6 +4023,16 @@
 			(type default)
 		)
 		(uuid "6534020f-8ab8-4d3b-924b-de88eb1158da")
+	)
+	(wire
+		(pts
+			(xy 99.06 129.54) (xy 114.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a11973-83bd-45c2-90db-eb342ca12f9f")
 	)
 	(wire
 		(pts
@@ -4396,6 +4396,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 130.81) (xy 229.87 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe5570d-6779-4990-8675-fcd5f27c178d")
+	)
+	(wire
+		(pts
 			(xy 118.11 142.24) (xy 118.11 144.78)
 		)
 		(stroke
@@ -4536,17 +4546,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 130.81) (xy 229.87 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f63910c-2a14-4901-8e82-b743f408c1af")
-	)
-	(wire
-		(pts
-			(xy 220.98 125.73) (xy 227.33 125.73)
+			(xy 220.98 125.73) (xy 226.06 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4776,7 +4776,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 130.81) (xy 224.79 130.81)
+			(xy 220.98 130.81) (xy 223.52 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4886,7 +4886,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 123.19) (xy 224.79 130.81)
+			(xy 223.52 116.84) (xy 223.52 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5046,7 +5046,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 123.19) (xy 227.33 125.73)
+			(xy 226.06 116.84) (xy 226.06 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5066,7 +5066,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 129.54) (xy 104.14 129.54)
+			(xy 72.39 129.54) (xy 99.06 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5143,6 +5143,16 @@
 			(type default)
 		)
 		(uuid "eb135624-8c54-4f6b-8262-7bcb2b86fc31")
+	)
+	(wire
+		(pts
+			(xy 226.06 125.73) (xy 229.87 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6a0efc-1485-494a-8d16-55e30271b89a")
 	)
 	(wire
 		(pts
@@ -5283,16 +5293,6 @@
 			(type default)
 		)
 		(uuid "fa2fbeb9-fcdd-4cb3-a9c2-282bfec9d05f")
-	)
-	(wire
-		(pts
-			(xy 104.14 129.54) (xy 114.3 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbc539a8-cbe5-4911-9895-6524a2af7b94")
 	)
 	(wire
 		(pts
@@ -5682,72 +5682,6 @@
 		(uuid "f779e361-a9e5-4cd1-890f-6cc053316145")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 203.2 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01b8569d-6fff-4dab-b651-5ed500fadc60")
-		(property "Reference" "#PWR091"
-			(at 203.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "USB+5V"
-			(at 202.819 116.2558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1613c638-ffbc-4b1a-affc-71e1d335393f")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 255.27 88.9 0)
 		(unit 1)
@@ -5909,7 +5843,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 104.14 135.89 180)
+		(at 99.06 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5918,7 +5852,7 @@
 		(fields_autoplaced yes)
 		(uuid "08651af9-492c-4457-88cf-c5b4a0bf5446")
 		(property "Reference" "R45"
-			(at 106.68 134.6199 0)
+			(at 101.6 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +5861,7 @@
 			)
 		)
 		(property "Value" "10M"
-			(at 106.68 137.1599 0)
+			(at 101.6 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,7 +5870,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 103.124 135.636 90)
+			(at 98.044 135.636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,7 +5879,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 135.89 0)
+			(at 99.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,7 +5888,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
-			(at 104.14 135.89 0)
+			(at 99.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5963,7 +5897,7 @@
 			)
 		)
 		(property "MPN" "b6ryh"
-			(at 112.903 138.938 0)
+			(at 107.823 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5973,7 +5907,7 @@
 			)
 		)
 		(property "TYPE" ""
-			(at 104.14 135.89 0)
+			(at 99.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,7 +5916,7 @@
 			)
 		)
 		(property "OEPSPN" "456yert"
-			(at 104.14 135.89 0)
+			(at 99.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6195,7 +6129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm_1"
+		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm"
 			(at 274.32 124.46 0)
 			(effects
 				(font
@@ -7311,6 +7245,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 203.2 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "398c9440-ca28-41f8-8f7a-63fea277b46c")
+		(property "Reference" "#PWR091"
+			(at 203.2 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RELAY+5V"
+			(at 202.819 116.2558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 203.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0676c21f-3bf2-400c-81fa-aa49e3bce40a")
+		)
+		(instances
+			(project "FED3 tester"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 274.32 129.54 270)
 		(unit 1)
@@ -7338,7 +7338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm_1"
+		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm"
 			(at 274.32 134.62 0)
 			(effects
 				(font
@@ -7598,7 +7598,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 124.206 138.176 90)
 			(effects
 				(font
@@ -7788,7 +7788,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 72.39 90.17 0)
 			(effects
 				(font
@@ -7985,7 +7985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 176.53 90.17 0)
 			(effects
 				(font
@@ -8083,7 +8083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm_1"
+		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm"
 			(at 38.1 67.31 0)
 			(effects
 				(font
@@ -8452,24 +8452,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 71.12 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 71.12 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "dad6ee55-0f80-4b0d-80f5-81bc7241c0ba")
 		)
@@ -8608,7 +8590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 144.78 31.75 0)
 			(effects
 				(font
@@ -8680,7 +8662,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 104.14 142.24 0)
+		(at 99.06 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8688,7 +8670,7 @@
 		(dnp no)
 		(uuid "5c8a1465-e242-4934-b615-0b45e3d10151")
 		(property "Reference" "#PWR097"
-			(at 104.14 142.24 0)
+			(at 99.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8697,7 +8679,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 146.05 0)
+			(at 99.06 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,7 +8687,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 142.24 0)
+			(at 99.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8714,7 +8696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 142.24 0)
+			(at 99.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8723,7 +8705,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 104.14 142.24 0)
+			(at 99.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9029,7 +9011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm_1"
+		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm"
 			(at 198.12 63.5 0)
 			(effects
 				(font
@@ -9397,24 +9379,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 49.53 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7aab3c15-23a2-4e1e-95c9-8ad782d4fabf")
 		)
@@ -9590,7 +9554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm_1"
+		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm"
 			(at 274.32 129.54 0)
 			(effects
 				(font
@@ -9630,6 +9594,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 71.12 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74b68741-999d-42bb-a7e8-f81251d6ed7e")
+		(property "Reference" "#PWR095"
+			(at 71.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RELAY+5V"
+			(at 70.739 148.0058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 71.12 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c3adf02-17d8-4149-a159-8622b9335d8d")
+		)
+		(instances
+			(project "FED3 tester"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 274.32 109.22 270)
 		(unit 1)
@@ -9657,7 +9687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm_1"
+		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm"
 			(at 274.32 114.3 0)
 			(effects
 				(font
@@ -9955,7 +9985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 176.53 46.99 0)
 			(effects
 				(font
@@ -10119,7 +10149,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.37 90.17 0)
 			(effects
 				(font
@@ -10640,7 +10670,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 119.126 138.176 90)
 			(effects
 				(font
@@ -10803,7 +10833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 50.8 31.75 0)
 			(effects
 				(font
@@ -10901,7 +10931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm_1"
+		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm"
 			(at 132.08 24.13 0)
 			(effects
 				(font
@@ -11004,117 +11034,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TE Connectivity"
-			(at 82.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Signal Relay 5VDC 2A SPDT (( 10mm 7.5mm 5.65mm)) Surface Mount Automotive"
-			(at 82.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 82.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 82.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/1462042-8/TE+Connectivity+Potter+%2526+Brumfield+Relays/view-part/?ref=eda"
-			(at 82.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer recommendation"
-			(at 82.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "0917"
-			(at 82.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1462042-8/TE+Connectivity+Potter+%2526+Brumfield+Relays/view-part/?ref=snap"
-			(at 82.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "1462042-8"
-			(at 82.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "EU_RoHS_Compliance" "Compliant"
-			(at 82.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Availability" "In Stock"
-			(at 82.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
 			(at 82.55 162.56 0)
 			(effects
 				(font
@@ -11177,7 +11097,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.55 46.99 0)
 			(effects
 				(font
@@ -12032,7 +11952,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.37 46.99 0)
 			(effects
 				(font
@@ -12104,16 +12024,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 224.79 118.11 90)
+		(at 223.52 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b6766166-f56a-4daa-918e-f534200d2bbc")
 		(property "Reference" "J7"
-			(at 228.6 117.4749 90)
+			(at 227.33 111.1249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12122,7 +12041,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 228.6 120.0149 90)
+			(at 227.33 113.6649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12132,7 +12051,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 224.79 118.11 0)
+			(at 223.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12141,7 +12060,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 118.11 0)
+			(at 223.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12150,7 +12069,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 224.79 118.11 0)
+			(at 223.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12201,7 +12120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm_1"
+		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm"
 			(at 274.32 119.38 0)
 			(effects
 				(font
@@ -12235,138 +12154,6 @@
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
 					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 49.53 119.38 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b963b2f5-2d5a-40cc-b482-78c0dc46dada")
-		(property "Reference" "#PWR052"
-			(at 49.53 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "USB+5V"
-			(at 49.149 114.9858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 49.53 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f82207ed-1774-417d-aa1e-5a7872d7ad59")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 71.12 152.4 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "baf544fb-4a36-419d-9b7d-4d2be601601a")
-		(property "Reference" "#PWR0100"
-			(at 71.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "USB+5V"
-			(at 70.358 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 71.12 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77a589e2-061d-40b5-9d89-f23aa7182131")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -13159,24 +12946,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 200.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 200.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7802f2a7-6145-4590-b99d-0ef0bffb694c")
 		)
@@ -13545,7 +13314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm_1"
+		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm"
 			(at 208.28 63.5 0)
 			(effects
 				(font
@@ -13681,7 +13450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm_1"
+		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm"
 			(at 38.1 24.13 0)
 			(effects
 				(font
@@ -13749,7 +13518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.55 90.17 0)
 			(effects
 				(font
@@ -13847,7 +13616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 144.78 74.93 0)
 			(effects
 				(font
@@ -13981,117 +13750,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TE Connectivity"
-			(at 62.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Signal Relay 5VDC 2A SPDT (( 10mm 7.5mm 5.65mm)) Surface Mount Automotive"
-			(at 62.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 62.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 62.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/1462042-8/TE+Connectivity+Potter+%2526+Brumfield+Relays/view-part/?ref=eda"
-			(at 62.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer recommendation"
-			(at 62.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "0917"
-			(at 62.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1462042-8/TE+Connectivity+Potter+%2526+Brumfield+Relays/view-part/?ref=snap"
-			(at 62.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "1462042-8"
-			(at 62.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "EU_RoHS_Compliance" "Compliant"
-			(at 62.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Availability" "In Stock"
-			(at 62.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
 			(at 62.23 129.54 0)
 			(effects
 				(font
@@ -14244,7 +13903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 50.8 74.93 0)
 			(effects
 				(font
@@ -14541,6 +14200,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1254a9b-7404-436e-aef9-7878d05c8ff5")
+		(property "Reference" "#PWR052"
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RELAY+5V"
+			(at 49.149 114.9858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b3491a5-128c-456d-95f0-4cab77c1030d")
+		)
+		(instances
+			(project "FED3 tester"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FED3 SymbLib:ZXC1082")
 		(at 120.65 149.86 0)
 		(unit 1)
@@ -14663,7 +14388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm_1"
+		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm"
 			(at 132.08 67.31 0)
 			(effects
 				(font
@@ -14730,7 +14455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm_1"
+		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm"
 			(at 102.87 64.77 0)
 			(effects
 				(font
@@ -14798,7 +14523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 72.39 46.99 0)
 			(effects
 				(font
@@ -15623,117 +15348,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TE Connectivity"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Signal Relay 5VDC 2A SPDT (( 10mm 7.5mm 5.65mm)) Surface Mount Automotive"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/1462042-8/TE+Connectivity+Potter+%2526+Brumfield+Relays/view-part/?ref=eda"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer recommendation"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "0917"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1462042-8/TE+Connectivity+Potter+%2526+Brumfield+Relays/view-part/?ref=snap"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "1462042-8"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "EU_RoHS_Compliance" "Compliant"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Availability" "In Stock"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
 			(at 210.82 130.81 0)
 			(effects
 				(font

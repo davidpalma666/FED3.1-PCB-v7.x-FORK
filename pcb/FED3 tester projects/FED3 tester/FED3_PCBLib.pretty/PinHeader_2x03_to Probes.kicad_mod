@@ -272,71 +272,114 @@
 		(uuid "68a93e8a-906e-4e0b-9feb-fc68fea8ef07")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/FED3_PCBLib.pretty/TestProbe1.STEP"
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/P25-5223.stp"
 		(offset
-			(xyz 0.57 0.57 -6)
+			(xyz 0 0 -12.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/FED3_PCBLib.pretty/TestProbe1.STEP"
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/P25-5223.stp"
 		(offset
-			(xyz 3.11 0.61 -6)
+			(xyz 2.54 0 -12.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/FED3_PCBLib.pretty/TestProbe1.STEP"
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/P25-5223.stp"
 		(offset
-			(xyz 0.58 -1.95 -6)
+			(xyz 0 -2.54 -12.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/FED3_PCBLib.pretty/TestProbe1.STEP"
-		(hide yes)
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/P25-5223.stp "
 		(offset
-			(xyz 3.11 -2 -6)
+			(xyz 0 -5.08 -12.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/FED3_PCBLib.pretty/TestProbe1.STEP"
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/P25-5223.stp "
 		(offset
-			(xyz 3 -4.5 -6)
+			(xyz 2.54 -5.08 -12.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/FED3_PCBLib.pretty/TestProbe1.STEP"
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/S25-512.stp"
 		(offset
-			(xyz 0.5 -4.5 -6)
+			(xyz 2.54 0 5.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -0 -90 -90)
+		)
+	)
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/S25-512.stp"
+		(offset
+			(xyz 0 -2.54 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -90)
+		)
+	)
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/S25-512.stp"
+		(offset
+			(xyz 0 -5.08 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -90)
+		)
+	)
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/S25-512.stp"
+		(offset
+			(xyz 0 0 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -90)
+		)
+	)
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/S25-512.stp"
+		(offset
+			(xyz 2.54 -5.08 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -90)
 		)
 	)
 )

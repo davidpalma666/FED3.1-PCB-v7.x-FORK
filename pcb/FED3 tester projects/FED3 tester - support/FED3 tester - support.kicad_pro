@@ -536,7 +536,7 @@
       "plot": "production/gerbers/",
       "pos_files": "production/P&P/",
       "specctra_dsn": "",
-      "step": "FED3_v7.3.step",
+      "step": "../../../../../../Desktop/FED3 tester - support.stl",
       "svg": "",
       "vrml": ""
     },
