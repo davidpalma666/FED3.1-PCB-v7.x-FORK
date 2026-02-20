@@ -3049,7 +3049,7 @@
 		(uuid "042562c3-e6d8-4916-8d20-44d5321dbccb")
 	)
 	(junction
-		(at 41.91 45.72)
+		(at 35.56 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05e91d50-d399-4582-a394-110fb2131efb")
@@ -3091,7 +3091,7 @@
 		(uuid "5ac0e382-8270-4ca1-aa1c-27045bdaec58")
 	)
 	(junction
-		(at 41.91 96.52)
+		(at 35.56 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d8ba932-60f7-44e4-94b9-a6a269dd6bff")
@@ -3103,13 +3103,13 @@
 		(uuid "8b64ecb2-233a-47cb-9153-342d014f626f")
 	)
 	(junction
-		(at 41.91 60.96)
+		(at 35.56 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9292bba0-fb20-4b1e-9a2a-bd58bbef8a1c")
 	)
 	(junction
-		(at 41.91 78.74)
+		(at 35.56 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c5e91b9-ee50-4db6-83ba-d810b8ca51ee")
@@ -3121,7 +3121,7 @@
 		(uuid "a5e0d861-e570-412c-98c8-20bb2b2d9597")
 	)
 	(junction
-		(at 41.91 30.48)
+		(at 35.56 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a864278e-26e3-4b94-9409-88bf4d912c6d")
@@ -3163,6 +3163,10 @@
 	(no_connect
 		(at 162.56 128.27)
 		(uuid "06ff883b-18c2-4d29-b225-004a15d939d5")
+	)
+	(no_connect
+		(at 93.98 67.31)
+		(uuid "453207c9-eeed-4f32-a89d-888dd22d7783")
 	)
 	(no_connect
 		(at 175.26 128.27)
@@ -3378,7 +3382,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 45.72) (xy 44.45 45.72)
+			(xy 35.56 45.72) (xy 38.1 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3398,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 60.96) (xy 41.91 62.23)
+			(xy 35.56 60.96) (xy 35.56 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3418,7 +3422,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 30.48) (xy 41.91 31.75)
+			(xy 35.56 30.48) (xy 35.56 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3455,16 +3459,6 @@
 			(type default)
 		)
 		(uuid "2a01475b-7df8-45c9-a8a5-70ac2663d89f")
-	)
-	(wire
-		(pts
-			(xy 39.37 78.74) (xy 41.91 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2baf131c-a6c1-43bf-a8af-b1797e1b0066")
 	)
 	(wire
 		(pts
@@ -3518,7 +3512,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 104.14) (xy 41.91 102.87)
+			(xy 35.56 104.14) (xy 35.56 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3658,7 +3652,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 86.36) (xy 41.91 85.09)
+			(xy 35.56 86.36) (xy 35.56 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3688,7 +3682,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 53.34) (xy 41.91 52.07)
+			(xy 35.56 53.34) (xy 35.56 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3725,16 +3719,6 @@
 			(type default)
 		)
 		(uuid "6effd992-9a10-40ee-8c6d-d5ab57e4d9d0")
-	)
-	(wire
-		(pts
-			(xy 39.37 96.52) (xy 41.91 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71380ae2-8041-4092-893f-afc542537d90")
 	)
 	(wire
 		(pts
@@ -3778,7 +3762,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 38.1) (xy 41.91 36.83)
+			(xy 35.56 38.1) (xy 35.56 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3805,16 +3789,6 @@
 			(type default)
 		)
 		(uuid "7e19414b-8d4d-455f-b2e3-f7cd2b1ed2d4")
-	)
-	(wire
-		(pts
-			(xy 39.37 45.72) (xy 41.91 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ef81d56-5a92-4b70-8e0c-1ca75af76697")
 	)
 	(wire
 		(pts
@@ -3878,7 +3852,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 45.72) (xy 41.91 46.99)
+			(xy 35.56 45.72) (xy 35.56 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3888,7 +3862,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 96.52) (xy 44.45 96.52)
+			(xy 35.56 96.52) (xy 38.1 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3928,7 +3902,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 60.96) (xy 44.45 60.96)
+			(xy 35.56 60.96) (xy 38.1 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4058,7 +4032,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 96.52) (xy 41.91 97.79)
+			(xy 35.56 96.52) (xy 35.56 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4078,7 +4052,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 78.74) (xy 44.45 78.74)
+			(xy 35.56 78.74) (xy 38.1 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4088,7 +4062,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 60.96) (xy 31.75 60.96)
+			(xy 30.48 60.96) (xy 35.56 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4108,7 +4082,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 30.48) (xy 44.45 30.48)
+			(xy 35.56 30.48) (xy 38.1 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4168,7 +4142,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 30.48) (xy 31.75 30.48)
+			(xy 30.48 30.48) (xy 35.56 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4218,7 +4192,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 96.52) (xy 31.75 96.52)
+			(xy 30.48 96.52) (xy 35.56 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4278,7 +4252,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 78.74) (xy 31.75 78.74)
+			(xy 30.48 78.74) (xy 35.56 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4298,7 +4272,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 45.72) (xy 31.75 45.72)
+			(xy 30.48 45.72) (xy 35.56 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4385,26 +4359,6 @@
 			(type default)
 		)
 		(uuid "d4a3e3ee-81b8-4862-8152-912663eaac69")
-	)
-	(wire
-		(pts
-			(xy 39.37 30.48) (xy 41.91 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d758bfb3-551b-4893-9b7c-a255e7223f37")
-	)
-	(wire
-		(pts
-			(xy 39.37 60.96) (xy 41.91 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d76c8099-b402-4966-9cde-598217a9819a")
 	)
 	(wire
 		(pts
@@ -4498,7 +4452,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 68.58) (xy 41.91 67.31)
+			(xy 35.56 68.58) (xy 35.56 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4568,7 +4522,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 78.74) (xy 41.91 80.01)
+			(xy 35.56 78.74) (xy 35.56 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4687,7 +4641,7 @@
 		(uuid "1d4d7222-fbcc-4479-9fcb-12f89049378c")
 	)
 	(label "Buzzer_NOK"
-		(at 44.45 60.96 0)
+		(at 38.1 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4797,7 +4751,7 @@
 		(uuid "43765c35-515c-457e-bc2b-4046327e8942")
 	)
 	(label "START_SW"
-		(at 44.45 30.48 0)
+		(at 38.1 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4987,7 +4941,7 @@
 		(uuid "b38718fe-1218-4483-a9ff-e6d836f4b6d0")
 	)
 	(label "Motor_OK"
-		(at 44.45 78.74 0)
+		(at 38.1 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5017,7 +4971,7 @@
 		(uuid "b99f5ffa-3d4f-493b-9d5f-64a08ae4fefd")
 	)
 	(label "Motor_NOK"
-		(at 44.45 96.52 0)
+		(at 38.1 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5027,7 +4981,7 @@
 		(uuid "b9bd8ca3-edd3-45fa-8c42-4766dceba393")
 	)
 	(label "Buzzer_OK"
-		(at 44.45 45.72 0)
+		(at 38.1 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5191,104 +5145,6 @@
 		(uuid "bc8447da-daae-4de6-bc98-e52c4ae7012c")
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 35.56 60.96 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00d9baa9-8223-48ec-b69b-4db31367d0ed")
-		(property "Reference" "R33"
-			(at 33.528 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 33.782 65.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 35.306 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 10kΩ ±1% 0.063W"
-			(at 35.56 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW040210K0FKED"
-			(at 38.608 69.723 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 35.56 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPSPN" "OEPS020030"
-			(at 35.56 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "323dba76-b7db-4492-baa0-14947dce723f")
-		)
-		(pin "2"
-			(uuid "8d4cd57a-57fa-4d2b-91d4-d6f3e28ec6e4")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 25.4 45.72 0)
 		(unit 1)
@@ -5351,6 +5207,15 @@
 			)
 		)
 		(property "OEPSPN" "OEPS100061"
+			(at 25.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 25.4 45.72 0)
 			(effects
 				(font
@@ -5446,6 +5311,15 @@
 				(hide yes)
 			)
 		)
+		(property "TYPE" "SMD"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4d5aef4-ab76-420a-910f-4b93a46b9d09")
 		)
@@ -5525,8 +5399,17 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030005 "
+		(property "OEPSPN" "OEPS030005"
 			(at 113.03 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
+			(at 113.03 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5595,7 +5478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "SMD 0402 330Ω ±1% 0.200W"
 			(at 124.46 162.56 0)
 			(effects
 				(font
@@ -5614,7 +5497,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 124.46 162.56 0)
 			(effects
 				(font
@@ -5785,6 +5668,15 @@
 				(hide yes)
 			)
 		)
+		(property "TYPE" "SMD"
+			(at 25.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1bca8308-ef55-41b7-af05-9656ef954629")
 		)
@@ -5867,7 +5759,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 41.91 64.77 0)
+		(at 35.56 64.77 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5876,7 +5768,7 @@
 		(dnp no)
 		(uuid "1aa4aeff-22e4-48af-ae39-00cd6b44486b")
 		(property "Reference" "C32"
-			(at 49.022 64.77 0)
+			(at 42.672 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,7 +5777,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 49.276 67.056 0)
+			(at 42.926 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +5786,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 41.91 64.77 0)
+			(at 35.56 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,7 +5795,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 64.77 0)
+			(at 35.56 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,8 +5803,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 41.91 64.77 0)
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+			(at 35.56 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,8 +5812,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
-			(at 46.609 59.182 0)
+		(property "MPN" "CGA2B3X7R1H104K050BB"
+			(at 40.259 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,8 +5822,8 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
-			(at 41.91 64.77 0)
+		(property "TYPE" "SMD"
+			(at 35.56 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,8 +5831,8 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
-			(at 41.91 64.77 0)
+		(property "OEPSPN" "OEPS010016"
+			(at 35.56 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5965,7 +5857,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 41.91 49.53 0)
+		(at 35.56 49.53 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5974,7 +5866,7 @@
 		(dnp no)
 		(uuid "230ad9bf-7783-4af7-9d6f-4d7736a9c3b6")
 		(property "Reference" "C31"
-			(at 49.022 49.53 0)
+			(at 42.672 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,7 +5875,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 49.276 51.816 0)
+			(at 42.926 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,7 +5884,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 41.91 49.53 0)
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +5893,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 49.53 0)
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6009,8 +5901,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 41.91 49.53 0)
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,8 +5910,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
-			(at 46.609 43.942 0)
+		(property "MPN" "CGA2B3X7R1H104K050BB"
+			(at 40.259 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6028,8 +5920,8 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
-			(at 41.91 49.53 0)
+		(property "TYPE" "SMD"
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,8 +5929,8 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
-			(at 41.91 49.53 0)
+		(property "OEPSPN" "OEPS010016"
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6129,7 +6021,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 41.91 100.33 0)
+		(at 35.56 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6138,7 +6030,7 @@
 		(dnp no)
 		(uuid "2de22339-8e47-4d0a-b574-3c3c021197f0")
 		(property "Reference" "C34"
-			(at 49.022 100.33 0)
+			(at 42.672 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6039,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 49.276 102.616 0)
+			(at 42.926 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +6048,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 41.91 100.33 0)
+			(at 35.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +6057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 100.33 0)
+			(at 35.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,8 +6065,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 41.91 100.33 0)
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+			(at 35.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6182,8 +6074,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
-			(at 46.609 94.742 0)
+		(property "MPN" "CGA2B3X7R1H104K050BB"
+			(at 40.259 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,8 +6084,8 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
-			(at 41.91 100.33 0)
+		(property "TYPE" "SMD"
+			(at 35.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6201,8 +6093,8 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
-			(at 41.91 100.33 0)
+		(property "OEPSPN" "OEPS010016"
+			(at 35.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,8 +6246,17 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030005 "
+		(property "OEPSPN" "OEPS030005"
 			(at 134.62 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
+			(at 134.62 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,6 +6352,15 @@
 				(hide yes)
 			)
 		)
+		(property "TYPE" "SMD"
+			(at 153.67 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6955fc6-a447-4a6e-b5ff-8a76b0b76e87")
 		)
@@ -6461,104 +6371,6 @@
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 35.56 96.52 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "455fff33-6846-4df2-9e85-b83d3d3249ef")
-		(property "Reference" "R35"
-			(at 33.528 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 33.782 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 35.306 95.504 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 10kΩ ±1% 0.063W"
-			(at 35.56 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW040210K0FKED"
-			(at 38.608 105.283 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 35.56 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPSPN" "OEPS020030"
-			(at 35.56 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc95d98d-6396-43d5-99af-94fe1479295a")
-		)
-		(pin "2"
-			(uuid "e2958117-a67d-4221-9b89-9d3184c7ecd5")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a"
-					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -6619,7 +6431,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "OEPS020043"
+		(property "MPN" "CPF0402B10KE1"
 			(at 240.157 161.798 0)
 			(effects
 				(font
@@ -6629,7 +6441,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 248.92 158.75 0)
 			(effects
 				(font
@@ -6638,7 +6450,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "CPF0402B10KE1"
+		(property "OEPSPN" "OEPS020043"
 			(at 248.92 158.75 0)
 			(effects
 				(font
@@ -6774,7 +6586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 162.56 35.56 0)
 			(effects
 				(font
@@ -6783,7 +6595,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 167.259 29.972 0)
 			(effects
 				(font
@@ -6793,7 +6605,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 162.56 35.56 0)
 			(effects
 				(font
@@ -6802,7 +6614,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
 			(at 162.56 35.56 0)
 			(effects
 				(font
@@ -6894,7 +6706,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 41.91 68.58 0)
+		(at 35.56 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6902,7 +6714,7 @@
 		(dnp no)
 		(uuid "522c2817-0f45-49bf-9e6c-84e203cf412a")
 		(property "Reference" "#PWR072"
-			(at 41.91 68.58 0)
+			(at 35.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,7 +6723,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 72.39 0)
+			(at 35.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,7 +6731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 68.58 0)
+			(at 35.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,7 +6740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 68.58 0)
+			(at 35.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,7 +6749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 41.91 68.58 0)
+			(at 35.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7024,104 +6836,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 35.56 78.74 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63a0ec38-b481-4ab0-87ec-bf7b1742c2ff")
-		(property "Reference" "R34"
-			(at 33.528 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 33.782 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 35.306 77.724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 10kΩ ±1% 0.063W"
-			(at 35.56 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW040210K0FKED"
-			(at 38.608 87.503 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 35.56 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPSPN" "OEPS020030"
-			(at 35.56 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30f80443-7d71-43f9-b4dd-7964ba791ed3")
-		)
-		(pin "2"
-			(uuid "8fc1f39c-d755-4e8d-9b58-bc54be389a5b")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 142.24 132.08 0)
 		(mirror y)
@@ -7189,7 +6903,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 41.91 86.36 0)
+		(at 35.56 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7197,7 +6911,7 @@
 		(dnp no)
 		(uuid "6e33998a-1fc6-41f1-b3d7-b9d6c919447f")
 		(property "Reference" "#PWR074"
-			(at 41.91 86.36 0)
+			(at 35.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +6920,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 90.17 0)
+			(at 35.56 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7214,7 +6928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 86.36 0)
+			(at 35.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,7 +6937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 86.36 0)
+			(at 35.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7232,7 +6946,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 41.91 86.36 0)
+			(at 35.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7031,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -7655,7 +7369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 78.74 123.19 0)
 			(effects
 				(font
@@ -7664,7 +7378,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 74.041 117.602 0)
 			(effects
 				(font
@@ -7674,7 +7388,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 78.74 123.19 0)
 			(effects
 				(font
@@ -7683,7 +7397,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
 			(at 78.74 123.19 0)
 			(effects
 				(font
@@ -7753,7 +7467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "SMD 0402 560Ω ±1% 0.063W"
 			(at 153.67 162.56 0)
 			(effects
 				(font
@@ -7772,7 +7486,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 153.67 162.56 0)
 			(effects
 				(font
@@ -7877,6 +7591,15 @@
 				(hide yes)
 			)
 		)
+		(property "TYPE" "SMD"
+			(at 254 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ecab1b7-21d1-4a86-82a9-99a11f1be164")
 		)
@@ -7894,7 +7617,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 41.91 104.14 0)
+		(at 35.56 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7902,7 +7625,7 @@
 		(dnp no)
 		(uuid "8f4f9108-1e00-4ad8-ba58-21145f0b7e78")
 		(property "Reference" "#PWR076"
-			(at 41.91 104.14 0)
+			(at 35.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7911,7 +7634,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 107.95 0)
+			(at 35.56 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7919,7 +7642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 104.14 0)
+			(at 35.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7928,7 +7651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 104.14 0)
+			(at 35.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,7 +7660,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 41.91 104.14 0)
+			(at 35.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8003,7 +7726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "SMD 0402 330Ω ±1% 0.200W"
 			(at 134.62 162.56 0)
 			(effects
 				(font
@@ -8022,7 +7745,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 134.62 162.56 0)
 			(effects
 				(font
@@ -8127,6 +7850,15 @@
 				(hide yes)
 			)
 		)
+		(property "TYPE" "SMD"
+			(at 25.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2acebc5-88fa-4521-b6aa-9f350ae4a898")
 		)
@@ -8188,7 +7920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 156.21 35.56 0)
 			(effects
 				(font
@@ -8197,7 +7929,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 160.909 29.972 0)
 			(effects
 				(font
@@ -8207,7 +7939,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 156.21 35.56 0)
 			(effects
 				(font
@@ -8216,7 +7948,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
 			(at 156.21 35.56 0)
 			(effects
 				(font
@@ -8677,7 +8409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "SMD 0402 330Ω ±1% 0.200W"
 			(at 113.03 162.56 0)
 			(effects
 				(font
@@ -8696,7 +8428,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 113.03 162.56 0)
 			(effects
 				(font
@@ -8731,7 +8463,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 41.91 38.1 0)
+		(at 35.56 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8739,7 +8471,7 @@
 		(dnp no)
 		(uuid "a450e35e-6731-4efa-818f-294f8490e1e7")
 		(property "Reference" "#PWR064"
-			(at 41.91 38.1 0)
+			(at 35.56 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8748,7 +8480,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 41.91 0)
+			(at 35.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8756,7 +8488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 38.1 0)
+			(at 35.56 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8765,7 +8497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 38.1 0)
+			(at 35.56 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8774,7 +8506,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 41.91 38.1 0)
+			(at 35.56 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8868,6 +8600,15 @@
 				(hide yes)
 			)
 		)
+		(property "TYPE" "TH"
+			(at 170.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "d701bf02-4c11-4145-abee-7a28c7dc6df3")
 		)
@@ -8897,7 +8638,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 41.91 53.34 0)
+		(at 35.56 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8905,7 +8646,7 @@
 		(dnp no)
 		(uuid "afaec8b3-b218-4772-bf8d-0561cfacc261")
 		(property "Reference" "#PWR070"
-			(at 41.91 53.34 0)
+			(at 35.56 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,7 +8655,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 57.15 0)
+			(at 35.56 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8922,7 +8663,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 53.34 0)
+			(at 35.56 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8931,7 +8672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 53.34 0)
+			(at 35.56 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8940,7 +8681,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 41.91 53.34 0)
+			(at 35.56 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9138,7 +8879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "SMD 0402 330Ω ±1% 0.200W"
 			(at 144.78 162.56 0)
 			(effects
 				(font
@@ -9157,7 +8898,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 144.78 162.56 0)
 			(effects
 				(font
@@ -9233,7 +8974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "SMD 0402 100Ω ±1% 0.250W"
 			(at 259.08 134.62 0)
 			(effects
 				(font
@@ -9260,6 +9001,15 @@
 				(hide yes)
 			)
 		)
+		(property "TYPE" "SMD"
+			(at 259.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c65681f9-096a-4ba4-8ca1-a2267e9f02b3")
 		)
@@ -9277,7 +9027,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 41.91 34.29 0)
+		(at 35.56 34.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9286,7 +9036,7 @@
 		(dnp no)
 		(uuid "bcf877a9-0762-452b-9fe4-63d25b462274")
 		(property "Reference" "C26"
-			(at 49.022 34.29 0)
+			(at 42.672 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,7 +9045,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 49.276 36.576 0)
+			(at 42.926 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9304,7 +9054,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 41.91 34.29 0)
+			(at 35.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +9063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 34.29 0)
+			(at 35.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9321,8 +9071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 41.91 34.29 0)
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+			(at 35.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9330,8 +9080,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
-			(at 46.609 28.702 0)
+		(property "MPN" "CGA2B3X7R1H104K050BB"
+			(at 40.259 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9340,8 +9090,8 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
-			(at 41.91 34.29 0)
+		(property "TYPE" "SMD"
+			(at 35.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9349,8 +9099,8 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
-			(at 41.91 34.29 0)
+		(property "OEPSPN" "OEPS010016"
+			(at 35.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +9258,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 41.91 82.55 0)
+		(at 35.56 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9517,7 +9267,7 @@
 		(dnp no)
 		(uuid "c7ae82df-42fa-4bac-b36c-a2370c1b412d")
 		(property "Reference" "C33"
-			(at 49.022 82.55 0)
+			(at 42.672 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9526,7 +9276,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 49.276 84.836 0)
+			(at 42.926 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +9285,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 41.91 82.55 0)
+			(at 35.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9294,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 82.55 0)
+			(at 35.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9552,8 +9302,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 41.91 82.55 0)
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+			(at 35.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9561,8 +9311,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
-			(at 46.609 76.962 0)
+		(property "MPN" "CGA2B3X7R1H104K050BB"
+			(at 40.259 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,8 +9321,8 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
-			(at 41.91 82.55 0)
+		(property "TYPE" "SMD"
+			(at 35.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,8 +9330,8 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
-			(at 41.91 82.55 0)
+		(property "OEPSPN" "OEPS010016"
+			(at 35.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9717,7 +9467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 148.59 35.56 0)
 			(effects
 				(font
@@ -9726,7 +9476,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 153.289 29.972 0)
 			(effects
 				(font
@@ -9736,7 +9486,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 148.59 35.56 0)
 			(effects
 				(font
@@ -9745,7 +9495,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
 			(at 148.59 35.56 0)
 			(effects
 				(font
@@ -9764,202 +9514,6 @@
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 35.56 30.48 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3e134a9-4754-452a-8601-973579f95d5d")
-		(property "Reference" "R31"
-			(at 33.528 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 33.782 34.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 35.306 29.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 10kΩ ±1% 0.063W"
-			(at 35.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW040210K0FKED"
-			(at 38.608 39.243 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 35.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPSPN" "OEPS020030"
-			(at 35.56 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12e71fd0-bb40-4793-aa4a-6316f3669b98")
-		)
-		(pin "2"
-			(uuid "48511a57-f468-4bbe-97da-9481ea3a6f8f")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 35.56 45.72 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc58c8ea-7b68-4ced-bb83-ab4bae019a95")
-		(property "Reference" "R32"
-			(at 33.528 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 33.782 50.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 35.306 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 10kΩ ±1% 0.063W"
-			(at 35.56 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW040210K0FKED"
-			(at 38.608 54.483 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 35.56 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPSPN" "OEPS020030"
-			(at 35.56 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96acf3fa-0c57-4971-a61b-ea7e755adedc")
-		)
-		(pin "2"
-			(uuid "4847fa39-6c33-4a3b-bc0e-2c69d78f533b")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a"
-					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -10094,8 +9648,17 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030005 "
+		(property "OEPSPN" "OEPS030005"
 			(at 124.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
+			(at 124.46 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10296,7 +9859,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Buzzer, polarized"
+		(property "Description" "BUZZER MAGNETIC 3V 5X5MM SMD"
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "TBD"
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSS-0575A-SMT-TR"
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 261.62 143.51 0)
 			(effects
 				(font
@@ -10387,8 +9986,17 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030005 "
+		(property "OEPSPN" "OEPS030005"
 			(at 144.78 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
+			(at 144.78 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10482,6 +10090,15 @@
 				(hide yes)
 			)
 		)
+		(property "TYPE" "SMD"
+			(at 25.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93153501-1a06-40ee-9ccf-6868a6ee1b16")
 		)
@@ -10562,7 +10179,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 88.9 124.46 0)
 			(effects
 				(font
@@ -10712,7 +10329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 118.11 35.56 0)
 			(effects
 				(font
@@ -10721,7 +10338,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 113.411 29.972 0)
 			(effects
 				(font
@@ -10731,7 +10348,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 118.11 35.56 0)
 			(effects
 				(font
@@ -10740,7 +10357,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
 			(at 118.11 35.56 0)
 			(effects
 				(font
@@ -10829,6 +10446,15 @@
 			)
 		)
 		(property "MPN" "DMN63D8L-7"
+			(at 256.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 256.54 153.67 0)
 			(effects
 				(font

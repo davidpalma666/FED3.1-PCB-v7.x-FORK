@@ -1,6 +1,35 @@
 
 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @16 Fevereiro 2026
 
+- opções para pilares de Nylon 
+	. entre as board FED3 tester- support & FED3 tester
+	. pilares necessários de 13mm
+	. refª Buuzzer: SMT-0540-S-R	Digikey: 668-1060-6-ND
+	
+headers ON FED3:
+	1x2	OEPS070079		68001-202HLF
+	1x5	OEPS070131		M20-9990546
+
+sockets on FED3 tester
+	1x2	socket
+			https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC021LFBN-RC/810142
+			MPN:	PPTC021LFBN-RC
+			Dgk:		S7000-ND
+
+	1x5 female socket
+		https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC051LFBN-RC/807239
+			MPN:	PPTC051LFBN-RC
+			Dgk:		S6103-ND
+	
+	1x5 90ºmale
+		https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC051LGBN-RC/775938
+		MPN:	PPPC051LGBN-RC
+		Dgk:	S5480-ND
+			
+	
+		
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 *  @4 Fevereiro 2026

@@ -63,7 +63,12 @@
           "width": 0.21
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|121780000|111071400|8b9f0891-6c6d-4753-a8e2-b242ef0da28a|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -250,7 +255,73 @@
       "mpn": ""
     },
     "layer_pairs": [],
-    "layer_presets": [],
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          25,
+          26,
+          28,
+          30,
+          31,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          45,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62
+        ],
+        "name": "my preset",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "conflict_shadows",
+          "shapes"
+        ]
+      }
+    ],
     "viewports": []
   },
   "boards": [],
@@ -523,7 +594,7 @@
       "plot": "production/gerbers/",
       "pos_files": "production/P&P/",
       "specctra_dsn": "",
-      "step": "FED3_v7.3.step",
+      "step": "FED3_v7.3.stl",
       "svg": "",
       "vrml": ""
     },
@@ -738,7 +809,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -747,6 +818,18 @@
           "group_by": false,
           "label": "OEPSPN",
           "name": "OEPSPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "TYPE",
+          "name": "TYPE",
           "show": true
         },
         {
@@ -760,12 +843,6 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": true
         },
         {
           "group_by": true,
@@ -793,12 +870,6 @@
         },
         {
           "group_by": false,
-          "label": "TYPE",
-          "name": "TYPE",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Availability",
           "name": "Availability",
           "show": false
@@ -807,15 +878,15 @@
           "group_by": false,
           "label": "Comment",
           "name": "Comment",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "OEPSPN"
     },
     "connection_grid_size": 50.0,
     "drawing": {

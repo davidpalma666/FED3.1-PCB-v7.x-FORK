@@ -4338,7 +4338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 4.7nF 100V ±10% X7R"
 			(at 29.21 86.36 0)
 			(effects
 				(font
@@ -4358,6 +4358,15 @@
 			)
 		)
 		(property "OEPSPN" "OEPS010017"
+			(at 29.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 29.21 86.36 0)
 			(effects
 				(font
@@ -4622,7 +4631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 10nF 25V ±10% X7R"
 			(at 82.55 171.45 0)
 			(effects
 				(font
@@ -4631,7 +4640,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "GRM155R71E103KA01D"
 			(at 82.55 171.45 0)
 			(effects
 				(font
@@ -4640,7 +4649,16 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS010067"
+			(at 82.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 82.55 171.45 0)
 			(effects
 				(font
@@ -4867,6 +4885,15 @@
 				(hide yes)
 			)
 		)
+		(property "TYPE" "SMD"
+			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9894c68e-75c3-44a0-a1ed-171c984d652d")
 		)
@@ -4937,7 +4964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0603 2.2uF 25V ±10% X5R"
 			(at 64.77 121.92 0)
 			(effects
 				(font
@@ -4956,6 +4983,15 @@
 			)
 		)
 		(property "OEPSPN" "OEPS010075"
+			(at 64.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 64.77 121.92 0)
 			(effects
 				(font
@@ -5091,7 +5127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±1% 0.063W"
+		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
 			(at 119.38 43.18 0)
 			(effects
 				(font
@@ -5100,7 +5136,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW040210K0FKED"
+		(property "MPN" "CPF0402B10KE1"
 			(at 110.617 40.132 0)
 			(effects
 				(font
@@ -5110,7 +5146,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 119.38 43.18 0)
 			(effects
 				(font
@@ -5119,7 +5155,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020030"
+		(property "OEPSPN" "OEPS020043"
 			(at 119.38 43.18 0)
 			(effects
 				(font
@@ -5189,7 +5225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0603 4.7uF 16V ±10% X6S"
 			(at 99.06 160.02 0)
 			(effects
 				(font
@@ -5208,6 +5244,15 @@
 			)
 		)
 		(property "OEPSPN" "OEPS010018"
+			(at 99.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 99.06 160.02 0)
 			(effects
 				(font
@@ -5293,6 +5338,15 @@
 			)
 		)
 		(property "OEPSPN" "OEPS070105"
+			(at 39.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 39.37 52.07 0)
 			(effects
 				(font
@@ -5425,6 +5479,15 @@
 			)
 		)
 		(property "MPN" "FT232RNL-REEL"
+			(at 144.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 144.78 62.23 0)
 			(effects
 				(font
@@ -6139,7 +6202,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "150pF"
 			(at 92.964 162.052 0)
 			(effects
 				(font
@@ -6166,7 +6229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0603 15pF 50V ±5% C0G"
 			(at 92.71 160.02 0)
 			(effects
 				(font
@@ -6175,7 +6238,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "C1608C0G1H150J080AA"
 			(at 92.71 160.02 0)
 			(effects
 				(font
@@ -6184,7 +6247,16 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS010072"
+			(at 92.71 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 92.71 160.02 0)
 			(effects
 				(font
@@ -6253,7 +6325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 59.69 168.91 0)
 			(effects
 				(font
@@ -6272,6 +6344,15 @@
 			)
 		)
 		(property "OEPSPN" "OEPS010016"
+			(at 59.69 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 59.69 168.91 0)
 			(effects
 				(font
@@ -6367,6 +6448,15 @@
 				(hide yes)
 			)
 		)
+		(property "TYPE" "SMD"
+			(at 71.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "f1db0718-c6c3-405f-9596-b659bb5d90df")
 		)
@@ -6440,7 +6530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 138.43 31.75 0)
 			(effects
 				(font
@@ -6449,7 +6539,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 138.43 31.75 0)
 			(effects
 				(font
@@ -6458,7 +6548,16 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
+			(at 138.43 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 138.43 31.75 0)
 			(effects
 				(font
@@ -6597,7 +6696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 99.06 124.46 0)
 			(effects
 				(font
@@ -6616,6 +6715,15 @@
 			)
 		)
 		(property "OEPSPN" "OEPS010016"
+			(at 99.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 99.06 124.46 0)
 			(effects
 				(font
@@ -6710,6 +6818,15 @@
 				(hide yes)
 			)
 		)
+		(property "TYPE" "SMD"
+			(at 88.9 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65e8f94d-b2bc-47e0-806b-89f57eb17904")
 		)
@@ -6771,7 +6888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -6780,7 +6897,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -6789,7 +6906,16 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -6859,7 +6985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 111.76 40.64 0)
 			(effects
 				(font
@@ -6868,7 +6994,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X7R1E104K050BB"
+		(property "MPN" "CGA2B3X7R1H104K050BB"
 			(at 111.76 40.64 0)
 			(effects
 				(font
@@ -6877,7 +7003,16 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010050"
+		(property "OEPSPN" "OEPS010016"
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 111.76 40.64 0)
 			(effects
 				(font
@@ -6945,7 +7080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 5.1k 1% 0.100W"
+		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
 			(at 67.31 41.91 0)
 			(effects
 				(font
@@ -6965,6 +7100,15 @@
 		)
 		(property "OEPSPN" "OEPS020173"
 			(at 67.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
+			(at 67.31 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7032,7 +7176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 58.42 121.92 0)
 			(effects
 				(font
@@ -7051,6 +7195,15 @@
 			)
 		)
 		(property "OEPSPN" "OEPS010016"
+			(at 58.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 58.42 121.92 0)
 			(effects
 				(font
@@ -7118,7 +7271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 5.1k 1% 0.100W"
+		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
 			(at 67.31 44.45 0)
 			(effects
 				(font
@@ -7138,6 +7291,15 @@
 		)
 		(property "OEPSPN" "OEPS020173"
 			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
+			(at 67.31 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +7369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 1MΩ ±1% 0.063W"
 			(at 24.13 85.09 0)
 			(effects
 				(font
@@ -7227,6 +7389,15 @@
 			)
 		)
 		(property "OEPSPN" "OEPS020026"
+			(at 24.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 24.13 85.09 0)
 			(effects
 				(font
@@ -7293,7 +7464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "SMD 0402 27Ω ±1% 0.063W"
 			(at 69.85 54.61 0)
 			(effects
 				(font
@@ -7312,6 +7483,15 @@
 			)
 		)
 		(property "OEPSPN" "OEPS020170"
+			(at 69.85 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 69.85 54.61 90)
 			(effects
 				(font
@@ -7642,7 +7822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
 			(at 35.56 86.36 0)
 			(effects
 				(font
@@ -7662,6 +7842,15 @@
 			)
 		)
 		(property "OEPSPN" "OEPS010016"
+			(at 35.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 35.56 86.36 0)
 			(effects
 				(font
@@ -7798,7 +7987,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Point"
+			(at 34.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "n.a"
+			(at 34.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "n.a"
+			(at 34.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "n.a"
 			(at 34.29 119.38 0)
 			(effects
 				(font
@@ -7992,7 +8208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "SMD 0402 27Ω ±1% 0.063W"
 			(at 69.85 52.07 0)
 			(effects
 				(font
@@ -8011,6 +8227,15 @@
 			)
 		)
 		(property "OEPSPN" "OEPS020170"
+			(at 69.85 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 69.85 52.07 90)
 			(effects
 				(font
@@ -8345,7 +8570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0603 4.7uF 16V ±10% X6S"
 			(at 90.17 124.46 0)
 			(effects
 				(font
@@ -8364,6 +8589,15 @@
 			)
 		)
 		(property "OEPSPN" "OEPS010018"
+			(at 90.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "SMD"
 			(at 90.17 124.46 0)
 			(effects
 				(font
@@ -8474,7 +8708,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "60k8"
+		(property "Value" "61k2"
 			(at 86.106 160.782 0)
 			(effects
 				(font
@@ -8501,7 +8735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "SMD 0402 61k2kΩ ±0.1% 0.063W"
 			(at 87.63 160.02 0)
 			(effects
 				(font
@@ -8510,7 +8744,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "??"
+		(property "MPN" "TBD"
 			(at 78.867 163.068 0)
 			(effects
 				(font
@@ -8520,7 +8754,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 87.63 160.02 0)
 			(effects
 				(font
@@ -8529,7 +8763,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "??"
+		(property "OEPSPN" "TBD"
 			(at 87.63 160.02 0)
 			(effects
 				(font
@@ -8624,6 +8858,15 @@
 				(hide yes)
 			)
 		)
+		(property "TYPE" "SMD"
+			(at 71.12 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9069026-9c9c-41eb-a26b-aca8457b42a4")
 		)
@@ -8684,7 +8927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "SMD 0603 30.1kΩ ±1% 0.100W"
 			(at 87.63 170.18 0)
 			(effects
 				(font
@@ -8693,7 +8936,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "??"
+		(property "MPN" "RC0603FR-0730K1L"
 			(at 96.393 173.228 0)
 			(effects
 				(font
@@ -8703,7 +8946,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" ""
+		(property "TYPE" "SMD"
 			(at 87.63 170.18 0)
 			(effects
 				(font
@@ -8712,7 +8955,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "??"
+		(property "OEPSPN" "OEPS020132"
 			(at 87.63 170.18 0)
 			(effects
 				(font
