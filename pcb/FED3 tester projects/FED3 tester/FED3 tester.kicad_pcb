@@ -1690,7 +1690,7 @@
 				)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "RN73R1ETTP6122B25"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1716,7 +1716,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS020214"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4920,7 +4920,7 @@
 				)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "CRCW04022M00FKEDC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4946,7 +4946,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS020210"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6055,7 +6055,7 @@
 				)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "CRCW040210M0FKED"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6081,7 +6081,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS020211"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8688,7 +8688,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05"
+		(property "Description" "CONN HEADER R/A 5POS 2.54MM"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8701,7 +8701,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS070143"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8714,7 +8714,7 @@
 				)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "61300511021"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10042,7 +10042,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS100078"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10391,7 +10391,7 @@
 				)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "ERA-2AEB122X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10417,7 +10417,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS020213"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11356,7 +11356,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS100078"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15796,7 +15796,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS100078"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17587,7 +17587,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02"
+		(property "Description" "HEADER RCPT 2.54MM straight 1x2POS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17600,7 +17600,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS070095"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17613,7 +17613,7 @@
 				)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "PPTC021LFBN-RC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23899,7 +23899,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS100079"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29948,7 +29948,7 @@
 				)
 			)
 		)
-		(property "Description" "HEADER 2.54MM 90º 2x3POS"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29961,7 +29961,7 @@
 				)
 			)
 		)
-		(property "MPN" "PR20203VBDN"
+		(property "MPN" "61300511021"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31813,7 +31813,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05"
+		(property "Description" "CONN RCPT 2.54mm 5POS"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31826,7 +31826,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS070142"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31839,7 +31839,7 @@
 				)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "PPTC051LFBN-RC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32156,7 +32156,7 @@
 				)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "ERA-2AEB223X"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32182,7 +32182,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS020212"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32711,7 +32711,7 @@
 				)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "ERA-2AEB122X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32737,7 +32737,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS020213"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

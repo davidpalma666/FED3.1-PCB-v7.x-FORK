@@ -822,6 +822,12 @@
         },
         {
           "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": true
@@ -830,12 +836,6 @@
           "group_by": false,
           "label": "TYPE",
           "name": "TYPE",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
           "show": true
         },
         {
@@ -878,7 +878,7 @@
           "group_by": false,
           "label": "Comment",
           "name": "Comment",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",
@@ -886,7 +886,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "OEPSPN"
+      "sort_field": "MPN"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -5955,7 +5955,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "CRCW040210M0FKED"
 			(at 107.823 138.938 0)
 			(effects
 				(font
@@ -5974,7 +5974,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS020211"
 			(at 99.06 135.89 0)
 			(effects
 				(font
@@ -6044,7 +6044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05"
+		(property "Description" "CONN RCPT 2.54mm 5POS"
 			(at 265.43 66.04 0)
 			(effects
 				(font
@@ -6053,7 +6053,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS070142"
 			(at 265.43 66.04 0)
 			(effects
 				(font
@@ -6062,7 +6062,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "PPTC051LFBN-RC"
 			(at 265.43 66.04 0)
 			(effects
 				(font
@@ -7756,7 +7756,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "ERA-2AEB122X"
 			(at 114.427 141.478 0)
 			(effects
 				(font
@@ -7775,7 +7775,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS020213"
 			(at 123.19 138.43 0)
 			(effects
 				(font
@@ -8496,7 +8496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05"
+		(property "Description" "CONN HEADER R/A 5POS 2.54MM"
 			(at 265.43 83.82 0)
 			(effects
 				(font
@@ -8505,7 +8505,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS070143"
 			(at 265.43 83.82 0)
 			(effects
 				(font
@@ -8514,7 +8514,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "61300511021"
 			(at 265.43 83.82 0)
 			(effects
 				(font
@@ -10197,7 +10197,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "ERA-2AEB223X"
 			(at 97.917 175.768 0)
 			(effects
 				(font
@@ -10216,7 +10216,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS020212"
 			(at 106.68 172.72 0)
 			(effects
 				(font
@@ -10990,7 +10990,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "ERA-2AEB122X"
 			(at 109.347 141.478 0)
 			(effects
 				(font
@@ -11009,7 +11009,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS020213"
 			(at 118.11 138.43 0)
 			(effects
 				(font
@@ -11364,7 +11364,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS100078"
 			(at 82.55 162.56 0)
 			(effects
 				(font
@@ -11661,7 +11661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "HEADER 2.54MM 90º 2x3POS"
+		(property "Description" ""
 			(at 262.89 41.91 0)
 			(effects
 				(font
@@ -11670,7 +11670,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PR20203VBDN"
+		(property "MPN" "61300511021"
 			(at 258.318 48.006 0)
 			(effects
 				(font
@@ -12433,7 +12433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02"
+		(property "Description" "HEADER RCPT 2.54MM straight 1x2POS"
 			(at 212.09 111.76 0)
 			(effects
 				(font
@@ -12442,7 +12442,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS070095"
 			(at 212.09 111.76 90)
 			(effects
 				(font
@@ -12451,7 +12451,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "PPTC021LFBN-RC"
 			(at 212.09 111.76 90)
 			(effects
 				(font
@@ -13445,7 +13445,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TBD"
+		(property "MPN" "CRCW04022M00FKEDC"
 			(at 131.953 165.862 0)
 			(effects
 				(font
@@ -13464,7 +13464,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS020210"
 			(at 123.19 168.91 0)
 			(effects
 				(font
@@ -14242,7 +14242,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS100078"
 			(at 62.23 129.54 0)
 			(effects
 				(font
@@ -15939,7 +15939,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "TBD"
+		(property "OEPSPN" "OEPS100078"
 			(at 199.39 130.81 0)
 			(effects
 				(font

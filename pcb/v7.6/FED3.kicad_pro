@@ -888,7 +888,7 @@
           "group_by": false,
           "label": "Voltage",
           "name": "Voltage",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -914,7 +914,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "OEPSPN"
     },
     "connection_grid_size": 50.0,
     "drawing": {
