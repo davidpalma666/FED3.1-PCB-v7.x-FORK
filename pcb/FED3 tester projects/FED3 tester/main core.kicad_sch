@@ -9877,15 +9877,6 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
-			(at 261.62 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "CSS-0575A-SMT-TR"
 			(at 261.62 143.51 0)
 			(effects
