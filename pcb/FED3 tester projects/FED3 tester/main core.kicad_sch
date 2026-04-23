@@ -307,7 +307,52 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Buzzer, polarized"
+			(property "Description" "BUZZER MAGNETIC 3V 5X5MM SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OEPSPN" "OEPS100079"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CSS-0575A-SMT-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TempCo" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "3V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -403,6 +448,25 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -2.54 0 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -2.54 -2.54 0)
 					(length 2.54)
@@ -414,25 +478,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "n.c."
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -629,6 +674,15 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2497,20 +2551,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q?"
-				(at -2.286 -2.54 0)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "DMN63D8L-7"
-				(at -4.064 -5.08 0)
+			(property "Value" "IRLML2060"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
@@ -2524,7 +2580,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -2534,25 +2590,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MOSFET N-CH 30V 350mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "OEPSPN" "OEPS060013"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "DMN63D8L-7"
+			(property "Description" "1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3165,12 +3203,20 @@
 		(uuid "06ff883b-18c2-4d29-b225-004a15d939d5")
 	)
 	(no_connect
+		(at 160.02 107.95)
+		(uuid "3f5be085-ab6c-4d3e-8b7f-f7dd69c62083")
+	)
+	(no_connect
 		(at 93.98 67.31)
 		(uuid "453207c9-eeed-4f32-a89d-888dd22d7783")
 	)
 	(no_connect
 		(at 175.26 128.27)
 		(uuid "6fb52e2c-bedf-40e2-bf39-2ac8581dfef2")
+	)
+	(no_connect
+		(at 160.02 105.41)
+		(uuid "765b97ec-2ecd-4914-970e-f1eda3968283")
 	)
 	(no_connect
 		(at 166.37 110.49)
@@ -5215,7 +5261,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 25.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 25.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 25.4 45.72 0)
 			(effects
 				(font
@@ -5311,7 +5375,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 25.4 60.96 0)
 			(effects
 				(font
@@ -5408,7 +5490,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 113.03 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 113.03 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 113.03 171.45 90)
 			(effects
 				(font
@@ -5497,7 +5597,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS020191"
 			(at 124.46 162.56 0)
 			(effects
 				(font
@@ -5506,7 +5606,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020191"
+		(property "TempCo" ""
+			(at 124.46 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 124.46 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 124.46 162.56 0)
 			(effects
 				(font
@@ -5668,7 +5786,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 25.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 25.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 25.4 96.52 0)
 			(effects
 				(font
@@ -5822,7 +5958,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS010016"
 			(at 35.56 64.77 0)
 			(effects
 				(font
@@ -5831,7 +5967,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010016"
+		(property "TempCo" "X7R"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 35.56 64.77 0)
 			(effects
 				(font
@@ -5920,7 +6074,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS010016"
 			(at 35.56 49.53 0)
 			(effects
 				(font
@@ -5929,7 +6083,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010016"
+		(property "TempCo" "X7R"
+			(at 35.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 35.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 35.56 49.53 0)
 			(effects
 				(font
@@ -6084,7 +6256,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS010016"
 			(at 35.56 100.33 0)
 			(effects
 				(font
@@ -6093,7 +6265,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010016"
+		(property "TempCo" "X7R"
+			(at 35.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 35.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 35.56 100.33 0)
 			(effects
 				(font
@@ -6255,7 +6445,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 134.62 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 134.62 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 134.62 171.45 90)
 			(effects
 				(font
@@ -6352,7 +6560,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 153.67 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 153.67 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 153.67 171.45 90)
 			(effects
 				(font
@@ -6441,7 +6667,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS020043"
 			(at 248.92 158.75 0)
 			(effects
 				(font
@@ -6450,7 +6676,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020043"
+		(property "TempCo" ""
+			(at 248.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 248.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 248.92 158.75 0)
 			(effects
 				(font
@@ -6605,7 +6849,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS010016"
 			(at 162.56 35.56 0)
 			(effects
 				(font
@@ -6614,7 +6858,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010016"
+		(property "TempCo" "X7R"
+			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 162.56 35.56 0)
 			(effects
 				(font
@@ -7031,7 +7293,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS080116"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -7040,7 +7302,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS080116"
+		(property "TempCo" ""
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -7388,7 +7668,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS010016"
 			(at 78.74 123.19 0)
 			(effects
 				(font
@@ -7397,7 +7677,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010016"
+		(property "TempCo" "X7R"
+			(at 78.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 78.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 78.74 123.19 0)
 			(effects
 				(font
@@ -7486,7 +7784,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS020193"
 			(at 153.67 162.56 0)
 			(effects
 				(font
@@ -7495,7 +7793,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020193"
+		(property "TempCo" ""
+			(at 153.67 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 153.67 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 153.67 162.56 0)
 			(effects
 				(font
@@ -7591,7 +7907,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 254 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 254 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 254 143.51 90)
 			(effects
 				(font
@@ -7745,7 +8079,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS020191"
 			(at 134.62 162.56 0)
 			(effects
 				(font
@@ -7754,7 +8088,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020191"
+		(property "TempCo" ""
+			(at 134.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 134.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 134.62 162.56 0)
 			(effects
 				(font
@@ -7850,7 +8202,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 25.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 25.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 25.4 78.74 0)
 			(effects
 				(font
@@ -7939,7 +8309,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS010016"
 			(at 156.21 35.56 0)
 			(effects
 				(font
@@ -7948,7 +8318,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010016"
+		(property "TempCo" "X7R"
+			(at 156.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 156.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 156.21 35.56 0)
 			(effects
 				(font
@@ -8428,7 +8816,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS020191"
 			(at 113.03 162.56 0)
 			(effects
 				(font
@@ -8437,7 +8825,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020191"
+		(property "TempCo" ""
+			(at 113.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 113.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 113.03 162.56 0)
 			(effects
 				(font
@@ -8600,7 +9006,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "TH"
+		(property "TempCo" ""
+			(at 170.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 170.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 170.18 128.27 0)
 			(effects
 				(font
@@ -8898,7 +9322,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS020191"
 			(at 144.78 162.56 0)
 			(effects
 				(font
@@ -8907,7 +9331,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020191"
+		(property "TempCo" ""
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 144.78 162.56 0)
 			(effects
 				(font
@@ -9001,7 +9443,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 259.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 259.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 259.08 134.62 0)
 			(effects
 				(font
@@ -9090,7 +9550,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS010016"
 			(at 35.56 34.29 0)
 			(effects
 				(font
@@ -9099,7 +9559,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010016"
+		(property "TempCo" "X7R"
+			(at 35.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 35.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 35.56 34.29 0)
 			(effects
 				(font
@@ -9321,7 +9799,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS010016"
 			(at 35.56 82.55 0)
 			(effects
 				(font
@@ -9330,7 +9808,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010016"
+		(property "TempCo" "X7R"
+			(at 35.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 35.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 35.56 82.55 0)
 			(effects
 				(font
@@ -9486,7 +9982,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS010016"
 			(at 148.59 35.56 0)
 			(effects
 				(font
@@ -9495,7 +9991,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010016"
+		(property "TempCo" "X7R"
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 148.59 35.56 0)
 			(effects
 				(font
@@ -9657,7 +10171,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 124.46 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 124.46 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 124.46 171.45 90)
 			(effects
 				(font
@@ -9886,7 +10418,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "3V"
 			(at 261.62 143.51 0)
 			(effects
 				(font
@@ -9902,7 +10452,7 @@
 			(uuid "34a7469d-9d76-4b60-bb58-217c287b7c86")
 		)
 		(pin "3"
-			(uuid "73aaed4a-cb3e-4cfa-afe5-5d5748b75e23")
+			(uuid "bab3391a-9066-407a-95f7-5bf3ab6faa59")
 		)
 		(instances
 			(project ""
@@ -9986,7 +10536,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 144.78 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 144.78 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 144.78 171.45 90)
 			(effects
 				(font
@@ -10081,7 +10649,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 25.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 25.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 25.4 30.48 0)
 			(effects
 				(font
@@ -10170,7 +10756,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS080018"
 			(at 88.9 124.46 0)
 			(effects
 				(font
@@ -10179,7 +10765,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS080018"
+		(property "TempCo" ""
+			(at 88.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 88.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 88.9 124.46 0)
 			(effects
 				(font
@@ -10339,7 +10943,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS010016"
 			(at 118.11 35.56 0)
 			(effects
 				(font
@@ -10348,7 +10952,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS010016"
+		(property "TempCo" "X7R"
+			(at 118.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 118.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 118.11 35.56 0)
 			(effects
 				(font
@@ -10408,7 +11030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
 			(at 261.62 157.48 0)
 			(effects
 				(font
@@ -10418,7 +11040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET N-CH 30V 350mA"
+		(property "Description" "1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 			(at 256.54 153.67 0)
 			(effects
 				(font
@@ -10445,7 +11067,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 256.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 256.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 256.54 153.67 0)
 			(effects
 				(font

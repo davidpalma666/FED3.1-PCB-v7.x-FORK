@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "FED3_v7.2")(type "KiCad")(uri "$(KIPRJMOD)/FED3_v7.2.pretty")(options "")(descr ""))
-)

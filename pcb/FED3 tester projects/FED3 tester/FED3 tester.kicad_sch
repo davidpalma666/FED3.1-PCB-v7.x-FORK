@@ -1393,8 +1393,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
-				(at 14.986 25.908 0)
+			(property "Reference" "U1"
+				(at -24.13 34.798 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1403,7 +1403,7 @@
 				)
 			)
 			(property "Value" "FT232RL"
-				(at 14.986 23.368 0)
+				(at -24.13 32.258 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1456,6 +1456,33 @@
 					(hide yes)
 				)
 			)
+			(property "TempCo" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "FTDI USB Serial"
 				(at 0 0 0)
 				(effects
@@ -1484,46 +1511,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(symbol "FT232RL_1_0"
-				(pin no_connect line
-					(at 15.24 -24.13 180)
-					(length 2.54)
-					(hide yes)
-					(name "n.c"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -26.67 180)
-					(length 2.54)
-					(hide yes)
-					(name "n.c."
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -1960,6 +1947,24 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "n.c"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 20.32 -15.24 180)
 					(length 3.81)
@@ -1971,6 +1976,24 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 20.32 -15.24 180)
+					(length 2.54)
+					(name "n.c"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4366,7 +4389,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" "X7R"
+			(at 29.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 29.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
 			(at 29.21 86.36 0)
 			(effects
 				(font
@@ -4658,7 +4699,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" "X7R"
+			(at 82.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 82.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 82.55 171.45 0)
 			(effects
 				(font
@@ -4885,7 +4944,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 80.01 121.92 0)
 			(effects
 				(font
@@ -4991,7 +5068,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" "X5R"
+			(at 64.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 64.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 64.77 121.92 0)
 			(effects
 				(font
@@ -5146,7 +5241,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS020043"
 			(at 119.38 43.18 0)
 			(effects
 				(font
@@ -5155,7 +5250,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020043"
+		(property "TempCo" ""
+			(at 119.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 119.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 119.38 43.18 0)
 			(effects
 				(font
@@ -5252,7 +5365,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" "X6S"
+			(at 99.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 99.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
 			(at 99.06 160.02 0)
 			(effects
 				(font
@@ -5346,7 +5477,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 39.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 39.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 39.37 52.07 0)
 			(effects
 				(font
@@ -5487,7 +5636,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 144.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 144.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 144.78 62.23 0)
 			(effects
 				(font
@@ -5574,11 +5741,11 @@
 		(pin "12"
 			(uuid "d279e3ab-eb51-4a74-a396-db068c67442f")
 		)
-		(pin "24"
-			(uuid "18db4464-54fb-4ccf-bd44-7b47cfa3002d")
-		)
 		(pin "8"
-			(uuid "adea4d02-b353-4f78-8452-164275f98f34")
+			(uuid "1cf26692-d126-40a6-b577-1d45feee4e32")
+		)
+		(pin "24"
+			(uuid "4481491e-7cf6-4a90-a6df-32c70336ed68")
 		)
 		(instances
 			(project ""
@@ -6202,7 +6369,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150pF"
+		(property "Value" "15pF"
 			(at 92.964 162.052 0)
 			(effects
 				(font
@@ -6211,7 +6378,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.71 160.02 0)
 			(effects
 				(font
@@ -6256,7 +6423,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" "C0G"
+			(at 92.71 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 92.71 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 92.71 160.02 0)
 			(effects
 				(font
@@ -6352,7 +6537,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" "X7R"
+			(at 59.69 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 59.69 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 59.69 168.91 0)
 			(effects
 				(font
@@ -6394,7 +6597,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS79301-EP"
+		(property "Value" "TPS79301DBVRG4"
 			(at 71.12 158.75 0)
 			(effects
 				(font
@@ -6448,7 +6651,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 71.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 71.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 71.12 165.1 0)
 			(effects
 				(font
@@ -6557,7 +6778,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" "X7R"
+			(at 138.43 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 138.43 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 138.43 31.75 0)
 			(effects
 				(font
@@ -6723,7 +6962,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" "X7R"
+			(at 99.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 99.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 99.06 124.46 0)
 			(effects
 				(font
@@ -6818,7 +7075,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 88.9 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 88.9 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 88.9 36.83 90)
 			(effects
 				(font
@@ -6915,7 +7190,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" "X7R"
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -7012,7 +7305,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" "X7R"
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 111.76 40.64 0)
 			(effects
 				(font
@@ -7054,7 +7365,7 @@
 				)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "5.1k"
 			(at 70.358 39.878 90)
 			(effects
 				(font
@@ -7107,7 +7418,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 67.31 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 67.31 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 67.31 41.91 90)
 			(effects
 				(font
@@ -7203,7 +7532,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" "X7R"
+			(at 58.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 58.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 58.42 121.92 0)
 			(effects
 				(font
@@ -7245,7 +7592,7 @@
 				)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "5.1k"
 			(at 69.85 46.736 90)
 			(effects
 				(font
@@ -7298,7 +7645,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 67.31 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 67.31 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 67.31 44.45 90)
 			(effects
 				(font
@@ -7397,7 +7762,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 24.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 24.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 24.13 85.09 0)
 			(effects
 				(font
@@ -7491,7 +7874,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 69.85 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 69.85 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 69.85 54.61 90)
 			(effects
 				(font
@@ -7850,7 +8251,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" "X7R"
+			(at 35.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 35.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 35.56 86.36 0)
 			(effects
 				(font
@@ -8014,7 +8433,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "n.a"
+		(property "TempCo" ""
+			(at 34.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 34.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 34.29 119.38 0)
 			(effects
 				(font
@@ -8235,7 +8672,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 69.85 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 69.85 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 69.85 52.07 90)
 			(effects
 				(font
@@ -8597,7 +9052,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" "X6S"
+			(at 90.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 90.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
 			(at 90.17 124.46 0)
 			(effects
 				(font
@@ -8708,7 +9181,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61k2"
+		(property "Value" "61.2k"
 			(at 86.106 160.782 0)
 			(effects
 				(font
@@ -8754,7 +9227,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS020214"
 			(at 87.63 160.02 0)
 			(effects
 				(font
@@ -8763,7 +9236,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020214"
+		(property "TempCo" ""
+			(at 87.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 87.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 87.63 160.02 0)
 			(effects
 				(font
@@ -8858,7 +9349,25 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "TempCo" ""
+			(at 71.12 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 71.12 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 71.12 36.83 90)
 			(effects
 				(font
@@ -8900,7 +9409,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "30k1"
+		(property "Value" "30.1k"
 			(at 90.17 171.4499 0)
 			(effects
 				(font
@@ -8909,7 +9418,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 86.614 169.926 90)
 			(effects
 				(font
@@ -8946,7 +9455,7 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "SMD"
+		(property "OEPSPN" "OEPS020132"
 			(at 87.63 170.18 0)
 			(effects
 				(font
@@ -8955,7 +9464,25 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020132"
+		(property "TempCo" ""
+			(at 87.63 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 87.63 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 87.63 170.18 0)
 			(effects
 				(font

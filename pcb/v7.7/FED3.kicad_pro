@@ -37,18 +37,18 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.95,
-          "height": 2.95,
-          "width": 2.95
+          "drill": 0.5,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.2,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 1e-06
         }
       },
       "diff_pair_dimensions": [
@@ -63,7 +63,48 @@
           "width": 0.21
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|148335559|124092614|2e48ad2f-7c4f-4bce-b623-99b4a34bddb8|5d65ffc4-ef22-4100-b6f0-446777f04306",
+          ""
+        ],
+        [
+          "courtyards_overlap|148335559|126632614|3b07fd7d-345d-40de-9b03-e364bd5918d3|5d65ffc4-ef22-4100-b6f0-446777f04306",
+          ""
+        ],
+        [
+          "courtyards_overlap|149360546|126835634|2e48ad2f-7c4f-4bce-b623-99b4a34bddb8|3b07fd7d-345d-40de-9b03-e364bd5918d3",
+          ""
+        ],
+        [
+          "courtyards_overlap|149852050|128866536|2a02f5e3-e01c-4dd2-aa8b-b6e83434a6b3|3b07fd7d-345d-40de-9b03-e364bd5918d3",
+          ""
+        ],
+        [
+          "courtyards_overlap|150875559|126632614|2a02f5e3-e01c-4dd2-aa8b-b6e83434a6b3|5d65ffc4-ef22-4100-b6f0-446777f04306",
+          ""
+        ],
+        [
+          "courtyards_overlap|152392050|127320774|2a02f5e3-e01c-4dd2-aa8b-b6e83434a6b3|f04ff2c8-a9af-4921-b1fe-7635ee49efeb",
+          ""
+        ],
+        [
+          "courtyards_overlap|153415559|124092614|0b9cf09d-bc8f-412a-b16e-8bee65ee4ea7|5d65ffc4-ef22-4100-b6f0-446777f04306",
+          ""
+        ],
+        [
+          "courtyards_overlap|153415559|126632614|5d65ffc4-ef22-4100-b6f0-446777f04306|f04ff2c8-a9af-4921-b1fe-7635ee49efeb",
+          ""
+        ],
+        [
+          "courtyards_overlap|154440546|126835634|0b9cf09d-bc8f-412a-b16e-8bee65ee4ea7|f04ff2c8-a9af-4921-b1fe-7635ee49efeb",
+          ""
+        ],
+        [
+          "unconnected_items|196429200|111353600|F.Cu|4|acae260c-aeeb-4bb5-be00-0b7695a597de|07db9bea-bf8a-4a7f-8525-6d9e42ea194c",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -142,8 +183,8 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.2,
+        "min_through_hole_diameter": 0.21,
+        "min_track_width": 0.21,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.55,
         "solder_mask_to_copper_clearance": 0.0,
@@ -161,7 +202,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -172,7 +213,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,7 +224,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -195,7 +236,7 @@
       ],
       "track_widths": [
         0.0,
-        0.22,
+        0.21,
         0.23,
         0.26,
         0.3,
@@ -237,7 +278,7 @@
         },
         {
           "diameter": 0.55,
-          "drill": 0.22
+          "drill": 0.21
         }
       ],
       "zones_allow_external_fillets": false
@@ -250,73 +291,7 @@
       "mpn": ""
     },
     "layer_pairs": [],
-    "layer_presets": [
-      {
-        "activeLayer": -2,
-        "flipBoard": false,
-        "layers": [
-          0,
-          1,
-          2,
-          4,
-          5,
-          6,
-          7,
-          8,
-          10,
-          12,
-          14,
-          16,
-          18,
-          20,
-          22,
-          24,
-          25,
-          26,
-          28,
-          30,
-          31,
-          32,
-          34,
-          36,
-          38,
-          40,
-          42,
-          44,
-          45,
-          46,
-          48,
-          50,
-          52,
-          54,
-          56,
-          58,
-          60,
-          62
-        ],
-        "name": "my preset",
-        "renderLayers": [
-          "vias",
-          "footprint_text",
-          "footprint_anchors",
-          "ratsnest",
-          "grid",
-          "footprints_front",
-          "footprints_back",
-          "footprint_values",
-          "footprint_references",
-          "tracks",
-          "drc_errors",
-          "drawing_sheet",
-          "bitmaps",
-          "pads",
-          "zones",
-          "drc_warnings",
-          "conflict_shadows",
-          "shapes"
-        ]
-      }
-    ],
+    "layer_presets": [],
     "viewports": []
   },
   "boards": [],
@@ -550,7 +525,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FED3 tester.kicad_pro",
+    "filename": "FED3.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -587,9 +562,9 @@
       "idf": "",
       "netlist": "",
       "plot": "production/gerbers/",
-      "pos_files": "production/P&P/",
+      "pos_files": "production/",
       "specctra_dsn": "",
-      "step": "FED3_v7.3.stl",
+      "step": "FED3_v7.3.step",
       "svg": "",
       "vrml": ""
     },
@@ -597,7 +572,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "manufacturing\\bom\\FED3 tester BOM.csv",
+    "bom_export_filename": "production\\FED3.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ";",
@@ -793,12 +768,6 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -807,36 +776,6 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Tolerance",
-          "name": "Tolerance",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "TempCo",
-          "name": "TempCo",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Do Not Place",
-          "name": "${DNP}",
           "show": true
         },
         {
@@ -853,20 +792,68 @@
         },
         {
           "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Do Not Place",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
+          "label": "Datasheet1",
+          "name": "Datasheet1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part No.",
+          "name": "Part No.",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
           "show": false
         }
       ],
@@ -887,7 +874,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": true,
+      "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -923,12 +910,12 @@
       "Root"
     ],
     [
-      "a050073c-fe8b-47ad-8c37-c2ab8f59b63a",
-      "main core"
+      "f4901940-5078-48a6-adaa-a0748712c93b",
+      "Controller Stage"
     ],
     [
-      "838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d",
-      "DUT stage"
+      "91f92fff-cc86-4ce2-a671-c31760f8020c",
+      "IOs Interface"
     ]
   ],
   "text_variables": {}
