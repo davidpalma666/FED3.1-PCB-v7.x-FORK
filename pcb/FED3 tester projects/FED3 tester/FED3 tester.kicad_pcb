@@ -22056,7 +22056,7 @@
 			(net 3 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "83443341-d984-4076-9b89-db84a0b9744f")
+			(uuid "bb845412-fdf0-417a-a099-79bf6bb0c4d1")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105)
@@ -22068,7 +22068,7 @@
 			(net 3 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "83443341-d984-4076-9b89-db84a0b9744f")
+			(uuid "3c41d4b8-1315-49fc-b8b4-10e173476ebf")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075)
@@ -22080,7 +22080,7 @@
 			(net 3 "Net-(J1-SHIELD)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "83443341-d984-4076-9b89-db84a0b9744f")
+			(uuid "7361ad53-46e1-4856-b305-4818a6a6a451")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
@@ -41305,7 +41305,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "tester rev.A"
+	(gr_text "tester rev.B"
 		(at 125.4 49.8 0)
 		(layer "F.SilkS")
 		(uuid "f001c6da-cecb-4dc1-9b95-5d52e06a04e9")
