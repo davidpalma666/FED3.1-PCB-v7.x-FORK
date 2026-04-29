@@ -3079,12 +3079,6 @@
 		(uuid "146323f8-9919-4b7c-a00d-e2cedddf71a1")
 	)
 	(junction
-		(at 156.21 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "325e743d-a790-4c6b-bfed-e3ed704d0c64")
-	)
-	(junction
 		(at 147.32 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3101,12 +3095,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3df3f80a-7dfb-4c05-9315-5ec339332120")
-	)
-	(junction
-		(at 165.1 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "432d1541-9cc2-4c7e-abb2-caee72fb419b")
 	)
 	(junction
 		(at 147.32 88.9)
@@ -3169,12 +3157,6 @@
 		(uuid "8076d2b3-dd4d-48f0-b3da-a86657a460f2")
 	)
 	(junction
-		(at 130.81 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "968d329c-940d-4da6-9f09-7967f4f280d4")
-	)
-	(junction
 		(at 119.38 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3187,12 +3169,6 @@
 		(uuid "c8d5f998-6d47-409c-a171-381ee64194f3")
 	)
 	(junction
-		(at 135.89 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9199d8e-c1f3-4085-ac20-7c40d6a056a6")
-	)
-	(junction
 		(at 144.78 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3203,12 +3179,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da935d01-304e-400c-b3c1-127ffdd25090")
-	)
-	(junction
-		(at 124.46 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd794c3b-881a-4fdc-b469-b1cee637faae")
 	)
 	(junction
 		(at 59.69 165.1)
@@ -3299,16 +3269,6 @@
 			(type default)
 		)
 		(uuid "08071c7c-04e8-4e20-94de-52ccb4a2a247")
-	)
-	(wire
-		(pts
-			(xy 130.81 129.54) (xy 130.81 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "088f7e95-da8e-470b-83a5-f1731e70cc1c")
 	)
 	(wire
 		(pts
@@ -3752,16 +3712,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 129.54) (xy 124.46 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61f06436-9bf2-4790-a193-c05d1dceab96")
-	)
-	(wire
-		(pts
 			(xy 69.85 119.38) (xy 72.39 119.38)
 		)
 		(stroke
@@ -3769,36 +3719,6 @@
 			(type default)
 		)
 		(uuid "6b2d154a-702b-4a0c-a2ca-29e0f53cebcc")
-	)
-	(wire
-		(pts
-			(xy 124.46 118.11) (xy 124.46 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cd797ab-b75e-423e-89c5-7d5fc3eb97b2")
-	)
-	(wire
-		(pts
-			(xy 138.43 124.46) (xy 135.89 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7286aa02-def1-45cf-9e63-fff5cae0bb0c")
-	)
-	(wire
-		(pts
-			(xy 130.81 121.92) (xy 135.89 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "743aae12-5c67-44cb-900c-f7430939dcd6")
 	)
 	(wire
 		(pts
@@ -3852,16 +3772,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 124.46) (xy 156.21 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8450a35f-98ee-4a59-a067-33eb9d532599")
-	)
-	(wire
-		(pts
 			(xy 92.71 153.67) (xy 99.06 153.67)
 		)
 		(stroke
@@ -3889,26 +3799,6 @@
 			(type default)
 		)
 		(uuid "8845b10d-9d9a-4676-ae83-ab97044c6ea6")
-	)
-	(wire
-		(pts
-			(xy 165.1 119.38) (xy 165.1 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a750110-208e-4fec-8cc5-90cfafd8d61d")
-	)
-	(wire
-		(pts
-			(xy 135.89 124.46) (xy 135.89 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c191ee7-d0a1-45ba-9a0d-fe1c0092a1cf")
 	)
 	(wire
 		(pts
@@ -4002,16 +3892,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 130.81) (xy 165.1 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4c6dbf1-17b6-494d-b671-6d5a3699bbfe")
-	)
-	(wire
-		(pts
 			(xy 81.28 36.83) (xy 85.09 36.83)
 		)
 		(stroke
@@ -4042,16 +3922,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 133.35) (xy 146.05 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b049998f-f2d6-4de5-884d-905853f601ed")
-	)
-	(wire
-		(pts
 			(xy 69.85 121.92) (xy 69.85 119.38)
 		)
 		(stroke
@@ -4079,16 +3949,6 @@
 			(type default)
 		)
 		(uuid "b6f73415-a093-4519-8224-bede36f8626d")
-	)
-	(wire
-		(pts
-			(xy 165.1 121.92) (xy 165.1 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b790d018-2606-4870-93ea-86bb0ee0e794")
 	)
 	(wire
 		(pts
@@ -4202,16 +4062,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 121.92) (xy 156.21 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7c53db2-c788-4460-bcd1-949c16d3b73d")
-	)
-	(wire
-		(pts
 			(xy 99.06 116.84) (xy 99.06 119.38)
 		)
 		(stroke
@@ -4219,16 +4069,6 @@
 			(type default)
 		)
 		(uuid "cb77a224-8298-4f7e-8eb3-e84f0e3a6c46")
-	)
-	(wire
-		(pts
-			(xy 124.46 121.92) (xy 130.81 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc3fc666-8084-4f99-8603-31b76e9a4fb4")
 	)
 	(wire
 		(pts
@@ -4382,16 +4222,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 121.92) (xy 165.1 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0cdb17a-1b8a-41fe-9a3f-16408c4ffcf0")
-	)
-	(wire
-		(pts
 			(xy 165.1 44.45) (xy 210.82 44.45)
 		)
 		(stroke
@@ -4399,16 +4229,6 @@
 			(type default)
 		)
 		(uuid "e0f896da-436f-463e-ae7b-f7d982f4660b")
-	)
-	(wire
-		(pts
-			(xy 135.89 121.92) (xy 138.43 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1823b46-6ebe-4b8c-b58a-636c51e7884e")
 	)
 	(wire
 		(pts
@@ -4459,16 +4279,6 @@
 			(type default)
 		)
 		(uuid "ef97dec4-6220-4e7c-85e0-a254c44e1a16")
-	)
-	(wire
-		(pts
-			(xy 156.21 130.81) (xy 156.21 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0fdd956-2176-4a6f-9ead-a9ca1abd917d")
 	)
 	(wire
 		(pts
@@ -4880,7 +4690,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10fb8cf2-6757-4bbf-809b-ef5340fbc523")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR018"
 			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -4940,7 +4750,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR026")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4958,7 +4768,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14301881-7cbd-4c0a-878b-c7ee2a97c96f")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR094"
 			(at 97.79 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5018,143 +4828,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 124.46 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "148ea852-0ec2-486f-b9d7-438e87584432")
-		(property "Reference" "C10"
-			(at 121.92 123.1962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 121.92 125.7362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 124.46 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
-			(at 124.46 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CGA2B3X7R1H104K050BB"
-			(at 124.46 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS010016"
-			(at 124.46 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" "X7R"
-			(at 124.46 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 124.46 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 124.46 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2576ac40-49f3-43dc-90b2-0a6866fd9fff")
-		)
-		(pin "1"
-			(uuid "e6a0281a-c3a4-46f6-aaf9-7b7df6ef9479")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "C10")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -5171,7 +4845,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18c1d842-cec6-40cf-b38c-f35b2c4fdaf7")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 111.76 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5231,7 +4905,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5248,7 +4922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b5fc4df-7ada-4408-953b-3267959784d3")
-		(property "Reference" "C17"
+		(property "Reference" "C13"
 			(at 80.01 170.1862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5367,7 +5041,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "C17")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5462,7 +5136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24a5ea9b-35dd-40bf-a4b4-d964448de5be")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR021"
 			(at 59.69 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -5524,7 +5198,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR029")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5811,297 +5485,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 165.1 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2c5183b5-3762-4281-920d-eeab9896f450")
-		(property "Reference" "#PWR014"
-			(at 165.1 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AVCC"
-			(at 166.116 114.808 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 165.1 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5f422b1-a80b-46c4-8ff4-5826037d9342")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 156.21 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3345b28d-2f23-4514-8ea1-5f93f6c09ffe")
-		(property "Reference" "C12"
-			(at 158.75 125.7362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 158.75 128.2762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD CER 0603 4.7uF 16V ±10% X6S"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C1608X6S1C475K080AC"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS010018"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" "X6S"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 156.21 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ad2e8108-94af-40d4-b1ac-a37bd7f9c5f4")
-		)
-		(pin "1"
-			(uuid "151408d6-2731-44cc-8f37-e318edf3fe1b")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "338c121e-66e2-4903-8caf-899830180907")
-		(property "Reference" "#PWR020"
-			(at 124.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.222 133.096 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "826c0784-e3b7-42d4-acef-21705869cac9")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 81.28 27.94 0)
 		(mirror y)
@@ -6329,7 +5712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "473eebae-0856-409a-85e0-1b3806abf181")
-		(property "Reference" "C15"
+		(property "Reference" "C11"
 			(at 101.6 158.7562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6448,84 +5831,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4e76caa5-203d-46b1-b0ed-372b9f38dc84")
-		(property "Reference" "#PWR021"
-			(at 130.81 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 131.572 133.096 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef10a85b-538d-4384-aa96-fd4d0b0a666e")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR021")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6936,7 +6242,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52355edb-9c52-44bb-acd6-db0e5abe9059")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 74.93 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6996,7 +6302,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7013,7 +6319,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52b5219f-d403-4669-aef1-136ea5b4d6c6")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 99.06 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7073,7 +6379,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7090,7 +6396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ac5c3d5-2a3d-4c8d-9057-eac195255d3c")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR013"
 			(at 58.42 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7150,162 +6456,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 165.1 130.81 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5e2481ca-cfd2-4fa3-8123-0492badf964e")
-		(property "Reference" "#PWR024"
-			(at 165.1 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "555d9aa1-8c6c-4e9d-b4b2-9b39466a961b")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "66184606-ff83-4c01-b734-88eb0f4361fb")
-		(property "Reference" "#PWR025"
-			(at 146.05 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.812 136.906 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e8986f0-e989-41d9-a286-48b7c91fb42d")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR025")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7323,7 +6474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67bf9fed-2a8e-4064-80dc-e7e3685d01b7")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR020"
 			(at 99.06 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -7385,7 +6536,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR028")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7480,7 +6631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7864c7a3-c6a3-45e2-8c7a-a5c14b858e61")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 58.42 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7540,7 +6691,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7636,7 +6787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "809555d4-2150-4954-be20-dccf9d900828")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR024"
 			(at 87.63 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -7698,144 +6849,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 130.81 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84a1211d-ce2a-44d8-b689-2dbebc2f4314")
-		(property "Reference" "C11"
-			(at 133.35 123.1962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 133.35 125.7362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 130.81 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD CER 0603 2.2uF 25V ±10% X5R"
-			(at 130.81 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM188R61E225KA12D"
-			(at 130.81 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS010075"
-			(at 130.81 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" "X5R"
-			(at 130.81 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 130.81 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 130.81 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "60386bc6-4d50-4394-8db2-6251297b4fdf")
-		)
-		(pin "1"
-			(uuid "ece5432d-6055-42d5-b161-7081bc6a2f07")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "C11")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7852,7 +6866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e2c28c1-6745-4a3a-b164-704efdbd35a2")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 90.17 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7912,7 +6926,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7930,7 +6944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f6ef3b5-5bc7-4214-a266-a74f373b937b")
-		(property "Reference" "C14"
+		(property "Reference" "C10"
 			(at 93.218 158.242 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8049,7 +7063,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "C14")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8066,7 +7080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9022c6b0-b2d0-4d94-8a29-4dbe05b8ff3c")
-		(property "Reference" "C16"
+		(property "Reference" "C12"
 			(at 57.15 167.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8185,145 +7199,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 165.1 127 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93b01172-3d73-4ff9-b6ab-0614432b2552")
-		(property "Reference" "C13"
-			(at 167.64 125.7362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 167.64 128.2762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 165.1 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
-			(at 165.1 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CGA2B3X7R1H104K050BB"
-			(at 165.1 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS010016"
-			(at 165.1 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" "X7R"
-			(at 165.1 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 165.1 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 165.1 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b62c8a1b-24df-4bf3-8e6b-8d38eddf79aa")
-		)
-		(pin "1"
-			(uuid "411a785b-b7e3-46a3-81fb-b235c0fcb9b2")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8341,7 +7217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97cdcdd5-4919-4afe-b56e-cf239b4682ef")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 71.12 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8471,7 +7347,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8626,7 +7502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "998119c2-0916-4775-86ea-16bb2bc46e2e")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR023"
 			(at 82.55 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -8688,7 +7564,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR031")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9099,83 +7975,6 @@
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a79bea0a-bff6-4b6e-a6db-973c40397c30")
-		(property "Reference" "#PWR023"
-			(at 156.21 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.972 134.366 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55e76369-4673-4922-8aeb-538241976dac")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9864,83 +8663,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 124.46 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b27a6499-30ba-49e6-a997-cab43f3928bc")
-		(property "Reference" "#PWR013"
-			(at 124.46 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB+5V"
-			(at 123.698 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4580092-1538-4811-acc7-f26865cde82c")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 69.85 54.61 270)
 		(unit 1)
@@ -10164,7 +8886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7f9429b-48f1-4839-af12-a20eb69f0e60")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 152.4 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10224,7 +8946,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10241,7 +8963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9f37143-87a8-4f28-a6c9-27e634bcd6f9")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR017"
 			(at 80.01 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10301,7 +9023,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR022")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10318,7 +9040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc088bdd-0194-4239-99be-efb426bd4bc6")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 149.86 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10378,7 +9100,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10533,7 +9255,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf16237e-b7e0-4150-bf33-d6c336b1bb50")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR016"
 			(at 99.06 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10593,7 +9315,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR019")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10745,7 +9467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce5efd72-28ac-4d13-84c0-55c39a7f38e1")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR019"
 			(at 59.69 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -10805,7 +9527,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR027")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10822,7 +9544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d10acefe-abc9-4218-a3b0-35d5b776f925")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR014"
 			(at 64.77 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10882,7 +9604,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR017")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11023,149 +9745,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LP5907MFX-3.3")
-		(at 146.05 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d417f212-7ee5-47e9-bc51-58ef8a92a964")
-		(property "Reference" "U3"
-			(at 141.986 115.062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LP5907MFX-3.3"
-			(at 148.59 117.856 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 146.05 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp5907.pdf"
-			(at 146.05 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"
-			(at 146.05 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "LP5907MFX-3.3/NOPB"
-			(at 146.05 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS080016"
-			(at 146.05 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" ""
-			(at 146.05 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 146.05 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 146.05 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b8255717-7be5-46fb-b342-30537ac2d525")
-		)
-		(pin "1"
-			(uuid "dcd918a5-159d-4e17-a1bf-eea577ad99c6")
-		)
-		(pin "3"
-			(uuid "f405afc1-8a82-4517-8540-7c6b8080a2d7")
-		)
-		(pin "4"
-			(uuid "034a3fd4-1dea-44c6-944e-e29ad0e66072")
-		)
-		(pin "5"
-			(uuid "18b3fdcd-27ba-4ab0-aa0d-515ce5a74848")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 123.19 83.82 0)
 		(unit 1)
@@ -11176,7 +9755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4534871-df3a-4be1-bb1b-e4cedab129cb")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 123.19 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11236,7 +9815,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11332,7 +9911,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7bbe199-2cf0-48c0-bc35-f068ad260f25")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR022"
 			(at 71.12 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11394,7 +9973,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR030")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11412,7 +9991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddd915f6-27a0-4c04-a083-0fcba9284934")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 138.43 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11472,7 +10051,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11627,7 +10206,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e113e371-5a3f-4809-89cc-305c94db666e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR012"
 			(at 34.29 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11689,7 +10268,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR015")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

@@ -622,7 +622,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 1
+      "sort_order": 0
     },
     "bom_export_filename": "manufacturing\\bom\\FED3 tester BOM.csv",
     "bom_fmt_presets": [],
