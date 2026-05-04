@@ -2340,8 +2340,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 5.715 0)
+			(property "Reference" "U4"
+				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2350,18 +2350,17 @@
 					)
 				)
 			)
-			(property "Value" "TPS79301-EP"
-				(at 0 5.715 0)
+			(property "Value" "TPS73801DCQR"
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-6"
 				(at 0 8.255 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2373,7 +2372,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf"
+			(property "Datasheet" ""
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2384,7 +2383,40 @@
 					)
 				)
 			)
-			(property "Description" "200mA UltraLow-Noise, High-Precision, Fast RF, Low Drop-out Voltage Regulator, Adjustable Output, SOT-23"
+			(property "Description" "IC REG LIN POS ADJ 1A SOT-223-6"
+				(at 0.762 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "OEPSPN" "OEPS080129"
+				(at -0.254 -9.652 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TPS73801DCQR"
+				(at 0.508 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "TempCo" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2395,7 +2427,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "LDO Voltage Regulator 200mA adjustable"
+			(property "Tolerance" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "IC REG LIN POS ADJ 1A SOT-223-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2419,8 +2473,8 @@
 			)
 			(symbol "TPS79301-EP_1_1"
 				(rectangle
-					(start 5.08 -5.08)
-					(end -5.08 4.445)
+					(start -5.08 4.445)
+					(end 5.08 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2429,7 +2483,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "IN"
@@ -2447,10 +2501,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
+				(pin passive line
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "GND"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2465,10 +2519,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 0 0)
+				(pin passive line
+					(at 1.27 -8.89 90)
 					(length 2.54)
-					(name "EN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2484,9 +2538,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "BP"
+					(name "FB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2501,10 +2555,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 7.62 0 180)
+				(pin passive line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "FB"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2519,10 +2573,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 2.54 180)
+				(pin passive line
+					(at -1.27 -8.89 90)
 					(length 2.54)
-					(name "OUT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3061,6 +3115,12 @@
 		)
 	)
 	(junction
+		(at 69.85 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "078db817-ef8f-49e3-a71e-f9e5cee92819")
+	)
+	(junction
 		(at 29.21 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3157,12 +3217,6 @@
 		(uuid "69d1bcf1-fd41-4919-8a45-5fd9fe8018fd")
 	)
 	(junction
-		(at 99.06 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c4dd6cb-f450-4adc-9416-d59fec50fd63")
-	)
-	(junction
 		(at 149.86 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3175,16 +3229,16 @@
 		(uuid "968d329c-940d-4da6-9f09-7967f4f280d4")
 	)
 	(junction
+		(at 95.25 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5f8e44f-407b-42d0-8463-de3afe7be15d")
+	)
+	(junction
 		(at 119.38 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4b7a9c6-c325-4899-abde-d361d56e7744")
-	)
-	(junction
-		(at 92.71 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8d5f998-6d47-409c-a171-381ee64194f3")
 	)
 	(junction
 		(at 135.89 121.92)
@@ -3382,16 +3436,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 157.48) (xy 92.71 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bf53aa6-ab74-426c-bc08-73cd1fa8fe30")
-	)
-	(wire
-		(pts
 			(xy 72.39 121.92) (xy 69.85 121.92)
 		)
 		(stroke
@@ -3482,7 +3526,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 165.1) (xy 99.06 162.56)
+			(xy 95.25 165.1) (xy 95.25 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3512,7 +3556,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 153.67) (xy 99.06 157.48)
+			(xy 95.25 153.67) (xy 95.25 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3539,16 +3583,6 @@
 			(type solid)
 		)
 		(uuid "40a85cf2-265d-411d-9d98-afa32ce783bf")
-	)
-	(wire
-		(pts
-			(xy 82.55 173.99) (xy 82.55 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41eb60cb-15e4-4e39-b3b1-bd77c4e1b905")
 	)
 	(wire
 		(pts
@@ -3862,7 +3896,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 153.67) (xy 99.06 153.67)
+			(xy 87.63 153.67) (xy 95.25 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3929,6 +3963,16 @@
 			(type default)
 		)
 		(uuid "96d2a26c-ab56-480e-b40e-cd90027e54fe")
+	)
+	(wire
+		(pts
+			(xy 69.85 175.26) (xy 69.85 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9c42bf-8e33-4df8-b1fd-2011292143eb")
 	)
 	(wire
 		(pts
@@ -4022,16 +4066,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 162.56) (xy 92.71 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8b0203a-2368-4345-8dba-a7c378886184")
-	)
-	(wire
-		(pts
 			(xy 80.01 162.56) (xy 80.01 153.67)
 		)
 		(stroke
@@ -4082,6 +4116,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 173.99) (xy 69.85 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7377119-f7eb-4cf6-b75c-8db53fccdd43")
+	)
+	(wire
+		(pts
 			(xy 165.1 121.92) (xy 165.1 124.46)
 		)
 		(stroke
@@ -4102,16 +4146,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 165.1) (xy 87.63 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baeefb2e-f3bb-483c-ba69-f4e4c39e45ef")
-	)
-	(wire
-		(pts
 			(xy 57.15 49.53) (xy 57.15 52.07)
 		)
 		(stroke
@@ -4129,16 +4163,6 @@
 			(type default)
 		)
 		(uuid "becb7c02-a1a0-4b1d-961e-f9120e6dc8df")
-	)
-	(wire
-		(pts
-			(xy 78.74 167.64) (xy 82.55 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0358449-7a85-4dd6-845c-c7d1db875b76")
 	)
 	(wire
 		(pts
@@ -4199,6 +4223,16 @@
 			(type default)
 		)
 		(uuid "c5c87191-ffbb-47c9-9754-bd37ff33e8e2")
+	)
+	(wire
+		(pts
+			(xy 72.39 173.99) (xy 72.39 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63e73f7-4ec3-49fb-900c-84b938f57ed1")
 	)
 	(wire
 		(pts
@@ -4302,7 +4336,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 148.59) (xy 99.06 153.67)
+			(xy 95.25 148.59) (xy 95.25 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4442,6 +4476,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 175.26) (xy 69.85 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e889899d-d947-4d05-bfc8-f76b8b834622")
+	)
+	(wire
+		(pts
 			(xy 54.61 41.91) (xy 63.5 41.91)
 		)
 		(stroke
@@ -4449,16 +4493,6 @@
 			(type default)
 		)
 		(uuid "eb58502c-73a2-4ab8-ba5a-190c392a75a8")
-	)
-	(wire
-		(pts
-			(xy 82.55 167.64) (xy 82.55 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef97dec4-6220-4e7c-85e0-a254c44e1a16")
 	)
 	(wire
 		(pts
@@ -4529,16 +4563,6 @@
 			(type default)
 		)
 		(uuid "fa4ca816-3891-4661-9555-058eede644a6")
-	)
-	(wire
-		(pts
-			(xy 92.71 153.67) (xy 87.63 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd2d2afe-6174-432f-af8d-0f7814989c42")
 	)
 	(label "CC2"
 		(at 55.88 44.45 0)
@@ -4871,7 +4895,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 99.06 148.59 0)
+		(at 95.25 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4881,7 +4905,7 @@
 		(dnp no)
 		(uuid "10fb8cf2-6757-4bbf-809b-ef5340fbc523")
 		(property "Reference" "#PWR026"
-			(at 99.06 152.4 0)
+			(at 95.25 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4892,7 +4916,7 @@
 			)
 		)
 		(property "Value" "3.7V"
-			(at 99.441 144.1958 0)
+			(at 95.631 144.1958 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4902,7 +4926,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 148.59 0)
+			(at 95.25 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4913,7 +4937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 148.59 0)
+			(at 95.25 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4924,7 +4948,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 99.06 148.59 0)
+			(at 95.25 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5232,142 +5256,6 @@
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 82.55 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1b5fc4df-7ada-4408-953b-3267959784d3")
-		(property "Reference" "C17"
-			(at 80.01 170.1862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10nF"
-			(at 80.01 172.7262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 82.55 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD CER 0402 10nF 25V ±10% X7R"
-			(at 82.55 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R71E103KA01D"
-			(at 82.55 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS010067"
-			(at 82.55 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" "X7R"
-			(at 82.55 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 82.55 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 82.55 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e13bf202-39d0-4860-80a2-d5625487731b")
-		)
-		(pin "1"
-			(uuid "398939a2-0673-4ce2-a1cd-85020027b6c7")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6319,7 +6207,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 99.06 160.02 0)
+		(at 95.25 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6330,7 +6218,7 @@
 		(fields_autoplaced yes)
 		(uuid "473eebae-0856-409a-85e0-1b3806abf181")
 		(property "Reference" "C15"
-			(at 101.6 158.7562 0)
+			(at 97.79 158.7562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6340,8 +6228,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 101.6 161.2962 0)
+		(property "Value" "10uF"
+			(at 97.79 161.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6351,8 +6239,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 99.06 160.02 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 95.25 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6363,7 +6251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 160.02 0)
+			(at 95.25 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6373,8 +6261,8 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0603 4.7uF 16V ±10% X6S"
-			(at 99.06 160.02 0)
+		(property "Description" "SMD CER 1206 10uF 25V ±10% X7R"
+			(at 95.25 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6384,8 +6272,8 @@
 				)
 			)
 		)
-		(property "MPN" "C1608X6S1C475K080AC"
-			(at 99.06 160.02 0)
+		(property "MPN" "GRM31CR71E106KA12L"
+			(at 95.25 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6395,8 +6283,8 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS010018"
-			(at 99.06 160.02 0)
+		(property "OEPSPN" "OEPS010007"
+			(at 95.25 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6406,8 +6294,8 @@
 				)
 			)
 		)
-		(property "TempCo" "X6S"
-			(at 99.06 160.02 0)
+		(property "TempCo" "X5R"
+			(at 95.25 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6418,7 +6306,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 99.06 160.02 0)
+			(at 95.25 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6428,8 +6316,8 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
-			(at 99.06 160.02 0)
+		(property "Voltage" "25V"
+			(at 95.25 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7313,7 +7201,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 99.06 165.1 0)
+		(at 95.25 165.1 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7324,7 +7212,7 @@
 		(dnp no)
 		(uuid "67bf9fed-2a8e-4064-80dc-e7e3685d01b7")
 		(property "Reference" "#PWR028"
-			(at 99.06 165.1 0)
+			(at 95.25 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7336,7 +7224,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.362 168.91 0)
+			(at 98.552 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7347,7 +7235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 165.1 0)
+			(at 95.25 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7358,7 +7246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 165.1 0)
+			(at 95.25 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7369,7 +7257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 99.06 165.1 0)
+			(at 95.25 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7636,7 +7524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "809555d4-2150-4954-be20-dccf9d900828")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 87.63 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -7698,7 +7586,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7913,143 +7801,6 @@
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 92.71 160.02 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f6ef3b5-5bc7-4214-a266-a74f373b937b")
-		(property "Reference" "C14"
-			(at 93.218 158.242 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "15pF"
-			(at 92.964 162.052 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 92.71 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD CER 0603 15pF 50V ±5% C0G"
-			(at 92.71 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C1608C0G1H150J080AA"
-			(at 92.71 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS010072"
-			(at 92.71 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" "C0G"
-			(at 92.71 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 92.71 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 92.71 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d61395a8-b148-40c4-a3a1-4ebe8638f28e")
-		)
-		(pin "1"
-			(uuid "fd5431c7-1429-4084-9e38-0a5fc38b768d")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -8351,7 +8102,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS79301DBVRG4"
+		(property "Value" "TPS73801DCQR"
 			(at 71.12 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8361,7 +8112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-6"
 			(at 71.12 156.845 0)
 			(hide yes)
 			(show_name no)
@@ -8373,7 +8124,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf"
+		(property "Datasheet" ""
 			(at 71.12 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8384,8 +8135,8 @@
 				)
 			)
 		)
-		(property "Description" "200mA UltraLow-Noise, High-Precision, Fast RF, Low Drop-out Voltage Regulator, Adjustable Output, SOT-23"
-			(at 71.12 165.1 0)
+		(property "Description" "IC REG LIN POS ADJ 1A SOT-223-6"
+			(at 71.882 158.496 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8396,7 +8147,7 @@
 			)
 		)
 		(property "OEPSPN" "OEPS080129"
-			(at 71.12 165.1 0)
+			(at 70.866 174.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8406,8 +8157,8 @@
 				)
 			)
 		)
-		(property "MPN" "TPS79301DBVRG4"
-			(at 71.12 165.1 0)
+		(property "MPN" "TPS73801DCQR"
+			(at 71.628 159.766 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8609,86 +8360,6 @@
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 82.55 175.26 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "998119c2-0916-4775-86ea-16bb2bc46e2e")
-		(property "Reference" "#PWR031"
-			(at 82.55 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "GND"
-			(at 84.328 179.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 82.55 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee8e857c-7204-4d17-993e-cdf0d65f45b7")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11322,7 +10993,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 71.12 172.72 0)
+		(at 69.85 177.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11332,8 +11003,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7bbe199-2cf0-48c0-bc35-f068ad260f25")
-		(property "Reference" "#PWR030"
-			(at 71.12 172.72 0)
+		(property "Reference" "#PWR031"
+			(at 69.85 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11345,7 +11016,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.422 176.53 0)
+			(at 73.152 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11356,7 +11027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 172.72 0)
+			(at 69.85 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11367,7 +11038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 172.72 0)
+			(at 69.85 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11378,7 +11049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 71.12 172.72 0)
+			(at 69.85 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11394,7 +11065,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11718,7 +11389,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61.2k"
+		(property "Value" "8k2"
 			(at 86.106 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11751,7 +11422,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 61k2kΩ ±0.1% 0.063W"
+		(property "Description" ""
 			(at 87.63 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11762,7 +11433,7 @@
 				)
 			)
 		)
-		(property "MPN" "RN73R1ETTP6122B25"
+		(property "MPN" "??"
 			(at 78.867 163.068 0)
 			(hide yes)
 			(show_name no)
@@ -11774,7 +11445,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020214"
+		(property "OEPSPN" "??"
 			(at 87.63 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11980,7 +11651,7 @@
 		(dnp no)
 		(uuid "fb75f87f-a1f6-46eb-a7d7-b1a38cb6ff60")
 		(property "Reference" "R8"
-			(at 90.17 168.9099 0)
+			(at 83.312 169.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11990,8 +11661,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "30.1k"
-			(at 90.17 171.4499 0)
+		(property "Value" "4k"
+			(at 83.312 171.958 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12001,7 +11672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.614 169.926 90)
 			(hide yes)
 			(show_name no)
@@ -12023,7 +11694,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0603 30.1kΩ ±1% 0.100W"
+		(property "Description" ""
 			(at 87.63 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -12034,7 +11705,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-0730K1L"
+		(property "MPN" "??"
 			(at 96.393 173.228 0)
 			(hide yes)
 			(show_name no)
@@ -12046,7 +11717,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020132"
+		(property "OEPSPN" "??"
 			(at 87.63 170.18 0)
 			(hide yes)
 			(show_name no)

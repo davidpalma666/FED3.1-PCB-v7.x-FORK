@@ -203,8 +203,7 @@
       "track_widths": [
         0.0,
         0.22,
-        0.23,
-        0.26,
+        0.25,
         0.3,
         0.35,
         0.4,
@@ -244,7 +243,7 @@
         },
         {
           "diameter": 0.55,
-          "drill": 0.22
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -902,7 +901,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -953,7 +952,7 @@
         "uuid": "2ba63f12-2fcd-4471-9636-2762cde37de8"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1-12,#PWR1-115,K1-3,C1-38,#+3V1-2,J1-7,BZ1,R1-48,#GND1-4,L1-2,OSC1,Q1-6,SW1-9,TP1-12,U1-9",
     "variants": []
   },
   "sheets": [
