@@ -835,7 +835,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6217,7 +6217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "473eebae-0856-409a-85e0-1b3806abf181")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 97.79 158.7562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6336,7 +6336,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6586,7 +6586,7 @@
 		(pin "B9"
 			(uuid "c68208f2-5b9a-405e-a436-17797ff52ea0")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "089c6ea1-250c-449c-aad7-250b13c7f903")
 		)
 		(instances
@@ -7817,7 +7817,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9022c6b0-b2d0-4d94-8a29-4dbe05b8ff3c")
-		(property "Reference" "C16"
+		(property "Reference" "C15"
 			(at 57.15 167.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7936,7 +7936,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)

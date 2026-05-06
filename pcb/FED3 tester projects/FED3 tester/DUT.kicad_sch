@@ -3467,6 +3467,12 @@
 		(uuid "2fdde0aa-d7bc-4f0b-a8f8-3a18e6f8b62c")
 	)
 	(junction
+		(at 124.46 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fe601ed-be1b-4ae4-a225-a0d4ceafe5c4")
+	)
+	(junction
 		(at 48.26 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3519,12 +3525,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c84d400-979f-4800-9d28-ab464431e23d")
-	)
-	(junction
-		(at 124.46 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d37b567-8ef1-42ea-825e-f9e4dade8710")
 	)
 	(junction
 		(at 71.12 157.48)
@@ -3683,12 +3683,12 @@
 		(uuid "783fbce2-8512-400a-8562-57abdcfcfa3c")
 	)
 	(no_connect
-		(at 92.71 157.48)
-		(uuid "9b67d821-00dd-4d6d-8cf3-047d0a6f833a")
+		(at 77.47 124.46)
+		(uuid "9987a1f2-320a-41e1-a7b2-9b712c6f2d92")
 	)
 	(no_connect
-		(at 74.93 124.46)
-		(uuid "f74e8673-492b-42bb-a1c6-2883183438f7")
+		(at 92.71 157.48)
+		(uuid "9b67d821-00dd-4d6d-8cf3-047d0a6f833a")
 	)
 	(wire
 		(pts
@@ -3812,7 +3812,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 124.46) (xy 72.39 124.46)
+			(xy 127 129.54) (xy 124.46 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3939,16 +3939,6 @@
 			(type default)
 		)
 		(uuid "13b114ac-d6a7-441c-be63-43cf09fe43aa")
-	)
-	(wire
-		(pts
-			(xy 133.35 129.54) (xy 124.46 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b8bd502-1a69-42c1-b09d-5a04de068040")
 	)
 	(wire
 		(pts
@@ -4549,6 +4539,16 @@
 			(type solid)
 		)
 		(uuid "60ccf0ea-fc55-4372-97c5-16a3c27c116f")
+	)
+	(wire
+		(pts
+			(xy 77.47 124.46) (xy 72.39 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6265e4ad-3f25-4420-a2d3-3e6f1706433c")
 	)
 	(wire
 		(pts
@@ -5840,7 +5840,7 @@
 		)
 		(uuid "ff27ec44-aadb-4af8-b820-c7ceb3b9fdd6")
 	)
-	(label "+3V3test"
+	(label "+3V3_DUT"
 		(at 123.19 27.94 180)
 		(effects
 			(font
@@ -5863,16 +5863,6 @@
 		)
 		(uuid "42c658f0-649a-4421-9b59-4fc066b359e6")
 	)
-	(label "DUT_SWCLK"
-		(at 242.57 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44369a96-ae4b-4598-b6c4-83e8c6a294e3")
-	)
 	(label "Motor-Y"
 		(at 247.65 66.04 180)
 		(effects
@@ -5886,8 +5876,8 @@
 		)
 		(uuid "4ece4e8b-c4dd-4666-a7fa-ef19f002e4b1")
 	)
-	(label "VBattest"
-		(at 133.35 129.54 180)
+	(label "VBatt_DUT"
+		(at 127 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5895,11 +5885,11 @@
 				(bold yes)
 				(color 255 0 0 1)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "6c2ba9b3-343b-4034-96f7-438a9eecee37")
 	)
-	(label "VccRGB"
+	(label "VccRGB_DUT"
 		(at 123.19 69.85 180)
 		(effects
 			(font
@@ -5912,7 +5902,7 @@
 		)
 		(uuid "6c4096c3-2bf2-4779-92b6-92762661345b")
 	)
-	(label "VUSB_out"
+	(label "VUSB_DUT"
 		(at 74.93 92.71 0)
 		(effects
 			(font
@@ -5925,7 +5915,7 @@
 		)
 		(uuid "947d83c4-e6b4-402c-9d4f-72ff7977b7b4")
 	)
-	(label "DUT_SWCLK"
+	(label "SWCLK_DUT"
 		(at 242.57 39.37 0)
 		(effects
 			(font
@@ -5934,6 +5924,16 @@
 			(justify left bottom)
 		)
 		(uuid "9f6bd498-3043-4fbc-9e78-615123dfc86a")
+	)
+	(label "SWDIO_DUT"
+		(at 242.57 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acdf72c1-09b6-444f-9754-8c557fecdb70")
 	)
 	(label "Motor-P"
 		(at 247.65 63.5 180)
@@ -5961,7 +5961,7 @@
 		)
 		(uuid "ca1fa273-dd9a-4438-8b97-d669261c557c")
 	)
-	(label "ExtVUSB"
+	(label "ExtVUSB_DUT"
 		(at 218.44 130.81 0)
 		(effects
 			(font
@@ -5987,16 +5987,6 @@
 		)
 		(uuid "e49f78bd-f891-4210-9f5f-246780f7ff10")
 	)
-	(label "DUT_SWDIO"
-		(at 242.57 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e88c69a9-cd9d-4d9f-be7a-1b489386183b")
-	)
 	(label "DUT_~{RESET}"
 		(at 279.4 27.94 180)
 		(effects
@@ -6007,7 +5997,7 @@
 		)
 		(uuid "e8c557cf-da69-42d4-b31a-0e525f8de80f")
 	)
-	(label "VBattest"
+	(label "VBatt_DUT"
 		(at 27.94 27.94 180)
 		(effects
 			(font
@@ -6020,7 +6010,7 @@
 		)
 		(uuid "ec6f9298-a4c4-4010-bd35-472a56e697b7")
 	)
-	(label "DUT_SWDIO"
+	(label "SWDIO_DUT"
 		(at 242.57 41.91 0)
 		(effects
 			(font
@@ -6030,7 +6020,17 @@
 		)
 		(uuid "ed8fc650-beba-4d11-86dd-97dd40d74836")
 	)
-	(label "ThermalPin"
+	(label "SWCLK_DUT"
+		(at 242.57 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee6cd70d-d7cf-4f0b-a7b8-059f53fd8d1c")
+	)
+	(label "ThermalPin_DUT"
 		(at 218.44 125.73 0)
 		(effects
 			(font
@@ -6206,7 +6206,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03109152-19d5-4489-b9e1-c4c2d91bc229")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR092"
 			(at 255.27 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6266,7 +6266,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR093")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -6428,7 +6428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08651af9-492c-4457-88cf-c5b4a0bf5446")
-		(property "Reference" "R36"
+		(property "Reference" "R35"
 			(at 101.6 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6548,7 +6548,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R36")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -6711,7 +6711,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0aefe725-6ba8-417c-a10b-78141348920b")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0108"
 			(at 34.29 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6771,7 +6771,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0109")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -6788,7 +6788,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b0b05e5-b692-4cc4-8947-7a7973a4d845")
-		(property "Reference" "R39"
+		(property "Reference" "R38"
 			(at 257.302 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6908,7 +6908,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R39")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -7059,7 +7059,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "131441bd-1126-4851-88d2-1adc278c9f33")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR088"
 			(at 212.09 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7124,7 +7124,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR089")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -7141,7 +7141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "175dd468-0748-4ccd-96ba-eeab1b672641")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR097"
 			(at 48.26 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7201,7 +7201,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR098")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -7219,7 +7219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ee04f9f-1fe8-457f-9ca2-00ffaabd22da")
-		(property "Reference" "R30"
+		(property "Reference" "R29"
 			(at 161.29 80.0565 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7337,7 +7337,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R30")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -7354,7 +7354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24014def-8578-4db8-b0b8-7d6731a02a2e")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0104"
 			(at 54.61 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -7414,7 +7414,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0105")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -7432,7 +7432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24221e61-b232-4467-b79c-b7727efbd8f2")
-		(property "Reference" "R44"
+		(property "Reference" "R43"
 			(at 184.15 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7552,7 +7552,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R44")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -7570,7 +7570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26c578e0-e239-4cd0-8428-4943c28ae73b")
-		(property "Reference" "R35"
+		(property "Reference" "R34"
 			(at 247.65 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7690,7 +7690,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R35")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -7718,7 +7718,7 @@
 			)
 		)
 		(property "Value" "DMN63D8L-7"
-			(at 36.068 90.424 0)
+			(at 39.116 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7848,7 +7848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bf8c40b-a98d-4fd8-888e-100536c51b76")
-		(property "Reference" "R20"
+		(property "Reference" "R19"
 			(at 128.651 33.0778 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7968,7 +7968,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7987,7 +7987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34b1271c-77fe-4496-95b5-ead8fb718a0a")
-		(property "Reference" "R29"
+		(property "Reference" "R28"
 			(at 54.61 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8105,7 +8105,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R29")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -8123,7 +8123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35f6381a-a3e8-4062-bac8-c8475bfcff32")
-		(property "Reference" "R31"
+		(property "Reference" "R30"
 			(at 171.45 80.0565 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8241,7 +8241,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R31")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -8339,7 +8339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "392ffffa-ec69-4602-b783-b37495226ca4")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR078"
 			(at 142.24 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8399,7 +8399,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR079")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -8417,7 +8417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "398c9440-ca28-41f8-8f7a-63fea277b46c")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR099"
 			(at 191.77 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8477,7 +8477,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0100")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -8629,7 +8629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b1e741e-bbf0-473e-823c-73a1d3748e42")
-		(property "Reference" "R28"
+		(property "Reference" "R27"
 			(at 128.651 76.2578 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8749,7 +8749,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -8767,7 +8767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c70833d-3178-4489-9a34-cc6ee8c3bac5")
-		(property "Reference" "R38"
+		(property "Reference" "R37"
 			(at 127 137.414 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8887,7 +8887,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R38")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -9045,7 +9045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44e3f892-4663-44d6-a814-94d7f6b06278")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 128.651 43.2378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9165,7 +9165,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -9184,7 +9184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45497286-ec28-429d-bec8-542e02a5003e")
-		(property "Reference" "C38"
+		(property "Reference" "C37"
 			(at 179.07 88.9062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9304,7 +9304,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "C38")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -9457,7 +9457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a80dad0-9824-4d77-b6af-84d04a33d187")
-		(property "Reference" "R24"
+		(property "Reference" "R23"
 			(at 171.45 36.8765 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9575,7 +9575,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R24")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -9592,7 +9592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b28945e-2c30-48fe-8403-85998e534e83")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0112"
 			(at 54.61 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9652,7 +9652,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0113")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -9815,7 +9815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "589af88a-3ce1-48b4-be9d-54ef50de89b6")
-		(property "Reference" "D12"
+		(property "Reference" "D11"
 			(at 68.58 160.9724 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9934,7 +9934,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "D12")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -10096,7 +10096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a50754d-6b9e-48b2-9728-a0b466eba3af")
-		(property "Reference" "C31"
+		(property "Reference" "C30"
 			(at 151.892 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10216,7 +10216,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "C31")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -10233,7 +10233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c8a1465-e242-4934-b615-0b45e3d10151")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0101"
 			(at 99.06 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10293,7 +10293,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0102")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -10310,7 +10310,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e467d09-0a44-4911-a207-84f6c7b6a630")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0107"
 			(at 255.27 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10370,7 +10370,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0108")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -10388,7 +10388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60053caf-1fed-4100-a74b-5f72fe02b58b")
-		(property "Reference" "R41"
+		(property "Reference" "R40"
 			(at 186.69 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10506,7 +10506,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R41")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -10525,7 +10525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61817786-10bb-47f8-870e-7edd26cf9ad6")
-		(property "Reference" "R34"
+		(property "Reference" "R33"
 			(at 119.38 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10643,7 +10643,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R34")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -10795,7 +10795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a859852-9e3f-4313-89cf-8c71e7e001c6")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 67.31 36.8765 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10913,7 +10913,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -10931,7 +10931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6af203af-d2cd-47c5-86db-fdc364c5fc17")
-		(property "Reference" "R42"
+		(property "Reference" "R41"
 			(at 257.81 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11051,7 +11051,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R42")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -11069,7 +11069,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6af88917-8203-4383-a96d-50551456ade7")
-		(property "Reference" "R32"
+		(property "Reference" "R31"
 			(at 33.528 84.836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11189,7 +11189,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R32")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -11206,7 +11206,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f2f15b9-d2c8-4520-bda8-39c46ff55889")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0106"
 			(at 200.66 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11266,7 +11266,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0107")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -11283,7 +11283,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "704d3a8e-047b-43b0-a3e6-f4f7e1ed55c5")
-		(property "Reference" "D10"
+		(property "Reference" "D9"
 			(at 46.99 127.9524 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11402,7 +11402,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "D10")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -11419,7 +11419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70e250fb-e5db-4c90-8da0-1ebc33ed812a")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR073"
 			(at 252.73 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11481,7 +11481,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR074")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -11498,7 +11498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71af9e83-bead-4248-8764-04c852332be1")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0113"
 			(at 34.29 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -11558,7 +11558,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0114")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -11710,7 +11710,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74b68741-999d-42bb-a7e8-f81251d6ed7e")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0103"
 			(at 71.12 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11770,7 +11770,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0104")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -11787,7 +11787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7513c244-f37a-4a3d-8fcd-6cccb7336c29")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0102"
 			(at 110.49 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11847,7 +11847,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0103")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -11865,7 +11865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7847c2cc-8d5c-464e-a7ab-46df23dcbafb")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0105"
 			(at 118.11 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11925,7 +11925,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0106")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -11944,7 +11944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78c298ed-6b7c-4080-9886-cec2cbe4ecdb")
-		(property "Reference" "R46"
+		(property "Reference" "R45"
 			(at 104.14 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12064,7 +12064,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R46")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -12083,7 +12083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78e68d13-9051-42b1-924c-c5062c4fccd5")
-		(property "Reference" "C35"
+		(property "Reference" "C34"
 			(at 179.07 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12203,7 +12203,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "C35")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -12220,7 +12220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b3fbc35-eb4d-4c83-867f-a59283397065")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR089"
 			(at 142.24 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12280,7 +12280,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR090")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -12299,7 +12299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c094f20-decc-4b55-b77d-f214dd8a9657")
-		(property "Reference" "C37"
+		(property "Reference" "C36"
 			(at 168.91 88.9062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12419,7 +12419,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "C37")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -12580,7 +12580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "810ff7be-cf35-4195-a1e3-d4eef679e91e")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR096"
 			(at 176.53 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12640,7 +12640,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR097")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -12657,7 +12657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83e0cb67-c783-4dec-b514-97b01216e113")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR086"
 			(at 193.04 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12722,7 +12722,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR087")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -12740,7 +12740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "848bad4f-4e03-452a-b685-8fcee55c59ad")
-		(property "Reference" "R43"
+		(property "Reference" "R42"
 			(at 36.83 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12860,7 +12860,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R43")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -12878,7 +12878,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ad6bcd0-8015-4f81-b1f3-298b57570cc6")
-		(property "Reference" "R27"
+		(property "Reference" "R26"
 			(at 45.72 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12998,7 +12998,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R27")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -13016,7 +13016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8af330c4-51c8-42f6-bd32-cc8500d39189")
-		(property "Reference" "R37"
+		(property "Reference" "R36"
 			(at 115.57 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13136,7 +13136,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R37")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -13154,7 +13154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f7b36cd-79c4-4806-804e-801e15a016bb")
-		(property "Reference" "C30"
+		(property "Reference" "C29"
 			(at 57.912 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13274,7 +13274,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "C30")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -13572,7 +13572,7 @@
 		(dnp no)
 		(uuid "91ff8445-182c-4a95-a03d-c1978f0a5787")
 		(property "Reference" "Q2"
-			(at 72.39 82.5501 0)
+			(at 72.136 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13582,8 +13582,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "???????"
-			(at 72.39 80.0101 0)
+		(property "Value" "PMF170XP,115"
+			(at 71.882 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13593,7 +13593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 71.12 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -13606,7 +13606,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+		(property "Datasheet" ""
 			(at 71.12 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -13618,7 +13618,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+		(property "Description" "MOSFET P-CH 20V 1A"
 			(at 66.04 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13629,7 +13629,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PMF170XP,115"
 			(at 66.04 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13640,7 +13640,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" ""
+		(property "OEPSPN" "OEPS060012"
 			(at 66.04 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13682,7 +13682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92eaaecd-0741-4c50-be24-dbf68538c35e")
-		(property "Reference" "C33"
+		(property "Reference" "C32"
 			(at 85.09 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13802,7 +13802,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "C33")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -13820,7 +13820,7 @@
 		(dnp no)
 		(uuid "97c0e937-562a-4479-ad9a-41f40ecdb13a")
 		(property "Reference" "Q4"
-			(at 49.784 151.13 0)
+			(at 49.276 150.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13830,7 +13830,7 @@
 			)
 		)
 		(property "Value" "DMN63D8L-7"
-			(at 48.006 153.67 0)
+			(at 48.006 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14109,7 +14109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fcfbb8b-0eb2-4ce0-82ef-7c8e7c680603")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0100"
 			(at 81.28 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -14169,7 +14169,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0101")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -14186,7 +14186,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2f2ee75-753b-41fa-a8c4-dff45a311b98")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR091"
 			(at 144.78 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14246,7 +14246,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR092")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -14263,7 +14263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3b3cc8f-1b7c-4610-9711-c284e3be0e2a")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0109"
 			(at 181.61 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -14323,7 +14323,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0110")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -14340,7 +14340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a72f316b-7427-4aff-997d-a5a4f83f7a03")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR090"
 			(at 260.35 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14400,7 +14400,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR091")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -14417,7 +14417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad1ce835-f1c2-4c70-8bb6-a4ee40be32f5")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR072"
 			(at 142.24 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -14477,7 +14477,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR073")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -14494,7 +14494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af47b9f3-7568-4be2-a335-9096982e8a30")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR071"
 			(at 48.26 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -14554,7 +14554,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR072")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -14722,7 +14722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3358aeb-21ed-47dd-b957-4e38b1253936")
-		(property "Reference" "C34"
+		(property "Reference" "C33"
 			(at 168.91 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14842,7 +14842,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "C34")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -14988,6 +14988,7 @@
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 250.19 129.54 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14997,7 +14998,7 @@
 		(dnp no)
 		(uuid "b7d879ce-29d9-444c-923f-dc79b7cc60cf")
 		(property "Reference" "TP9"
-			(at 248.666 124.206 0)
+			(at 251.714 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15008,7 +15009,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 124.206 0)
+			(at 251.46 124.206 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15020,7 +15021,7 @@
 			)
 		)
 		(property "Footprint" "FED3_PCBLib:Pin_D1.75mm"
-			(at 255.27 129.54 0)
+			(at 245.11 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15031,7 +15032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 129.54 0)
+			(at 245.11 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15131,7 +15132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcf9f5c8-4614-4920-b16c-70fd20a030f5")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0111"
 			(at 106.68 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -15191,7 +15192,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0112")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -15209,7 +15210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bec15856-78fd-418d-b866-e3f3e17b7748")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0110"
 			(at 123.19 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -15269,7 +15270,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0111")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -15287,7 +15288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf644150-3bfd-47ed-83a0-96a7bbc327cb")
-		(property "Reference" "R33"
+		(property "Reference" "R32"
 			(at 128.651 86.4178 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15407,7 +15408,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R33")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -15425,7 +15426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1875583-3b86-4964-a364-47f11758c1b5")
-		(property "Reference" "R23"
+		(property "Reference" "R22"
 			(at 161.29 36.8765 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15543,7 +15544,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R23")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -15560,7 +15561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c605b73f-a430-4223-9961-fcc2fd315467")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR082"
 			(at 127 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -15620,7 +15621,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR083")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -15637,7 +15638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c85227f2-1a70-4663-becb-684189918b5b")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR077"
 			(at 48.26 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15697,7 +15698,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR078")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -15715,7 +15716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c85cf341-56d5-4842-96cf-323e001bba0a")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 34.671 33.0778 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15835,7 +15836,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -15853,7 +15854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd193324-9ac8-4ee9-972f-ce649f534772")
-		(property "Reference" "R47"
+		(property "Reference" "R46"
 			(at 40.64 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15971,7 +15972,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R47")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -15988,7 +15989,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd491203-f246-47a6-9bcf-631684b5d1fc")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 186.69 130.4924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16107,7 +16108,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -16126,7 +16127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea19261-10cb-4909-848c-5a930a357730")
-		(property "Reference" "R45"
+		(property "Reference" "R44"
 			(at 125.73 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16246,7 +16247,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R45")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -16263,7 +16264,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2012e92-aaa4-4ba1-bdf5-96710860624d")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR081"
 			(at 82.55 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -16323,7 +16324,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR082")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -16340,7 +16341,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d241b9fd-3d05-4a7c-965a-e7101befa873")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR094"
 			(at 127 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -16400,7 +16401,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR095")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -16418,7 +16419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d24d78f2-3e99-4db0-9a83-47ecfb6fb5c9")
-		(property "Reference" "R40"
+		(property "Reference" "R39"
 			(at 40.64 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16536,7 +16537,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R40")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -16903,7 +16904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8671ab8-bd8c-47fd-a74e-2595339b26f5")
-		(property "Reference" "C36"
+		(property "Reference" "C35"
 			(at 151.892 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17023,7 +17024,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "C36")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -17325,7 +17326,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfddc051-1d6b-48b5-881d-38e9fbd87680")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR075"
 			(at 144.78 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -17385,7 +17386,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR076")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -17403,7 +17404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfedb80e-a288-4b4a-b383-68c38e0fd254")
-		(property "Reference" "R22"
+		(property "Reference" "R21"
 			(at 77.47 36.8765 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17521,7 +17522,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -17538,7 +17539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e002b08e-b75a-429e-930b-a998d5386f90")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR084"
 			(at 176.53 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17598,7 +17599,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR085")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -17616,7 +17617,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1254a9b-7404-436e-aef9-7878d05c8ff5")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR098"
 			(at 49.53 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -17676,7 +17677,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR099")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -18107,7 +18108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eda1065a-afda-4f7b-83b4-f3f4f97e82ad")
-		(property "Reference" "C32"
+		(property "Reference" "C31"
 			(at 74.93 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18227,7 +18228,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "C32")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -18245,7 +18246,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edadaab2-ac35-4812-ae8d-c9cf0575251b")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR085"
 			(at 48.26 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -18305,7 +18306,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR086")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -18322,7 +18323,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efa5b0a9-34c9-48a4-99eb-d75bb78d6502")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR093"
 			(at 142.24 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -18382,7 +18383,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR094")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -18399,7 +18400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f04001ec-a55d-4856-b60c-8931911ce8f8")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR076"
 			(at 252.73 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -18461,7 +18462,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR077")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -18478,7 +18479,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f190c6a5-1cc8-4ce3-8918-26892c6e863f")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR074"
 			(at 50.8 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -18538,7 +18539,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR075")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -18555,7 +18556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1f44d39-7ad4-4f8a-8bec-10a625613c5c")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR087"
 			(at 203.2 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -18620,7 +18621,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR088")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -18637,7 +18638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2efe145-b4dd-48bf-bc39-7db1ad1cfe27")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR095"
 			(at 166.37 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -18697,7 +18698,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR096")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -18715,7 +18716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2f029cb-3333-489b-b539-c59340846492")
-		(property "Reference" "R48"
+		(property "Reference" "R47"
 			(at 36.83 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18835,7 +18836,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R48")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -18852,7 +18853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f37f7b95-6c45-43e9-bfb4-4e99d497fe8a")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR083"
 			(at 166.37 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -18912,7 +18913,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR084")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -18930,7 +18931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5ca87e4-2fd5-4cc0-9f4b-da70215d9a32")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 34.671 43.2378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19050,7 +19051,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -19212,7 +19213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa8c9245-9226-456d-9e90-8ecff285e56e")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR080"
 			(at 72.39 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -19272,7 +19273,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR081")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -19289,7 +19290,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd1f66b9-910a-43df-927b-1e6eb9c07935")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR079"
 			(at 33.02 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -19349,7 +19350,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR080")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
