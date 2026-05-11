@@ -6244,7 +6244,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Red"
+		(property "Value" "Yellow"
 			(at 221.996 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6277,7 +6277,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Red 635nm 20mA"
+		(property "Description" "LED 0603 Yellow 590nm 20mA"
 			(at 219.71 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6288,7 +6288,7 @@
 				)
 			)
 		)
-		(property "MPN" "VFHR1116P-4C82A-TR"
+		(property "MPN" "5990040007F"
 			(at 219.71 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6299,7 +6299,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030038"
+		(property "OEPSPN" "OEPS030043"
 			(at 219.71 152.4 0)
 			(hide yes)
 			(show_name no)

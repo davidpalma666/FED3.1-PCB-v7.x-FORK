@@ -31709,7 +31709,7 @@
 				)
 			)
 		)
-		(property "Value" "Red"
+		(property "Value" "Yellow"
 			(at 0 1.43 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31734,7 +31734,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Red 635nm 20mA"
+		(property "Description" "LED 0603 Yellow 590nm 20mA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31747,7 +31747,7 @@
 				)
 			)
 		)
-		(property "MPN" "VFHR1116P-4C82A-TR"
+		(property "MPN" "5990040007F"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31760,7 +31760,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030038"
+		(property "OEPSPN" "OEPS030043"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
