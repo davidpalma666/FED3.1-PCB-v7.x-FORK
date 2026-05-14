@@ -8146,7 +8146,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS080129"
+		(property "OEPSPN" "OEPS080085"
 			(at 70.866 174.752 0)
 			(hide yes)
 			(show_name no)
@@ -11422,7 +11422,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0603 8.2kΩ ±1% 0.100W"
 			(at 87.63 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11694,7 +11694,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
 			(at 87.63 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -11705,7 +11705,7 @@
 				)
 			)
 		)
-		(property "MPN" "P3.30KLDKR-ND"
+		(property "MPN" "ERJ-2RKF3301X"
 			(at 96.393 173.228 0)
 			(hide yes)
 			(show_name no)

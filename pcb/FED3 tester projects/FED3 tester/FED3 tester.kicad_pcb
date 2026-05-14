@@ -980,7 +980,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1006,7 +1006,7 @@
 				)
 			)
 		)
-		(property "MPN" "P3.30KLDKR-ND"
+		(property "MPN" "ERJ-2RKF3301X"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2300,7 +2300,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0603 8.2kΩ ±1% 0.100W"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2531,7 +2531,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±1% 0.200W"
+		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2544,7 +2544,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1002X"
+		(property "MPN" "CPF0402B10KE1"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2570,7 +2570,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020013"
+		(property "OEPSPN" "OEPS020043"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2596,7 +2596,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8285,7 +8285,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 330Ω ±1% 0.200W"
+		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13276,7 +13276,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.063W"
+		(property "Description" "SMD 0402 1MΩ ±1% 0.063W"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20619,7 +20619,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 560Ω ±1% 0.063W"
+		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23871,7 +23871,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS080129"
+		(property "OEPSPN" "OEPS080085"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27974,7 +27974,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 330Ω ±1% 0.200W"
+		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38277,7 +38277,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 330Ω ±1% 0.200W"
+		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39627,7 +39627,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "HEADER 2.54MM R/A 2x3POS"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39640,7 +39640,7 @@
 				)
 			)
 		)
-		(property "MPN" "61300511021"
+		(property "MPN" "61300621021"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39653,7 +39653,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS070143"
+		(property "OEPSPN" "OEPS070144"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42471,7 +42471,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 330Ω ±1% 0.200W"
+		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45116,7 +45116,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±1% 0.200W"
+		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45142,7 +45142,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1002X"
+		(property "MPN" "CPF0402B10KE1"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45155,7 +45155,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020013"
+		(property "OEPSPN" "OEPS020043"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45181,7 +45181,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

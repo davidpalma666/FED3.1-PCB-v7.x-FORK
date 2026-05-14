@@ -11134,7 +11134,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.063W"
+		(property "Description" "SMD 0402 1MΩ ±1% 0.063W"
 			(at 255.27 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14164,7 +14164,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "HEADER 2.54MM R/A 2x3POS"
 			(at 262.89 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14175,7 +14175,7 @@
 				)
 			)
 		)
-		(property "MPN" "61300511021"
+		(property "MPN" "61300621021"
 			(at 258.318 48.006 0)
 			(hide yes)
 			(show_name no)
@@ -14186,7 +14186,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS070143"
+		(property "OEPSPN" "OEPS070144"
 			(at 262.89 41.91 0)
 			(hide yes)
 			(show_name no)
