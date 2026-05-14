@@ -11783,7 +11783,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "a891a6a8-735c-4430-b703-9aba4f2d3d1c")
 		(property "Reference" "J2"
@@ -15248,7 +15248,7 @@
 				(justify left)
 			)
 		)
-		(pin "LED_CHG" output
+		(pin "LED_CHRG" output
 			(at 241.3 60.96 180)
 			(uuid "c06c2605-b8b0-42d6-b0ef-f1d81f8c1925")
 			(effects

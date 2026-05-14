@@ -50,7 +50,7 @@
       "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffd575_5ff7ffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "git": {
     "integration_disabled": false,
@@ -98,7 +98,7 @@
       92,
       98,
       115,
-      104,
+      100,
       98,
       49,
       50,

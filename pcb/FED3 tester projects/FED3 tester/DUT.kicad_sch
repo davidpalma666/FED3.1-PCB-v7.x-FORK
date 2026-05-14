@@ -4252,6 +4252,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 176.53) (xy 106.68 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3558eb-98b9-4234-a93c-dff9008a8617")
+	)
+	(wire
+		(pts
 			(xy 114.3 133.35) (xy 114.3 129.54)
 		)
 		(stroke
@@ -4912,7 +4922,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 176.53) (xy 106.68 180.34)
+			(xy 106.68 186.69) (xy 106.68 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5492,7 +5502,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 176.53) (xy 123.19 172.72)
+			(xy 123.19 173.99) (xy 123.19 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5759,6 +5769,16 @@
 			(type default)
 		)
 		(uuid "f10ac0de-68a4-4222-ba29-10553556eb67")
+	)
+	(wire
+		(pts
+			(xy 123.19 181.61) (xy 123.19 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f246533e-91cc-464b-bfab-7ded88a09363")
 	)
 	(wire
 		(pts
@@ -6131,7 +6151,7 @@
 		)
 		(uuid "9ce5a243-6b1f-46b3-b1f5-186d08d6de0d")
 	)
-	(hierarchical_label "LED_CHG"
+	(hierarchical_label "LED_CHRG"
 		(shape output)
 		(at 264.16 146.05 0)
 		(effects
@@ -6563,7 +6583,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "088c9ef9-dd38-4177-831e-6fe1b112ba9e")
 		(property "Reference" "J5"
@@ -6799,7 +6819,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "640k"
+		(property "Value" "649k"
 			(at 257.302 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6832,7 +6852,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.063W"
+		(property "Description" "SMD 0402 649kΩ ±1% 0.100W"
 			(at 255.27 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6843,7 +6863,7 @@
 				)
 			)
 		)
-		(property "MPN" "tbd"
+		(property "MPN" "ERJ-2RKF6493X"
 			(at 264.033 141.478 0)
 			(hide yes)
 			(show_name no)
@@ -6855,7 +6875,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "tbd"
+		(property "OEPSPN" "OEPS020022"
 			(at 255.27 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7997,7 +8017,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2K ??"
+		(property "Value" "1.2k"
 			(at 54.61 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8778,7 +8798,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.2K"
+		(property "Value" "5k"
 			(at 127.762 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8811,7 +8831,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0603 1.2kΩ ±0.1% 0.100W"
+		(property "Description" "SMD 0402 5kΩ ±0.1% 0.050W"
 			(at 123.19 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8822,7 +8842,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB122X"
+		(property "MPN" "PNM0402E5001BST1"
 			(at 114.427 141.478 0)
 			(hide yes)
 			(show_name no)
@@ -8834,7 +8854,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020213"
+		(property "OEPSPN" "OEPS020206"
 			(at 123.19 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9592,7 +9612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b28945e-2c30-48fe-8403-85998e534e83")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0110"
 			(at 54.61 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9652,7 +9672,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0112")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -9667,7 +9687,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "5488b9c7-05cd-4f2d-8681-4840dfc0b5ca")
 		(property "Reference" "J6"
@@ -9799,6 +9819,145 @@
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 106.68 182.88 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "565f2f06-91ba-454b-93aa-b433f18d7bac")
+		(property "Reference" "R49"
+			(at 104.14 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "249k"
+			(at 104.14 184.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 107.696 182.626 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0402 249kΩ ±1% 0.063W"
+			(at 106.68 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0402FT249K"
+			(at 97.917 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "OEPSPN" "OEPS020209"
+			(at 106.68 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TempCo" ""
+			(at 106.68 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 106.68 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 106.68 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1720760-2b60-46b4-9b16-303ed391df44")
+		)
+		(pin "2"
+			(uuid "e45c4810-27ba-4ee3-93e6-953a32a58af9")
+		)
+		(instances
+			(project "FED3 tester"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -10535,7 +10694,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "0.5R"
 			(at 119.38 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10545,7 +10704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.634 130.556 90)
 			(hide yes)
 			(show_name no)
@@ -10567,7 +10726,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10Ω ±5% 0.25W"
+		(property "Description" "SMD 0805 0.5Ω ±1% 1/3W"
 			(at 119.38 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10578,7 +10737,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-PA2J100X"
+		(property "MPN" "RL1220S-R50-F"
 			(at 116.332 120.777 0)
 			(hide yes)
 			(show_name no)
@@ -10590,7 +10749,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020041"
+		(property "OEPSPN" "OEPS020221"
 			(at 119.38 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10612,7 +10771,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 119.38 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -10986,7 +11145,7 @@
 				)
 			)
 		)
-		(property "MPN" "tbd"
+		(property "MPN" "CRCW04021M00FKED"
 			(at 264.033 155.448 0)
 			(hide yes)
 			(show_name no)
@@ -10998,7 +11157,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "tbd"
+		(property "OEPSPN" "OEPS020026"
 			(at 255.27 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11080,7 +11239,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.2K"
+		(property "Value" "1.2k"
 			(at 38.354 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11498,7 +11657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71af9e83-bead-4248-8764-04c852332be1")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0112"
 			(at 34.29 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -11558,7 +11717,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0113")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -11955,7 +12114,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "249k"
 			(at 104.14 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11988,7 +12147,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 22kΩ ±1% 0.063W"
+		(property "Description" "SMD 0402 249kΩ ±1% 0.063W"
 			(at 106.68 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11999,7 +12158,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB223X"
+		(property "MPN" "RMCF0402FT249K"
 			(at 97.917 175.768 0)
 			(hide yes)
 			(show_name no)
@@ -12011,7 +12170,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020212"
+		(property "OEPSPN" "OEPS020209"
 			(at 106.68 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -12889,7 +13048,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.2K"
+		(property "Value" "1.2k"
 			(at 45.974 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13027,7 +13186,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.2K"
+		(property "Value" "5k"
 			(at 115.824 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13060,7 +13219,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0603 1.2kΩ ±0.1% 0.100W"
+		(property "Description" "SMD 0402 5kΩ ±0.1% 0.050W"
 			(at 118.11 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13071,7 +13230,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB122X"
+		(property "MPN" "PNM0402E5001BST1"
 			(at 109.347 141.478 0)
 			(hide yes)
 			(show_name no)
@@ -13083,7 +13242,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020213"
+		(property "OEPSPN" "OEPS020206"
 			(at 118.11 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13957,7 +14116,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "98d408cc-edf8-4aff-9d9b-32f3f7a15852")
 		(property "Reference" "J4"
@@ -14856,7 +15015,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "b6766166-f56a-4daa-918e-f534200d2bbc")
 		(property "Reference" "J7"
@@ -15122,7 +15281,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 106.68 180.34 0)
+		(at 106.68 190.5 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15132,8 +15291,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcf9f5c8-4614-4920-b16c-70fd20a030f5")
-		(property "Reference" "#PWR0111"
-			(at 106.68 180.34 0)
+		(property "Reference" "#PWR0113"
+			(at 106.68 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15144,7 +15303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 184.15 0)
+			(at 106.68 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15154,7 +15313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 180.34 0)
+			(at 106.68 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15165,7 +15324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 180.34 0)
+			(at 106.68 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15176,7 +15335,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 106.68 180.34 0)
+			(at 106.68 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15192,7 +15351,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0111")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -15200,7 +15359,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 123.19 176.53 0)
+		(at 123.19 184.15 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15210,8 +15369,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bec15856-78fd-418d-b866-e3f3e17b7748")
-		(property "Reference" "#PWR0110"
-			(at 123.19 176.53 0)
+		(property "Reference" "#PWR0111"
+			(at 123.19 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15222,7 +15381,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 180.34 0)
+			(at 123.19 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15232,7 +15391,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 176.53 0)
+			(at 123.19 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15243,7 +15402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 176.53 0)
+			(at 123.19 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15254,7 +15413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 123.19 176.53 0)
+			(at 123.19 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15270,7 +15429,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR0110")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -16138,7 +16297,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2M"
+		(property "Value" "24k"
 			(at 125.73 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16171,7 +16330,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 2MΩ ±0.1% 0.063W"
+		(property "Description" "SMD 0402 28kΩ ±0.1% 0.063W"
 			(at 123.19 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -16182,7 +16341,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW04022M00FKEDC"
+		(property "MPN" "ERJ-2RKF2402X"
 			(at 131.953 165.862 0)
 			(hide yes)
 			(show_name no)
@@ -16194,7 +16353,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020210"
+		(property "OEPSPN" "OEPS020048"
 			(at 123.19 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -18716,7 +18875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2f029cb-3333-489b-b539-c59340846492")
-		(property "Reference" "R47"
+		(property "Reference" "R48"
 			(at 36.83 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18836,7 +18995,7 @@
 		(instances
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "R47")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -18914,6 +19073,145 @@
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 123.19 177.8 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4b49cf5-39e2-4a7c-8efe-2332aec3206b")
+		(property "Reference" "R47"
+			(at 125.73 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k3"
+			(at 125.73 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 122.174 178.054 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0603 4.3kΩ ±0.1% 0.063W"
+			(at 123.19 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEYJ432V"
+			(at 131.953 174.752 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "OEPSPN" "OEPS020036"
+			(at 123.19 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TempCo" ""
+			(at 123.19 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 123.19 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 123.19 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "662b7bb4-764a-4294-a4b0-c492e910260e")
+		)
+		(pin "2"
+			(uuid "9eaf3cee-5753-4454-ae32-c66fe2753e50")
+		)
+		(instances
+			(project "FED3 tester"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
+					(reference "R47")
 					(unit 1)
 				)
 			)

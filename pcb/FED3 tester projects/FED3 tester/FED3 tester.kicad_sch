@@ -11400,7 +11400,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.646 159.766 90)
 			(hide yes)
 			(show_name no)
@@ -11433,7 +11433,7 @@
 				)
 			)
 		)
-		(property "MPN" "??"
+		(property "MPN" "ERJ-3EKF8201V"
 			(at 78.867 163.068 0)
 			(hide yes)
 			(show_name no)
@@ -11445,7 +11445,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "??"
+		(property "OEPSPN" "OEPS020103"
 			(at 87.63 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11467,7 +11467,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "0.1%"
+		(property "Tolerance" "1%"
 			(at 87.63 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11661,7 +11661,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k"
+		(property "Value" "3.3k"
 			(at 83.312 171.958 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11705,7 +11705,7 @@
 				)
 			)
 		)
-		(property "MPN" "??"
+		(property "MPN" "P3.30KLDKR-ND"
 			(at 96.393 173.228 0)
 			(hide yes)
 			(show_name no)
@@ -11717,7 +11717,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "??"
+		(property "OEPSPN" "OEPS020083"
 			(at 87.63 170.18 0)
 			(hide yes)
 			(show_name no)
